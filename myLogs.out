@@ -46,3 +46,8 @@
 08-04-2019 12:40:26 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
 08-04-2019 12:40:26 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
 08-04-2019 12:40:26 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-05-2019 09:28:05 :: [core.helper.excel.ExcelHelper - updateResult][INFO ] - Result updated..
+08-05-2019 09:28:06 :: [core.helper.excel.ExcelHelper - updateResult][INFO ] - Result updated..
+08-05-2019 09:29:42 :: [core.helper.excel.ExcelHelper - updateResult][INFO ] - Result updated..
+08-05-2019 09:29:42 :: [core.helper.excel.ExcelHelper - updateResult][INFO ] - Result updated..
+08-05-2019 09:29:42 :: [core.helper.excel.ExcelHelper - updateResult][INFO ] - Result updated..
