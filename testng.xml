@@ -3,7 +3,7 @@
 
 <suite name="Regression Suite">
     <listeners>
-        <listener class-name="core.helper.listener.RetryListener"></listener>
+        <listener class-name="core.helpers.listener.RetryListener"></listener>
     </listeners>
     <test name="FirstTest">
         <classes>

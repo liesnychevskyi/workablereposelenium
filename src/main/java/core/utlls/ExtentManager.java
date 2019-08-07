@@ -32,7 +32,5 @@ public class ExtentManager
         extent = new ExtentReports();
         extent.attachReporter(htmlReporter);
         return extent;
-
-
     }
 }

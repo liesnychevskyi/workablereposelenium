@@ -1,53 +1,109 @@
-08-02-2019 11:35:50 :: [core.helper.logger.MyLogger - main][INFO ] - Configured
-08-02-2019 11:35:50 :: [core.helper.logger.MyLogger - main][ERROR] - Error
-08-02-2019 11:37:25 :: [core.helper.logger.MyLogger - main][INFO ] - Configured
-08-02-2019 11:37:25 :: [core.helper.logger.MyLogger - main][ERROR] - Error
-08-02-2019 11:48:28 :: [core.helper.logger.MyLogger - main][INFO ] - Configured
-08-02-2019 11:48:28 :: [core.helper.logger.MyLogger - main][ERROR] - Error
-08-02-2019 11:49:58 :: [core.helper.logger.MyLogger - main][INFO ] - Configured
-08-02-2019 11:49:58 :: [core.helper.logger.MyLogger - main][ERROR] - Error
-08-02-2019 11:53:50 :: [core.helper.logger.MyLogger - main][INFO ] - Configured
-08-02-2019 11:53:50 :: [core.helper.logger.MyLogger - main][ERROR] - Error
-08-02-2019 11:57:21 :: [core.helper.logger.MyLogger - main][INFO ] - Configured
-08-02-2019 11:57:21 :: [core.helper.logger.MyLogger - main][ERROR] - Error
-08-02-2019 11:58:29 :: [core.helper.logger.MyLogger - main][INFO ] - Configured
-08-02-2019 11:58:29 :: [core.helper.logger.MyLogger - main][ERROR] - Error
-08-04-2019 11:30:00 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
-08-04-2019 11:30:00 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
-08-04-2019 11:30:00 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 3 times.
-08-04-2019 11:30:00 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
-08-04-2019 11:30:00 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
-08-04-2019 11:30:00 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 3 times.
-08-04-2019 11:35:09 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
-08-04-2019 11:35:09 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
-08-04-2019 11:35:09 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 3 times.
-08-04-2019 11:35:09 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
-08-04-2019 11:35:09 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
-08-04-2019 11:35:09 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 3 times.
-08-04-2019 12:34:50 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
-08-04-2019 12:34:50 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
-08-04-2019 12:34:50 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 3 times.
-08-04-2019 12:34:50 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
-08-04-2019 12:34:50 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
-08-04-2019 12:34:50 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 3 times.
-08-04-2019 12:36:05 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
-08-04-2019 12:36:05 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
-08-04-2019 12:36:05 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 3 times.
-08-04-2019 12:36:05 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
-08-04-2019 12:36:05 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
-08-04-2019 12:36:05 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 3 times.
-08-04-2019 12:38:01 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
-08-04-2019 12:38:01 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
-08-04-2019 12:38:01 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 3 times.
-08-04-2019 12:38:01 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
-08-04-2019 12:38:01 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
-08-04-2019 12:38:01 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 3 times.
-08-04-2019 12:40:26 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
-08-04-2019 12:40:26 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
-08-04-2019 12:40:26 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
-08-04-2019 12:40:26 :: [core.helper.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
-08-05-2019 09:28:05 :: [core.helper.excel.ExcelHelper - updateResult][INFO ] - Result updated..
-08-05-2019 09:28:06 :: [core.helper.excel.ExcelHelper - updateResult][INFO ] - Result updated..
-08-05-2019 09:29:42 :: [core.helper.excel.ExcelHelper - updateResult][INFO ] - Result updated..
-08-05-2019 09:29:42 :: [core.helper.excel.ExcelHelper - updateResult][INFO ] - Result updated..
-08-05-2019 09:29:42 :: [core.helper.excel.ExcelHelper - updateResult][INFO ] - Result updated..
+08-02-2019 11:35:50 :: [core.helpers.logger.MyLogger - main][INFO ] - Configured
+08-02-2019 11:35:50 :: [core.helpers.logger.MyLogger - main][ERROR] - Error
+08-02-2019 11:37:25 :: [core.helpers.logger.MyLogger - main][INFO ] - Configured
+08-02-2019 11:37:25 :: [core.helpers.logger.MyLogger - main][ERROR] - Error
+08-02-2019 11:48:28 :: [core.helpers.logger.MyLogger - main][INFO ] - Configured
+08-02-2019 11:48:28 :: [core.helpers.logger.MyLogger - main][ERROR] - Error
+08-02-2019 11:49:58 :: [core.helpers.logger.MyLogger - main][INFO ] - Configured
+08-02-2019 11:49:58 :: [core.helpers.logger.MyLogger - main][ERROR] - Error
+08-02-2019 11:53:50 :: [core.helpers.logger.MyLogger - main][INFO ] - Configured
+08-02-2019 11:53:50 :: [core.helpers.logger.MyLogger - main][ERROR] - Error
+08-02-2019 11:57:21 :: [core.helpers.logger.MyLogger - main][INFO ] - Configured
+08-02-2019 11:57:21 :: [core.helpers.logger.MyLogger - main][ERROR] - Error
+08-02-2019 11:58:29 :: [core.helpers.logger.MyLogger - main][INFO ] - Configured
+08-02-2019 11:58:29 :: [core.helpers.logger.MyLogger - main][ERROR] - Error
+08-04-2019 11:30:00 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-04-2019 11:30:00 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-04-2019 11:30:00 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 3 times.
+08-04-2019 11:30:00 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-04-2019 11:30:00 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-04-2019 11:30:00 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 3 times.
+08-04-2019 11:35:09 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-04-2019 11:35:09 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-04-2019 11:35:09 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 3 times.
+08-04-2019 11:35:09 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-04-2019 11:35:09 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-04-2019 11:35:09 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 3 times.
+08-04-2019 12:34:50 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-04-2019 12:34:50 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-04-2019 12:34:50 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 3 times.
+08-04-2019 12:34:50 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-04-2019 12:34:50 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-04-2019 12:34:50 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 3 times.
+08-04-2019 12:36:05 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-04-2019 12:36:05 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-04-2019 12:36:05 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 3 times.
+08-04-2019 12:36:05 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-04-2019 12:36:05 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-04-2019 12:36:05 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 3 times.
+08-04-2019 12:38:01 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-04-2019 12:38:01 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-04-2019 12:38:01 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 3 times.
+08-04-2019 12:38:01 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-04-2019 12:38:01 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-04-2019 12:38:01 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 3 times.
+08-04-2019 12:40:26 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-04-2019 12:40:26 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-04-2019 12:40:26 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-04-2019 12:40:26 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-05-2019 09:28:05 :: [core.helpers.excel.ExcelHelper - updateResult][INFO ] - Result updated..
+08-05-2019 09:28:06 :: [core.helpers.excel.ExcelHelper - updateResult][INFO ] - Result updated..
+08-05-2019 09:29:42 :: [core.helpers.excel.ExcelHelper - updateResult][INFO ] - Result updated..
+08-05-2019 09:29:42 :: [core.helpers.excel.ExcelHelper - updateResult][INFO ] - Result updated..
+08-05-2019 09:29:42 :: [core.helpers.excel.ExcelHelper - updateResult][INFO ] - Result updated..
+08-07-2019 15:45:50 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-07-2019 15:45:50 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-07-2019 15:45:50 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-07-2019 15:45:50 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-07-2019 15:48:17 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-07-2019 15:48:17 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-07-2019 15:48:17 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-07-2019 15:48:17 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-07-2019 18:09:51 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-07-2019 18:09:51 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-07-2019 18:09:51 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-07-2019 18:09:51 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-07-2019 18:14:44 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-07-2019 18:14:44 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-07-2019 18:14:44 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-07-2019 18:14:44 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-07-2019 18:15:39 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-07-2019 18:15:39 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-07-2019 18:15:39 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-07-2019 18:15:39 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-07-2019 18:19:59 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-07-2019 18:19:59 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-07-2019 18:20:00 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-07-2019 18:20:00 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-07-2019 19:03:57 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-07-2019 19:03:57 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-07-2019 19:03:58 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-07-2019 19:03:58 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-07-2019 19:11:39 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-07-2019 19:11:39 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-07-2019 19:11:39 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-07-2019 19:11:39 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-07-2019 19:30:18 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-07-2019 19:30:18 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-07-2019 19:30:18 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-07-2019 19:30:18 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-07-2019 19:38:31 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-07-2019 19:38:31 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-07-2019 19:38:31 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-07-2019 19:38:31 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-07-2019 19:45:11 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-07-2019 19:45:11 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-07-2019 19:45:11 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-07-2019 19:45:11 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-07-2019 19:48:13 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-07-2019 19:48:13 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-07-2019 19:48:13 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-07-2019 19:48:13 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-07-2019 19:50:49 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-07-2019 19:50:50 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-07-2019 19:50:50 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-07-2019 19:50:50 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-07-2019 20:05:12 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-07-2019 20:05:12 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
+08-07-2019 20:05:12 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 1 times.
+08-07-2019 20:05:12 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test testLogin with status FAILURE for the 2 times.
