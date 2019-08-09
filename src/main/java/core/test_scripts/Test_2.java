@@ -1,14 +1,14 @@
 package core.test_scripts;
 
 import core.helpers.assertion.AssertionHelper;
-import core.test_base.TestBaseReporting;
+import core.test_base.TestBase;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Test_2 extends TestBaseReporting
+public class Test_2 extends TestBase
 {
     private WebDriver driver;
 
