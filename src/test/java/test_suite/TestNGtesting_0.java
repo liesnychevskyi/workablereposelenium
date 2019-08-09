@@ -10,4 +10,10 @@ public class TestNGtesting_0
     {
         Assert.assertTrue(true);
     }
+
+    @Test
+    public void testLogout()
+    {
+        Assert.assertTrue(true);
+    }
 }
