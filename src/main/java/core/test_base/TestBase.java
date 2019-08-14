@@ -36,15 +36,16 @@ public class TestBase  // TestNg annotation reporting.html
     public static ExtentReports extentReports;
     public static ExtentTest test;
     private Logger log = MyLogger.getLogger(TestBase.class);
-    private WebDriver driver;
+    public WebDriver driver;
     public static File reportDirectory;
 
 
     @BeforeTest
-    public void beforeTest()
+    public void beforeTest() throws Exception
     {
         ObjectReader.reader = new PropertyReader();
         reportDirectory = new File(ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\screenshots"));
+        setUpDriver(ObjectReader.reader.getBrowserType());
     }
 
     @BeforeSuite
@@ -83,7 +84,7 @@ public class TestBase  // TestNg annotation reporting.html
         extentReports.flush();
     }
     //===============================================================================//
-    public WebDriver getBroserObject(BrowserType btype) throws Exception
+    public WebDriver getBrowserObject(BrowserType btype) throws Exception
     {
         try
         {
@@ -119,7 +120,7 @@ public class TestBase  // TestNg annotation reporting.html
     //===============================================================================//
     public void setUpDriver(BrowserType btype) throws Exception
     {
-        driver = getBroserObject(btype);
+        driver = getBrowserObject(btype);
         log.info("Initialize Web driver: " + driver.hashCode());
         WaitHelper wait = new WaitHelper(driver);
         wait.setImpicitWait(ObjectReader.reader.getImpliciteWait(), TimeUnit.SECONDS);
@@ -127,7 +128,7 @@ public class TestBase  // TestNg annotation reporting.html
         driver.manage().window().maximize();
     }
     //===============================================================================//
-    public  String captureScreenShote(String fileName)
+    public  String captureScreenShot(String fileName)
     {
         if(driver == null)
         {
