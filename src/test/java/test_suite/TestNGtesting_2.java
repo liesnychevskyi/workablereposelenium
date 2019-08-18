@@ -1,9 +1,10 @@
 package test_suite;
 
+import core.test_base.TestBase;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestNGtesting_2
+public class TestNGtesting_2 extends TestBase
 {
     int i = 1;
     @Test

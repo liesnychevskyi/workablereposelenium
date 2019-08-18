@@ -10,15 +10,6 @@ import org.testng.annotations.Test;
 
 public class Test_2 extends TestBase
 {
-    private WebDriver driver;
-
-
-    @BeforeTest
-    public void setUp()
-    {
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-    }
 
     @Test
     public void goToGoogle() throws InterruptedException

@@ -1,29 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Regression Suite">
+<suite name="Stas Test">
     <listeners>
 <!--        <listener class-name="core.helpers.listener.RetryListener"></listener>-->
         <listener class-name="core.helpers.listener.ExtentListener"></listener>
     </listeners>
-    <test name="FirstTest">
+<!--    <test name="FirstTest">-->
+<!--        <classes>-->
+<!--            <class name="test_suite.TestNGtesting_0"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="SecondTest">-->
+<!--        <classes>-->
+<!--            <class name="test_suite.TestNGtesting_1"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="ThirdTest">-->
+<!--        <classes>-->
+<!--            <class name="test_suite.TestNGtesting_2"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="ForthTest">-->
+<!--        <classes>-->
+<!--            <class name="test_suite.TestNGtesting_3"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Test_1">-->
+<!--        <classes>-->
+<!--            <class name="test_suite.Test_1"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Test_2">-->
+<!--        <classes>-->
+<!--            <class name="test_suite.TestNGtesting_2"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="ScreenShot_test">
         <classes>
-            <class name="test_suite.TestNGtesting_0"></class>
-        </classes>
-    </test>
-    <test name="SecondTest">
-        <classes>
-            <class name="test_suite.TestNGtesting_1"></class>
-        </classes>
-    </test>
-    <test name="ThirdTest">
-        <classes>
-            <class name="test_suite.TestNGtesting_2"></class>
-        </classes>
-    </test>
-    <test name="ForthTest">
-        <classes>
-            <class name="test_suite.TestNGtesting_3"></class>
+            <class name="test_suite.TestScreenShot"></class>
         </classes>
     </test>
 </suite>

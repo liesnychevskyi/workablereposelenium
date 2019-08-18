@@ -22,22 +22,22 @@ import java.util.Calendar;
 public class Test_1 extends TestBase
 {
 
-    private WebDriver driver;
-    private Logger log = MyLogger.getLogger(Test_1.class);
-    public static File reportDirectory = new File(ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\screenshots"));
+//    private WebDriver driver;
+//    private Logger log = MyLogger.getLogger(Test_1.class);
+//    public static File reportDirectory = new File(ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\screenshots"));
 
-    @BeforeTest
-    public void setUp()
-    {
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-    }
+//    @BeforeTest
+//    public void setUp()
+//    {
+//        driver = new ChromeDriver();
+//        driver.manage().window().maximize();
+//    }
 
     @Test
     public void goToGoogle() throws InterruptedException
     {
         driver.get("http://google.com");
-        captureScreenShot("Google page");
+        //captureScreenShot("Google page");
         Thread.sleep(5000);
         AssertionHelper.makeTrue();
     }
@@ -46,7 +46,7 @@ public class Test_1 extends TestBase
     public void goToFacebook() throws InterruptedException
     {
         driver.get("http://facebook.com");
-        captureScreenShot("Facebook page");
+        //captureScreenShot("Facebook page");
         Thread.sleep(5000);
         AssertionHelper.makeFalse();
     }
@@ -55,7 +55,7 @@ public class Test_1 extends TestBase
     public void goToYahoo() throws InterruptedException
     {
         driver.get("http://yahoo.com");
-        captureScreenShot("Yahoo page");
+        //captureScreenShot("Yahoo page");
         Thread.sleep(5000);
         AssertionHelper.makeFalse();
     }
@@ -64,7 +64,7 @@ public class Test_1 extends TestBase
     public void goToYouTube() throws InterruptedException
     {
         driver.get("http://youtube.com");
-        captureScreenShot("Youtube page");
+        //captureScreenShot("Youtube page");
         Thread.sleep(5000);
         AssertionHelper.makeTrue();
     }
@@ -76,33 +76,33 @@ public class Test_1 extends TestBase
     }
 
     //====================================================================//
-    public  String captureScreenShot(String fileName)
-    {
-        if(driver == null)
-        {
-            log.info("Driver is null...");
-            return null;
-        }
-        if (fileName == "")
-        {
-            fileName = "blank";
-        }
-        File destFile = null;
-        Calendar calendar = Calendar.getInstance();
-        SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
-        File screnshotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        try
-        {
-            destFile = new File(reportDirectory + "/" + fileName + "_" + formater.format(calendar.getTime()) + ".png");
-            FileUtils.copyFile(screnshotFile, destFile);
-            Reporter.log("<a href='" + destFile.getAbsolutePath() + "'><img src='" + destFile.getAbsolutePath() + "'height='100' width='100'/></a>");
-        }
-        catch (Exception e)
-        {
-            e.printStackTrace();
-        }
-        return destFile.toString();
-
-    }
+//    public  String captureScreenShot(String fileName)
+//    {
+//        if(driver == null)
+//        {
+//            log.info("Driver is null...");
+//            return null;
+//        }
+//        if (fileName == "")
+//        {
+//            fileName = "blank";
+//        }
+//        File destFile = null;
+//        Calendar calendar = Calendar.getInstance();
+//        SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
+//        File screnshotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+//        try
+//        {
+//            destFile = new File(reportDirectory + "/" + fileName + "_" + formater.format(calendar.getTime()) + ".png");
+//            FileUtils.copyFile(screnshotFile, destFile);
+//            Reporter.log("<a href='" + destFile.getAbsolutePath() + "'><img src='" + destFile.getAbsolutePath() + "'height='100' width='100'/></a>");
+//        }
+//        catch (Exception e)
+//        {
+//            e.printStackTrace();
+//        }
+//        return destFile.toString();
+//
+//    }
     //====================================================================//
 }

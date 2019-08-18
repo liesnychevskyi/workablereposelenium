@@ -26,7 +26,9 @@ import org.testng.Reporter;
 import org.testng.annotations.*;
 
 import java.io.File;
+import java.io.IOException;
 import java.lang.reflect.Method;
+import java.nio.file.Files;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.concurrent.TimeUnit;
@@ -44,7 +46,7 @@ public class TestBase  // TestNg annotation reporting.html
     public void beforeTest() throws Exception
     {
         ObjectReader.reader = new PropertyReader();
-        reportDirectory = new File(ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\screenshots"));
+        reportDirectory = new File(ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\screenshots\\"));
         setUpDriver(ObjectReader.reader.getBrowserType());
     }
 
@@ -57,7 +59,7 @@ public class TestBase  // TestNg annotation reporting.html
     @BeforeClass
     public void beforeClass()
     {
-        test = extentReports.createTest(getClass().getName());
+        test = extentReports.createTest(getClass().getSimpleName());
     }
 
     @BeforeMethod
@@ -67,18 +69,26 @@ public class TestBase  // TestNg annotation reporting.html
     }
     //===============================================================================//
     @AfterMethod
-    public void afterMethod(ITestResult result)
+    public void afterMethod(ITestResult result) throws IOException
     {
         if(result.getStatus() == ITestResult.FAILURE)
         {
             test.log(Status.FAIL, result.getThrowable());
+            String imagePath = captureScreenShot(result.getName());
+            log.info("<< ******************************************************* >>>");
+            test.addScreenCaptureFromPath(imagePath);
+
         }
         else if(result.getStatus() == ITestResult.SUCCESS)
         {
             test.log(Status.PASS, result.getTestName() + " is pass");
+            String imagePath = captureScreenShot(result.getName());
+            log.info("<<Adding ScreenShot...>>>");
+            test.addScreenCaptureFromPath(imagePath);
         }
         else if(result.getStatus() == ITestResult.SKIP)
         {
+            log.info("<<Skipping...>>>");
             test.log(Status.SKIP, result.getThrowable());
         }
         extentReports.flush();
@@ -139,16 +149,23 @@ public class TestBase  // TestNg annotation reporting.html
         {
             fileName = "blank";
         }
+        Reporter.log("CaptureScreen method called");
         File destFile = null;
         Calendar calendar = Calendar.getInstance();
         SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
         File screnshotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         try
         {
-            destFile = new File(reportDirectory + "/" + fileName + "_" + formater.format(calendar.getTime()) + ".png");
-            FileUtils.copyFile(screnshotFile, destFile);
-            Reporter.log("<a href='" + destFile.getAbsolutePath() + "'><img src='" + destFile.getAbsolutePath() + "'height='100' width='100'/></a>");
+            destFile = new File(reportDirectory +"/"+fileName +"_"+formater.format(calendar.getTime())+".png");
+            //destFile = new File("C:\\Users\\liesn\\IdeaProjects\\demoStructure\\src\\main\\java\\core\\screenshots\\"+driver.getTitle()+".png");
+            log.info("Taking a pass =========================>>>>>>>>>>>");
+            System.out.println(destFile);
+            Files.copy(screnshotFile.toPath(), destFile.toPath());
+           // FileUtils.copyFile(screnshotFile, destFile);
+            Reporter.log("<a href='" + destFile.getAbsolutePath() + "'><img src='" + destFile.getAbsolutePath() + "' height='100' width='100'/></a>");
+           // Reporter.log("<br><img src='"+destFile+"' height='400' width='400'/><br>");
         }
+
         catch (Exception e)
         {
             e.printStackTrace();
@@ -157,4 +174,24 @@ public class TestBase  // TestNg annotation reporting.html
 
     }
     //===============================================================================//
+//    public void getNavigationScreen(WebDriver driver)
+//    {
+//        log.info("Capturing UI navigation screen..");
+//        String screen = captureScreenShot("", driver);
+//        try
+//        {
+//            test.addScreencastFromPath(screen);
+//        }
+//            catch(IOException e)
+//    {
+//        e.printStackTrace();
+//    }
+//    }
+
+    //==================================================================================//
+    public static void logExtentReport(String log)
+    {
+        test.log(Status.INFO, log);
+    }
+    //==================================================================================//
 }

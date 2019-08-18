@@ -219,3 +219,903 @@ Driver info: driver.version: ChromeDriver
 08-14-2019 10:00:55 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
 08-14-2019 10:00:55 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
 08-14-2019 10:00:55 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-14-2019 19:54:41 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 240630125
+08-14-2019 19:54:41 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-14-2019 19:54:41 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-14-2019 19:54:41 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-14-2019 19:55:10 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-14-2019 19:55:27 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-14-2019 19:56:43 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-14-2019 19:57:00 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-14-2019 19:57:07 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 140404585
+08-14-2019 19:57:07 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-14-2019 19:57:07 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-14-2019 19:57:07 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-14-2019 20:04:35 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 240630125
+08-14-2019 20:04:35 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-14-2019 20:04:35 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-14-2019 20:04:35 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-14-2019 20:05:14 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-14-2019 20:05:31 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-14-2019 20:07:50 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1532139270
+08-14-2019 20:07:50 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-14-2019 20:07:50 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-14-2019 20:07:50 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-14-2019 20:12:51 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 240630125
+08-14-2019 20:12:51 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-14-2019 20:12:51 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-14-2019 20:12:51 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-14-2019 20:13:17 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-14-2019 20:13:26 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-14-2019 20:13:49 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-14-2019 20:14:04 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-14-2019 20:14:11 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 140404585
+08-14-2019 20:14:11 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-14-2019 20:14:11 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-14-2019 20:14:11 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-14-2019 20:19:31 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 240630125
+08-14-2019 20:19:31 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-14-2019 20:19:31 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-14-2019 20:19:31 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-14-2019 20:19:58 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-14-2019 20:20:08 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-14-2019 20:20:38 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-14-2019 20:20:54 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-14-2019 20:21:01 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 140404585
+08-14-2019 20:21:01 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-14-2019 20:21:01 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-14-2019 20:21:01 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-14-2019 20:29:41 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 240630125
+08-14-2019 20:29:41 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-14-2019 20:29:41 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-14-2019 20:29:41 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-14-2019 20:30:44 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-14-2019 20:31:03 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-14-2019 20:32:38 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-14-2019 20:34:37 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-14-2019 20:34:44 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 140404585
+08-14-2019 20:34:44 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-14-2019 20:34:44 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-14-2019 20:34:44 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-14-2019 20:38:47 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 240630125
+08-14-2019 20:38:47 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-14-2019 20:38:47 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-14-2019 20:38:47 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-14-2019 20:39:20 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-14-2019 20:39:59 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-14-2019 20:41:00 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-14-2019 20:41:23 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1677458155
+08-14-2019 20:41:23 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-14-2019 20:41:23 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-14-2019 20:41:23 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-14-2019 20:42:01 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-14-2019 20:42:15 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-14-2019 20:47:25 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-14-2019 20:47:32 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1760219993
+08-14-2019 20:47:32 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-14-2019 20:47:32 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-14-2019 20:47:32 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-14-2019 21:10:28 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1677458155
+08-14-2019 21:10:28 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-14-2019 21:10:28 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-14-2019 21:10:28 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-14-2019 21:11:00 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-14-2019 21:11:13 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-14-2019 21:11:54 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-14-2019 21:12:31 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-14-2019 21:12:38 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1795225096
+08-14-2019 21:12:38 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-14-2019 21:12:38 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-14-2019 21:12:38 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 08:13:43 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - FirstTest Class Started...
+08-15-2019 08:13:43 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - FirstTest Test Finished.
+08-15-2019 08:14:47 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - FirstTest Class Started...
+08-15-2019 08:14:47 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - testLogin Test Failed java.lang.NullPointerException
+08-15-2019 08:14:47 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - testLogout Test Failed java.lang.NullPointerException
+08-15-2019 08:14:47 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - FirstTest Test Finished.
+08-15-2019 08:14:47 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - SecondTest Class Started...
+08-15-2019 08:14:47 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - testLogin Test Failed java.lang.NullPointerException
+08-15-2019 08:14:47 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - SecondTest Test Finished.
+08-15-2019 08:14:47 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - ThirdTest Class Started...
+08-15-2019 08:14:47 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - testLogin Test Failed java.lang.NullPointerException
+08-15-2019 08:14:47 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - ThirdTest Test Finished.
+08-15-2019 08:14:47 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - ForthTest Class Started...
+08-15-2019 08:14:47 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - testLogin Test Failed java.lang.NullPointerException
+08-15-2019 08:14:47 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - ForthTest Test Finished.
+08-15-2019 08:14:47 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_1 Class Started...
+08-15-2019 08:14:56 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1304589447
+08-15-2019 08:14:56 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 08:14:56 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 08:14:56 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 08:15:00 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToFacebook Test Failed java.lang.NullPointerException
+08-15-2019 08:15:01 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToGoogle Test Failed java.lang.NullPointerException
+08-15-2019 08:15:01 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToYahoo Test Failed java.lang.NullPointerException
+08-15-2019 08:15:02 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToYouTube Test Failed java.lang.NullPointerException
+08-15-2019 08:15:03 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_1 Test Finished.
+08-15-2019 08:15:03 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_2 Class Started...
+08-15-2019 08:15:03 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - testLogin Test Failed java.lang.NullPointerException
+08-15-2019 08:15:03 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_2 Test Finished.
+08-15-2019 08:15:03 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+08-15-2019 08:15:09 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 768185844
+08-15-2019 08:15:09 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 08:15:09 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 08:15:09 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 08:15:13 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - testScreen Test Failed java.lang.NullPointerException
+08-15-2019 08:15:14 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+08-15-2019 08:16:08 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - FirstTest Class Started...
+08-15-2019 08:16:08 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testLogin Test Started 
+08-15-2019 08:16:08 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testLogin Test Passed 
+08-15-2019 08:16:08 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testLogout Test Started 
+08-15-2019 08:16:08 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testLogout Test Passed 
+08-15-2019 08:16:08 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - FirstTest Test Finished.
+08-15-2019 08:16:08 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - SecondTest Class Started...
+08-15-2019 08:16:08 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testLogin Test Started 
+08-15-2019 08:16:08 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - testLogin Test Failed java.lang.AssertionError: expected [true] but found [false]
+08-15-2019 08:16:08 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - SecondTest Test Finished.
+08-15-2019 08:16:08 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - ThirdTest Class Started...
+08-15-2019 08:16:08 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testLogin Test Started 
+08-15-2019 08:16:08 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - testLogin Test Failed java.lang.AssertionError: expected [true] but found [false]
+08-15-2019 08:16:09 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - ThirdTest Test Finished.
+08-15-2019 08:16:09 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - ForthTest Class Started...
+08-15-2019 08:16:09 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testLogin Test Started 
+08-15-2019 08:16:09 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - testLogin Test Failed java.lang.AssertionError: expected [true] but found [false]
+08-15-2019 08:16:09 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - ForthTest Test Finished.
+08-15-2019 08:16:09 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_1 Class Started...
+08-15-2019 08:16:18 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 2113748097
+08-15-2019 08:16:18 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 08:16:18 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 08:16:18 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 08:16:22 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToFacebook Test Started 
+08-15-2019 08:16:36 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-15-2019 08:16:36 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToFacebook Test Failed java.lang.AssertionError: expected [true] but found [false]
+08-15-2019 08:16:37 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToGoogle Test Started 
+08-15-2019 08:16:47 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-15-2019 08:16:47 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToGoogle Test Passed 
+08-15-2019 08:16:47 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYahoo Test Started 
+08-15-2019 08:17:10 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-15-2019 08:17:10 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToYahoo Test Failed java.lang.AssertionError: expected [true] but found [false]
+08-15-2019 08:17:11 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYouTube Test Started 
+08-15-2019 08:17:27 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-15-2019 08:17:27 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToYouTube Test Passed 
+08-15-2019 08:17:29 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_1 Test Finished.
+08-15-2019 08:17:29 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_2 Class Started...
+08-15-2019 08:17:29 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testLogin Test Started 
+08-15-2019 08:17:29 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - testLogin Test Failed java.lang.AssertionError: expected [true] but found [false]
+08-15-2019 08:17:29 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_2 Test Finished.
+08-15-2019 08:17:29 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+08-15-2019 08:17:35 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 2048537720
+08-15-2019 08:17:35 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 08:17:35 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 08:17:35 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 08:17:39 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 08:17:42 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+08-15-2019 08:17:44 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+08-15-2019 08:22:07 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - FirstTest Class Started...
+08-15-2019 08:22:17 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1603177117
+08-15-2019 08:22:17 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 08:22:17 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 08:22:17 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 08:22:21 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testLogin Test Started 
+08-15-2019 08:22:21 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testLogin Test Passed 
+08-15-2019 08:22:22 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testLogout Test Started 
+08-15-2019 08:22:22 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testLogout Test Passed 
+08-15-2019 08:22:23 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - FirstTest Test Finished.
+08-15-2019 08:22:23 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - SecondTest Class Started...
+08-15-2019 08:22:29 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1175371136
+08-15-2019 08:22:29 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 08:22:29 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 08:22:29 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 08:22:33 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testLogin Test Started 
+08-15-2019 08:22:33 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - testLogin Test Failed java.lang.AssertionError: expected [true] but found [false]
+08-15-2019 08:22:33 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - SecondTest Test Finished.
+08-15-2019 08:22:33 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - ThirdTest Class Started...
+08-15-2019 08:22:39 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1161148117
+08-15-2019 08:22:39 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 08:22:39 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 08:22:39 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 08:22:43 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testLogin Test Started 
+08-15-2019 08:22:43 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - testLogin Test Failed java.lang.AssertionError: expected [true] but found [false]
+08-15-2019 08:22:44 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - ThirdTest Test Finished.
+08-15-2019 08:22:44 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - ForthTest Class Started...
+08-15-2019 08:22:49 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 882646447
+08-15-2019 08:22:49 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 08:22:49 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 08:22:49 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 08:22:53 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testLogin Test Started 
+08-15-2019 08:22:53 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - testLogin Test Failed java.lang.AssertionError: expected [true] but found [false]
+08-15-2019 08:22:54 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - ForthTest Test Finished.
+08-15-2019 08:22:54 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_1 Class Started...
+08-15-2019 08:23:00 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1706272858
+08-15-2019 08:23:00 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 08:23:00 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 08:23:00 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 08:23:04 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToFacebook Test Started 
+08-15-2019 08:23:16 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-15-2019 08:23:16 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToFacebook Test Failed java.lang.AssertionError: expected [true] but found [false]
+08-15-2019 08:23:16 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToGoogle Test Started 
+08-15-2019 08:23:24 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-15-2019 08:23:24 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToGoogle Test Passed 
+08-15-2019 08:23:24 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYahoo Test Started 
+08-15-2019 08:23:44 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-15-2019 08:23:44 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToYahoo Test Failed java.lang.AssertionError: expected [true] but found [false]
+08-15-2019 08:23:44 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYouTube Test Started 
+08-15-2019 08:23:59 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-15-2019 08:23:59 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToYouTube Test Passed 
+08-15-2019 08:24:00 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_1 Test Finished.
+08-15-2019 08:24:00 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_2 Class Started...
+08-15-2019 08:24:06 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 181078353
+08-15-2019 08:24:06 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 08:24:06 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 08:24:06 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 08:24:10 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testLogin Test Started 
+08-15-2019 08:24:10 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - testLogin Test Failed java.lang.AssertionError: expected [true] but found [false]
+08-15-2019 08:24:11 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_2 Test Finished.
+08-15-2019 08:24:11 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+08-15-2019 08:24:16 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1716164115
+08-15-2019 08:24:16 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 08:24:16 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 08:24:16 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 08:24:21 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 08:24:23 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+08-15-2019 08:24:25 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+08-15-2019 08:38:06 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+08-15-2019 08:38:14 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 116734858
+08-15-2019 08:38:14 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 08:38:14 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 08:38:14 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 08:38:18 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 08:38:20 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+08-15-2019 08:38:22 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+08-15-2019 08:41:24 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+08-15-2019 08:41:32 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 116734858
+08-15-2019 08:41:32 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 08:41:32 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 08:41:32 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 08:41:36 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 08:41:38 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+08-15-2019 08:41:41 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+08-15-2019 08:42:51 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+08-15-2019 08:43:02 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 116734858
+08-15-2019 08:43:02 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 08:43:02 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 08:43:02 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 08:43:06 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 08:43:08 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+08-15-2019 08:43:11 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+08-15-2019 08:58:57 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1515833950
+08-15-2019 08:58:57 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 08:58:57 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 08:58:57 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 09:08:29 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1272883899
+08-15-2019 09:08:29 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 09:08:29 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 09:08:29 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 09:11:22 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+08-15-2019 09:11:29 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 116734858
+08-15-2019 09:11:29 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 09:11:29 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 09:11:29 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 09:11:34 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 09:11:35 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+08-15-2019 09:11:37 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+08-15-2019 09:21:58 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+08-15-2019 09:22:08 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 116734858
+08-15-2019 09:22:08 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 09:22:08 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 09:22:08 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 09:22:13 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 09:22:17 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+08-15-2019 09:22:21 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+08-15-2019 09:57:40 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+08-15-2019 09:57:49 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1293677337
+08-15-2019 09:57:49 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 09:57:49 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 09:57:49 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 09:57:53 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 09:57:54 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+08-15-2019 09:57:57 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+08-15-2019 10:09:17 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+08-15-2019 10:09:25 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 116734858
+08-15-2019 10:09:25 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 10:09:25 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 10:09:25 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 10:09:30 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 10:09:32 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+08-15-2019 10:09:34 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+08-15-2019 10:11:44 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+08-15-2019 10:11:52 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 116734858
+08-15-2019 10:11:52 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 10:11:52 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 10:11:52 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 10:11:56 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 10:11:58 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+08-15-2019 10:11:58 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass ===========================================>>>>>>>>>>>
+08-15-2019 10:12:00 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+08-15-2019 10:13:13 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+08-15-2019 10:13:21 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 116734858
+08-15-2019 10:13:21 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 10:13:21 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 10:13:21 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 10:13:25 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 10:13:26 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+08-15-2019 10:13:27 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass ===========================================>>>>>>>>>>>
+08-15-2019 10:13:29 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+08-15-2019 10:16:53 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1917562344
+08-15-2019 10:16:53 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 10:16:53 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 10:16:53 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 10:17:00 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass ===========================================>>>>>>>>>>>
+08-15-2019 10:20:01 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1917562344
+08-15-2019 10:20:01 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 10:20:01 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 10:20:01 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 10:21:15 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1704491411
+08-15-2019 10:21:15 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 10:21:15 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 10:21:15 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 10:21:21 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass ===========================================>>>>>>>>>>>
+08-15-2019 10:22:33 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1917562344
+08-15-2019 10:22:33 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 10:22:33 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 10:22:33 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 10:22:41 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass ===========================================>>>>>>>>>>>
+08-15-2019 10:36:05 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+08-15-2019 10:36:13 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 116734858
+08-15-2019 10:36:13 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 10:36:13 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 10:36:13 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 10:36:18 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 10:36:19 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+08-15-2019 10:36:20 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass ===========================================>>>>>>>>>>>
+08-15-2019 10:36:22 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+08-15-2019 10:40:20 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+08-15-2019 10:40:29 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 116734858
+08-15-2019 10:40:29 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 10:40:29 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 10:40:29 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 10:40:33 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 10:40:35 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+08-15-2019 10:40:35 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass ===========================================>>>>>>>>>>>
+08-15-2019 10:40:37 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+08-15-2019 10:42:34 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+08-15-2019 10:42:43 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 116734858
+08-15-2019 10:42:43 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 10:42:43 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 10:42:43 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 10:42:47 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 10:42:48 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+08-15-2019 10:42:49 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass ===========================================>>>>>>>>>>>
+08-15-2019 10:42:51 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+08-15-2019 10:43:59 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+08-15-2019 10:44:07 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 116734858
+08-15-2019 10:44:07 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 10:44:07 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 10:44:07 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 10:44:11 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 10:44:12 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+08-15-2019 10:44:13 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass ===========================================>>>>>>>>>>>
+08-15-2019 10:44:14 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+08-15-2019 10:59:10 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+08-15-2019 10:59:18 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 116734858
+08-15-2019 10:59:18 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 10:59:18 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 10:59:18 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 10:59:22 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 10:59:24 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+08-15-2019 10:59:24 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 10:59:26 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+08-15-2019 11:03:48 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+08-15-2019 11:03:56 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 116734858
+08-15-2019 11:03:56 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 11:03:56 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 11:03:56 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 11:04:00 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 11:04:04 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+08-15-2019 11:04:04 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 11:04:06 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+08-15-2019 11:10:01 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+08-15-2019 11:10:08 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 116734858
+08-15-2019 11:10:08 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 11:10:08 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 11:10:08 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 11:10:13 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 11:10:14 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+08-15-2019 11:10:14 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 11:10:16 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+08-15-2019 11:10:49 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+08-15-2019 11:10:57 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 116734858
+08-15-2019 11:10:57 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 11:10:57 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 11:10:57 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 11:11:01 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 11:11:02 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+08-15-2019 11:11:03 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 11:11:04 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+08-15-2019 11:13:54 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+08-15-2019 11:14:02 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 116734858
+08-15-2019 11:14:02 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 11:14:02 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 11:14:02 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 11:14:06 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 11:14:09 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+08-15-2019 11:14:10 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 11:14:11 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+08-15-2019 11:26:31 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1293677337
+08-15-2019 11:26:31 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 11:26:31 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 11:26:31 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 11:26:37 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 11:26:38 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 11:27:47 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1704491411
+08-15-2019 11:27:47 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 11:27:47 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 11:27:47 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 11:27:53 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 11:27:54 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 11:31:22 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+08-15-2019 11:31:30 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 116734858
+08-15-2019 11:31:30 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 11:31:30 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 11:31:30 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 11:31:35 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 11:31:38 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 11:31:38 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+08-15-2019 11:31:39 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 11:31:40 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+08-15-2019 11:35:41 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - ScreenShot_test Class Started...
+08-15-2019 11:35:48 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 116734858
+08-15-2019 11:35:48 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 11:35:48 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 11:35:48 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 11:35:53 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 11:35:55 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 11:35:55 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+08-15-2019 11:35:56 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 11:35:58 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - ScreenShot_test Test Finished.
+08-15-2019 11:42:05 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - ScreenShot_test Class Started...
+08-15-2019 11:42:13 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 116734858
+08-15-2019 11:42:13 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 11:42:13 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 11:42:13 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 11:42:17 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 11:42:20 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 11:42:20 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+08-15-2019 11:42:20 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 11:42:22 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - ScreenShot_test Test Finished.
+08-15-2019 11:43:19 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - ScreenShot_test Class Started...
+08-15-2019 11:43:27 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 116734858
+08-15-2019 11:43:27 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 11:43:27 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 11:43:27 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 11:43:31 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 11:43:33 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 11:43:33 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+08-15-2019 11:43:34 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 11:43:35 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - ScreenShot_test Test Finished.
+08-15-2019 11:49:42 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - ScreenShot_test Class Started...
+08-15-2019 11:49:50 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 116734858
+08-15-2019 11:49:50 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 11:49:50 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 11:49:50 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 11:49:54 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 11:49:57 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 11:49:57 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+08-15-2019 11:49:58 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 11:49:59 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - ScreenShot_test Test Finished.
+08-15-2019 12:05:44 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - ScreenShot_test Class Started...
+08-15-2019 12:05:52 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 116734858
+08-15-2019 12:05:52 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 12:05:52 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 12:05:52 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 12:05:56 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 12:05:58 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 12:05:58 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+08-15-2019 12:05:59 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 12:06:00 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - ScreenShot_test Test Finished.
+08-15-2019 12:06:48 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - ScreenShot_test Class Started...
+08-15-2019 12:06:56 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 116734858
+08-15-2019 12:06:56 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 12:06:56 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 12:06:56 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 12:07:00 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 12:07:02 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 12:07:02 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+08-15-2019 12:07:02 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 12:07:02 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 12:07:04 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - ScreenShot_test Test Finished.
+08-15-2019 12:12:55 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1732410217
+08-15-2019 12:12:55 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 12:12:55 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 12:12:55 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 12:15:35 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 12:15:35 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 12:15:35 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+08-15-2019 12:17:02 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - ScreenShot_test Class Started...
+08-15-2019 12:17:10 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 116734858
+08-15-2019 12:17:10 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 12:17:10 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 12:17:10 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 12:17:15 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 12:17:17 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 12:17:17 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+08-15-2019 12:17:18 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 12:17:18 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+08-15-2019 12:17:19 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - ScreenShot_test Test Finished.
+08-15-2019 12:59:02 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1293677337
+08-15-2019 12:59:02 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 12:59:02 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 12:59:02 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 12:59:17 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 12:59:22 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-15-2019 12:59:22 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 12:59:22 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 12:59:30 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 12:59:35 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-15-2019 12:59:35 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 12:59:35 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+08-15-2019 13:00:10 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:00:15 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-15-2019 13:00:16 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:00:16 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:00:30 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:00:35 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-15-2019 13:00:36 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:00:36 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+08-15-2019 13:00:36 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:00:36 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:00:36 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:00:36 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:00:36 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:00:36 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:00:36 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:00:36 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:00:36 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:00:36 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:04:34 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1732238286
+08-15-2019 13:04:34 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 13:04:34 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 13:04:34 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 13:04:45 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:04:50 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-15-2019 13:04:50 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:04:50 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:04:53 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:04:58 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-15-2019 13:04:59 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:04:59 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+08-15-2019 13:05:14 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:05:19 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-15-2019 13:05:20 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:05:20 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:05:28 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:05:33 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-15-2019 13:05:34 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:05:34 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+08-15-2019 13:05:34 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:05:34 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:05:34 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:05:34 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:05:34 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:05:34 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:05:34 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:05:34 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:05:35 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:05:35 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:10:10 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1732238286
+08-15-2019 13:10:10 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 13:10:10 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 13:10:10 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 13:10:24 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:10:29 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-15-2019 13:10:29 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:10:29 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:10:33 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:10:38 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-15-2019 13:10:39 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:10:39 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+08-15-2019 13:10:58 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:11:03 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-15-2019 13:11:03 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:11:03 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:11:13 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:11:18 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-15-2019 13:11:19 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:11:19 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+08-15-2019 13:11:19 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:11:19 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:11:19 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:11:19 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:11:19 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:11:19 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:11:20 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:11:20 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:11:20 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:11:20 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:13:27 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1732238286
+08-15-2019 13:13:27 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 13:13:27 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 13:13:27 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 13:13:39 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:13:44 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-15-2019 13:13:44 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:13:44 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:13:47 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:13:52 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-15-2019 13:13:53 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:13:53 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+08-15-2019 13:14:02 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:14:07 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-15-2019 13:14:08 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:14:08 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:14:13 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:14:18 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-15-2019 13:14:18 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:14:18 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+08-15-2019 13:14:19 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:14:19 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:14:19 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:14:19 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:14:19 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:14:19 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:14:19 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:14:19 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:14:19 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:14:19 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:17:14 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1732238286
+08-15-2019 13:17:14 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 13:17:14 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 13:17:14 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 13:17:30 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-15-2019 13:17:30 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:17:30 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:17:39 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-15-2019 13:17:40 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:17:40 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+08-15-2019 13:18:05 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-15-2019 13:18:05 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:18:05 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:18:18 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-15-2019 13:18:19 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:18:19 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+08-15-2019 13:18:19 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:18:19 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:18:19 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:18:19 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:18:19 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:18:19 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:18:19 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:18:19 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:18:19 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:18:19 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:21:13 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1732238286
+08-15-2019 13:21:13 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 13:21:13 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 13:21:13 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 13:21:28 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-15-2019 13:21:29 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:21:29 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:21:37 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-15-2019 13:21:37 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:21:37 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+08-15-2019 13:21:57 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-15-2019 13:21:57 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:21:57 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:22:10 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-15-2019 13:22:11 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:22:11 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+08-15-2019 13:22:11 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:22:11 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:22:11 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:22:11 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:22:11 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:22:11 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:22:11 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:22:11 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:22:11 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:22:11 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:25:08 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - C:/Users/liesn/IdeaProjects/demoStructure/.idea Class Started...
+08-15-2019 13:25:16 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1823541245
+08-15-2019 13:25:16 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 13:25:16 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 13:25:16 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 13:25:21 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToFacebook Test Started 
+08-15-2019 13:25:32 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-15-2019 13:25:32 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToFacebook Test Failed java.lang.AssertionError: expected [true] but found [false]
+08-15-2019 13:25:32 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:25:32 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:25:33 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToGoogle Test Started 
+08-15-2019 13:25:40 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-15-2019 13:25:40 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToGoogle Test Passed 
+08-15-2019 13:25:41 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:25:41 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+08-15-2019 13:25:41 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYahoo Test Started 
+08-15-2019 13:26:06 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-15-2019 13:26:06 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToYahoo Test Failed java.lang.AssertionError: expected [true] but found [false]
+08-15-2019 13:26:06 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:26:06 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:26:06 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYouTube Test Started 
+08-15-2019 13:26:20 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-15-2019 13:26:20 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToYouTube Test Passed 
+08-15-2019 13:26:21 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:26:21 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+08-15-2019 13:26:21 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToFacebook Test Started 
+08-15-2019 13:26:21 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToFacebook Test Failed java.lang.NullPointerException
+08-15-2019 13:26:21 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:26:21 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:26:21 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToGoogle Test Started 
+08-15-2019 13:26:21 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToGoogle Test Failed java.lang.NullPointerException
+08-15-2019 13:26:21 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:26:21 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:26:21 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYahoo Test Started 
+08-15-2019 13:26:21 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToYahoo Test Failed java.lang.NullPointerException
+08-15-2019 13:26:21 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:26:21 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:26:21 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYouTube Test Started 
+08-15-2019 13:26:21 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToYouTube Test Failed java.lang.NullPointerException
+08-15-2019 13:26:21 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:26:21 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:26:21 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 13:26:21 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - testScreen Test Failed java.lang.NullPointerException
+08-15-2019 13:26:21 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:26:21 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:26:23 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - C:/Users/liesn/IdeaProjects/demoStructure/.idea Test Finished.
+08-15-2019 13:34:10 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+08-15-2019 13:34:18 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1823541245
+08-15-2019 13:34:18 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 13:34:18 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 13:34:18 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 13:34:22 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToFacebook Test Started 
+08-15-2019 13:34:32 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-15-2019 13:34:32 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToFacebook Test Failed java.lang.AssertionError: expected [true] but found [false]
+08-15-2019 13:34:33 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:34:33 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:34:33 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToGoogle Test Started 
+08-15-2019 13:34:41 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-15-2019 13:34:41 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToGoogle Test Passed 
+08-15-2019 13:34:41 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:34:41 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+08-15-2019 13:34:41 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYahoo Test Started 
+08-15-2019 13:34:58 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-15-2019 13:34:58 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToYahoo Test Failed java.lang.AssertionError: expected [true] but found [false]
+08-15-2019 13:34:59 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:34:59 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:34:59 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYouTube Test Started 
+08-15-2019 13:35:09 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-15-2019 13:35:09 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToYouTube Test Passed 
+08-15-2019 13:35:10 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:35:10 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+08-15-2019 13:35:10 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToFacebook Test Started 
+08-15-2019 13:35:10 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToFacebook Test Failed java.lang.NullPointerException
+08-15-2019 13:35:10 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:35:10 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:35:10 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToGoogle Test Started 
+08-15-2019 13:35:10 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToGoogle Test Failed java.lang.NullPointerException
+08-15-2019 13:35:10 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:35:10 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:35:10 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYahoo Test Started 
+08-15-2019 13:35:10 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToYahoo Test Failed java.lang.NullPointerException
+08-15-2019 13:35:10 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:35:10 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:35:10 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYouTube Test Started 
+08-15-2019 13:35:10 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToYouTube Test Failed java.lang.NullPointerException
+08-15-2019 13:35:10 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:35:10 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:35:10 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 13:35:10 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - testScreen Test Failed java.lang.NullPointerException
+08-15-2019 13:35:10 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:35:10 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:35:12 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+08-15-2019 13:37:10 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+08-15-2019 13:37:18 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1823541245
+08-15-2019 13:37:18 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-15-2019 13:37:18 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-15-2019 13:37:18 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-15-2019 13:37:22 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToFacebook Test Started 
+08-15-2019 13:37:33 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-15-2019 13:37:33 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToFacebook Test Failed java.lang.AssertionError: expected [true] but found [false]
+08-15-2019 13:37:33 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:37:33 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:37:33 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToGoogle Test Started 
+08-15-2019 13:37:40 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-15-2019 13:37:40 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToGoogle Test Passed 
+08-15-2019 13:37:41 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:37:41 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+08-15-2019 13:37:41 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYahoo Test Started 
+08-15-2019 13:37:56 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-15-2019 13:37:56 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToYahoo Test Failed java.lang.AssertionError: expected [true] but found [false]
+08-15-2019 13:37:56 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:37:56 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:37:57 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYouTube Test Started 
+08-15-2019 13:38:10 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-15-2019 13:38:10 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToYouTube Test Passed 
+08-15-2019 13:38:10 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass =========================>>>>>>>>>>>
+08-15-2019 13:38:10 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+08-15-2019 13:38:10 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToFacebook Test Started 
+08-15-2019 13:38:10 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToFacebook Test Failed java.lang.NullPointerException
+08-15-2019 13:38:10 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:38:10 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:38:10 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToGoogle Test Started 
+08-15-2019 13:38:10 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToGoogle Test Failed java.lang.NullPointerException
+08-15-2019 13:38:10 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:38:10 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:38:11 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYahoo Test Started 
+08-15-2019 13:38:11 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToYahoo Test Failed java.lang.NullPointerException
+08-15-2019 13:38:11 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:38:11 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:38:11 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYouTube Test Started 
+08-15-2019 13:38:11 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToYouTube Test Failed java.lang.NullPointerException
+08-15-2019 13:38:11 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:38:11 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:38:11 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+08-15-2019 13:38:11 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - testScreen Test Failed java.lang.NullPointerException
+08-15-2019 13:38:11 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+08-15-2019 13:38:11 :: [core.test_base.TestBase - afterMethod][INFO ] - << ******************************************************* >>>
+08-15-2019 13:38:12 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+08-16-2019 10:13:34 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][ERROR] - Failed to create Data Base connection..java.sql.SQLSyntaxErrorException: Unknown database 'person'
+08-16-2019 10:13:34 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=1
+08-16-2019 10:15:00 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][ERROR] - Failed to create Data Base connection..java.sql.SQLException: The server time zone value 'Jerusalem Daylight Time' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+08-16-2019 10:15:00 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=1
+08-16-2019 10:26:12 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][ERROR] - Failed to create Data Base connection..java.sql.SQLException: The server time zone value 'Jerusalem Daylight Time' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+08-16-2019 10:26:12 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=1
+08-16-2019 10:33:27 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Data Base..
+08-16-2019 10:33:27 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=1
+08-16-2019 10:35:04 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][ERROR] - Failed to create Data Base connection..java.sql.SQLException: The server time zone value 'Jerusalem Daylight Time' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+08-16-2019 10:35:04 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=1
+08-16-2019 10:41:05 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][ERROR] - Failed to create Data Base connection..java.sql.SQLException: The server time zone value 'Jerusalem Daylight Time' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+08-16-2019 10:41:05 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=1
+08-16-2019 10:53:20 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][ERROR] - Failed to create Data Base connection..java.sql.SQLSyntaxErrorException: Unknown database 'db'
+08-16-2019 10:53:20 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=1
+08-16-2019 10:54:31 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Data Base..
+08-16-2019 10:54:31 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=1
+08-16-2019 10:55:55 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Data Base..
+08-16-2019 10:55:55 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=1
+08-16-2019 11:48:59 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Data Base..
+08-16-2019 11:48:59 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=1
+08-16-2019 11:53:26 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Data Base..
+08-16-2019 11:53:26 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=1
+08-16-2019 11:59:21 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Data Base..
+08-16-2019 11:59:21 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=1
+08-16-2019 12:02:16 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Data Base..
+08-16-2019 12:02:16 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=1
+08-16-2019 12:15:25 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Data Base..
+08-16-2019 12:15:25 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=1
+08-16-2019 12:17:31 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Data Base..
+08-16-2019 12:17:31 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=1
+08-16-2019 12:28:13 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Data Base..
+08-16-2019 12:28:13 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=1
+08-16-2019 12:28:16 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Data Base..
+08-16-2019 12:28:16 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=1
+08-16-2019 12:28:23 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Data Base..
+08-16-2019 12:28:23 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=1
+08-16-2019 12:28:55 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Data Base..
+08-16-2019 12:28:55 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=2
+08-16-2019 12:30:29 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Data Base..
+08-16-2019 12:30:29 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=2
+08-16-2019 12:31:24 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Data Base..
+08-16-2019 12:31:24 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Age from family where ID=2
+08-16-2019 12:31:42 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Data Base..
+08-16-2019 12:31:42 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Age from family where ID=2
+08-16-2019 12:32:43 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Data Base..
+08-16-2019 12:32:43 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Age from family where ID=2
+08-16-2019 14:11:42 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Data Base..
+08-16-2019 14:11:42 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Age from family where ID=2
+08-16-2019 14:13:23 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Data Base..
+08-16-2019 14:13:23 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Age from family where ID=2
+08-16-2019 14:14:31 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Data Base..
+08-16-2019 14:14:31 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=2
+08-16-2019 14:22:10 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Data Base..
+08-16-2019 14:22:10 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=2
+08-16-2019 14:29:26 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Data Base..
+08-16-2019 14:29:26 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=2
+08-16-2019 14:37:08 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Data Base..
+08-16-2019 14:37:08 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=2
+08-16-2019 14:59:06 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Data Base..
+08-16-2019 14:59:06 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=2
+08-16-2019 15:01:09 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Data Base..
+08-16-2019 15:01:09 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=2
+08-16-2019 15:49:55 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Person Base..
+08-16-2019 15:49:56 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=2
+08-16-2019 15:49:56 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select * from family
+08-16-2019 15:55:06 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Person Base..
+08-16-2019 15:55:06 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=2
+08-16-2019 15:55:06 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select * from family

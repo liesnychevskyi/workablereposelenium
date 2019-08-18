@@ -137,14 +137,15 @@ public class WaitHelper
      * @return
      */
     //====================================================================//
-    public WebElement waitForElement(WebElement element, int timeOutInSeconds, int polingEveryInMiliSec)
-    {
-        getFluentWait(timeOutInSeconds, timeOutInSeconds);
-        Wait<WebDriver> fwait = getFluentWait(timeOutInSeconds, polingEveryInMiliSec);
-        //fwait.until(ExpectedConditions.elementToBeClickable(element));
-        fwait.until(ExpectedConditions.visibilityOf(element));
-        return element;
-    }
+//    public WebElement waitForElement(WebElement element, int timeOutInSeconds, int polingEveryInMiliSec)
+//    {
+//        log.info("");
+//        getFluentWait(timeOutInSeconds, timeOutInSeconds);
+//        Wait<WebDriver> fwait = getFluentWait(timeOutInSeconds, polingEveryInMiliSec);
+//        //fwait.until(ExpectedConditions.elementToBeClickable(element));
+//        fwait.until(ExpectedConditions.visibilityOf(element));
+//        return element;
+//    }
     //====================================================================//
 
     /**
@@ -158,5 +159,15 @@ public class WaitHelper
         driver.manage().timeouts().pageLoadTimeout(timeout, unit);
         log.info("Page is loaded");
     }
+
+    //====================================================================//
+    public void waitForElement(WebElement element, int timeOutInSeconds)
+    {
+        log.info("Wait for: " + element.toString() + " for: " + timeOutInSeconds + " seconds");
+        WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds);
+        wait.until(ExpectedConditions.visibilityOf(element));
+        log.info("Element is visible now");
+    }
+    //====================================================================//
 
 }
