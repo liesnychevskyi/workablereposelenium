@@ -50,4 +50,27 @@ public class PropertyReader implements ConfigReader
     {
        return BrowserType.valueOf(OR.getProperty("browsertype"));
     }
+
+    @Override
+    public String getApplicationUrl()
+    {
+        System.out.println(OR.getProperty("applicationUrl"));
+        return OR.getProperty("applicationUrl");
+    }
+
+    @Override
+    public String getUserName()
+    {
+        System.out.println(OR.getProperty("userName"));
+        return OR.getProperty("userName");
+    }
+
+    @Override
+    public String getPassword()
+    {
+        System.out.println(OR.getProperty("password"));
+        return OR.getProperty("password");
+    }
+
+
 }

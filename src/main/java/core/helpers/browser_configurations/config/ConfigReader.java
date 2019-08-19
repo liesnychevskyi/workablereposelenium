@@ -8,4 +8,8 @@ public interface ConfigReader
     public int getExpliciteWait();
     public int getPageLoadTime();
     public BrowserType getBrowserType();
+    public String getApplicationUrl();
+    public String getUserName();
+    public String getPassword();
+
 }

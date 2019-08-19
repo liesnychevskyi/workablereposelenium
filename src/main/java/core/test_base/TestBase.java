@@ -19,6 +19,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerOptions;
 import org.testng.ITestResult;
@@ -62,6 +63,12 @@ public class TestBase  // TestNg annotation reporting.html
         test = extentReports.createTest(getClass().getSimpleName());
     }
 
+   // @AfterClass
+    public void afterClass()
+    {
+        shutDown();
+    }
+
     @BeforeMethod
     public void beforeMethod(Method method)
     {
@@ -75,7 +82,7 @@ public class TestBase  // TestNg annotation reporting.html
         {
             test.log(Status.FAIL, result.getThrowable());
             String imagePath = captureScreenShot(result.getName());
-            log.info("<< ******************************************************* >>>");
+            log.info("<<< ******************************************************* >>>");
             test.addScreenCaptureFromPath(imagePath);
 
         }
@@ -108,6 +115,7 @@ public class TestBase  // TestNg annotation reporting.html
 
                 case Firefox:
                     //Get object of Firefox class
+
                     FirefoxBrowser firefox = FirefoxBrowser.class.newInstance();
                     FirefoxOptions options_1 = firefox.getFirefoxOptions();
                     return  firefox.getFirefoxDriver(options_1);
@@ -158,7 +166,7 @@ public class TestBase  // TestNg annotation reporting.html
         {
             destFile = new File(reportDirectory +"/"+fileName +"_"+formater.format(calendar.getTime())+".png");
             //destFile = new File("C:\\Users\\liesn\\IdeaProjects\\demoStructure\\src\\main\\java\\core\\screenshots\\"+driver.getTitle()+".png");
-            log.info("Taking a pass =========================>>>>>>>>>>>");
+            log.info("Taking a pass <<<<<<<<<===============>>>>>>>>>>>");
             System.out.println(destFile);
             Files.copy(screnshotFile.toPath(), destFile.toPath());
            // FileUtils.copyFile(screnshotFile, destFile);
@@ -194,4 +202,27 @@ public class TestBase  // TestNg annotation reporting.html
         test.log(Status.INFO, log);
     }
     //==================================================================================//
+    public void getApplicationUrl(String url)
+    {
+        driver.get(url);
+        logExtentReport("Navigate to ... " + url);
+    }
+    //===================================================================================//
+    public void shutDown()
+    {
+        if(driver != null)
+        {
+            driver.quit();
+        }
+    }
+
+    public void driverClose()
+    {
+        if(driver != null)
+        {
+            driver.close();
+        }
+    }
+
 }
+
