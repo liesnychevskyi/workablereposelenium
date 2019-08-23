@@ -20,9 +20,8 @@ public class ChromeBrowser
 
         DesiredCapabilities chrome = DesiredCapabilities.chrome();
         chrome.setJavascriptEnabled(true);
-
         option.setCapability(ChromeOptions.CAPABILITY, chrome);
-
+    //============================================================//
         //Linux
         if(System.getProperty("os.name").contains("Linux"))
         {
@@ -38,12 +37,14 @@ public class ChromeBrowser
             System.setProperty("webdriver.chrome.driver", ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\drivers\\chromedriver"));
             return new ChromeDriver(cap);
         }
+//=======================================================================================================//
         else if(System.getProperty("os.name").contains("Windows"))
         {
             System.setProperty("webdriver.chrome.driver", ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\drivers\\chromedriver.exe"));
            // return new ChromeDriver(cap);
             return new ChromeDriver();
         }
+//=======================================================================================================//
         else if(System.getProperty("os.name").contains("Linux"))
         {
             System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
@@ -51,8 +52,5 @@ public class ChromeBrowser
         }
         return null;
     }
-    //============================================================//
-    //============================================================//
-    //============================================================//
-    //============================================================//
+//========================================================================================================//
 }

@@ -31,6 +31,7 @@ public class SignUpTest extends TestBase
         page.fillLastNAme(lastName);
         page.fillEmail();
         page.fillPassword(password);
+
         page.clickIndustryRole();
         page.clickFromTheList(role);
         page.fillPhoneNumber(phone);

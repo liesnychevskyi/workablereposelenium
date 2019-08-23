@@ -1477,3 +1477,101 @@ Driver info: driver.version: ChromeDriver
 08-19-2019 17:43:40 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
 08-19-2019 17:43:40 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
 08-19-2019 17:43:40 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-21-2019 09:18:39 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 811597470
+08-21-2019 09:18:39 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-21-2019 09:18:39 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-21-2019 09:18:39 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-21-2019 09:24:01 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 370475881
+08-21-2019 09:24:01 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-21-2019 09:24:01 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-21-2019 09:24:01 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-21-2019 09:24:17 :: [core.helpers.wait.WaitHelper - waitForElement][INFO ] - Wait for: [[FirefoxDriver: firefox on WINDOWS (69ea7225-3726-404d-9eef-40eb52303a7a)] -> xpath: //a[@crxanalyticsevent='Header - Sign Up or Log In Clicked']] for: 200 seconds
+08-21-2019 09:24:17 :: [core.helpers.wait.WaitHelper - waitForElement][INFO ] - Element is visible now
+08-21-2019 09:24:24 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+08-21-2019 09:24:24 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+08-21-2019 10:00:53 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1328718765
+08-21-2019 10:00:53 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-21-2019 10:00:53 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-21-2019 10:00:53 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-21-2019 10:01:18 :: [core.helpers.wait.WaitHelper - waitForElement][INFO ] - Wait for: [[ChromeDriver: chrome on XP (b4570acad399272e0e84ae70cd1d8154)] -> xpath: //a[@crxanalyticsevent='Header - Sign Up or Log In Clicked']] for: 200 seconds
+08-21-2019 10:01:18 :: [core.helpers.wait.WaitHelper - waitForElement][INFO ] - Element is visible now
+08-21-2019 10:01:26 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+08-21-2019 10:01:26 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+08-21-2019 10:10:38 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1649320501
+08-21-2019 10:10:38 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-21-2019 10:10:38 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-21-2019 10:10:38 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-21-2019 10:10:53 :: [core.helpers.wait.WaitHelper - waitForElement][INFO ] - Wait for: [[FirefoxDriver: firefox on WINDOWS (58111352-606a-4a32-999c-22c9f5a59a77)] -> xpath: //a[@crxanalyticsevent='Header - Sign Up or Log In Clicked']] for: 200 seconds
+08-21-2019 10:10:54 :: [core.helpers.wait.WaitHelper - waitForElement][INFO ] - Element is visible now
+08-21-2019 10:10:59 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+08-21-2019 10:10:59 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+08-21-2019 10:18:34 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1649320501
+08-21-2019 10:18:34 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-21-2019 10:18:34 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-21-2019 10:18:34 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-21-2019 10:18:53 :: [core.helpers.wait.WaitHelper - waitForElement][INFO ] - Wait for: [[FirefoxDriver: firefox on WINDOWS (8bfb7fbb-7654-46cf-837a-712a36263088)] -> xpath: //a[@crxanalyticsevent='Header - Sign Up or Log In Clicked']] for: 200 seconds
+08-21-2019 10:18:53 :: [core.helpers.wait.WaitHelper - waitForElement][INFO ] - Element is visible now
+08-21-2019 10:18:59 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+08-21-2019 10:18:59 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+08-21-2019 10:22:57 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1649320501
+08-21-2019 10:22:57 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-21-2019 10:22:57 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-21-2019 10:22:57 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-21-2019 10:23:16 :: [core.helpers.wait.WaitHelper - waitForElement][INFO ] - Wait for: [[FirefoxDriver: firefox on WINDOWS (c3d5ab93-925a-41b9-8598-f4406fab179b)] -> xpath: //a[@crxanalyticsevent='Header - Sign Up or Log In Clicked']] for: 200 seconds
+08-21-2019 10:23:16 :: [core.helpers.wait.WaitHelper - waitForElement][INFO ] - Element is visible now
+08-21-2019 10:23:25 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+08-21-2019 10:23:25 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+08-21-2019 11:09:41 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1649320501
+08-21-2019 11:09:41 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-21-2019 11:09:41 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-21-2019 11:09:41 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-21-2019 11:10:01 :: [core.helpers.wait.WaitHelper - waitForElement][INFO ] - Wait for: [[FirefoxDriver: firefox on WINDOWS (b975b75b-3012-4a1c-8660-c944bc20b193)] -> xpath: //a[@crxanalyticsevent='Header - Sign Up or Log In Clicked']] for: 200 seconds
+08-21-2019 11:10:01 :: [core.helpers.wait.WaitHelper - waitForElement][INFO ] - Element is visible now
+08-21-2019 11:10:06 :: [core.helpers.wait.WaitHelper - WaitForElementClickable][INFO ] - Wating for : [[FirefoxDriver: firefox on WINDOWS (b975b75b-3012-4a1c-8660-c944bc20b193)] -> xpath: //div[@class='scrollable-content']/div] for : 3 seconds
+08-21-2019 11:10:07 :: [core.helpers.wait.WaitHelper - WaitForElementClickable][INFO ] - Element is clickable now
+08-21-2019 11:10:10 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+08-21-2019 11:10:10 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+08-21-2019 11:23:35 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1649320501
+08-21-2019 11:23:35 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-21-2019 11:23:35 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-21-2019 11:23:35 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-21-2019 11:23:48 :: [core.helpers.wait.WaitHelper - waitForElement][INFO ] - Wait for: [[FirefoxDriver: firefox on WINDOWS (22d93117-4246-48af-8640-1e06a39e2deb)] -> xpath: //a[@crxanalyticsevent='Header - Sign Up or Log In Clicked']] for: 200 seconds
+08-21-2019 11:23:48 :: [core.helpers.wait.WaitHelper - waitForElement][INFO ] - Element is visible now
+08-21-2019 11:23:53 :: [core.helpers.wait.WaitHelper - waitForElementExists][INFO ] - Wait for: [[FirefoxDriver: firefox on WINDOWS (22d93117-4246-48af-8640-1e06a39e2deb)] -> xpath: //div[@class='scrollable-content']/div] for: 10 seconds
+08-21-2019 11:23:54 :: [core.helpers.wait.WaitHelper - waitForElementExists][INFO ] - Element is visible now
+08-21-2019 11:23:57 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+08-21-2019 11:23:57 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+08-21-2019 11:29:15 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1515877023
+08-21-2019 11:29:15 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-21-2019 11:29:15 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-21-2019 11:29:15 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-21-2019 11:29:34 :: [core.helpers.wait.WaitHelper - waitForElement][INFO ] - Wait for: [[FirefoxDriver: firefox on WINDOWS (818474ae-e682-439a-9071-c82d8c4b5f30)] -> xpath: //a[@crxanalyticsevent='Header - Sign Up or Log In Clicked']] for: 200 seconds
+08-21-2019 11:29:34 :: [core.helpers.wait.WaitHelper - waitForElement][INFO ] - Element is visible now
+08-21-2019 11:29:36 :: [core.helpers.wait.WaitHelper - waitForElementExists][INFO ] - Wait for: [[FirefoxDriver: firefox on WINDOWS (818474ae-e682-439a-9071-c82d8c4b5f30)] -> xpath: //div[@class='scrollable-content']/div] for: 10 seconds
+08-21-2019 11:29:36 :: [core.helpers.wait.WaitHelper - waitForElementExists][INFO ] - Element is visible now
+08-21-2019 11:29:40 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+08-21-2019 11:29:40 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+08-21-2019 11:37:41 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1649320501
+08-21-2019 11:37:41 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-21-2019 11:37:41 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-21-2019 11:37:41 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-21-2019 11:45:13 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1649320501
+08-21-2019 11:45:13 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-21-2019 11:45:13 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-21-2019 11:45:13 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-23-2019 17:46:07 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1263668904
+08-23-2019 17:46:07 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-23-2019 17:46:07 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-23-2019 17:46:07 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-23-2019 17:46:22 :: [core.helpers.wait.WaitHelper - waitForElement][INFO ] - Wait for: [[FirefoxDriver: firefox on WINDOWS (0ba2e599-c1d2-4449-9774-c176323c4625)] -> xpath: //a[@crxanalyticsevent='Header - Sign Up or Log In Clicked']] for: 200 seconds
+08-23-2019 17:46:22 :: [core.helpers.wait.WaitHelper - waitForElement][INFO ] - Element is visible now
+08-23-2019 17:46:28 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+08-23-2019 17:46:28 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+08-23-2019 17:47:01 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 1795816257
+08-23-2019 17:47:01 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+08-23-2019 17:47:01 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+08-23-2019 17:47:01 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+08-23-2019 17:47:16 :: [core.helpers.wait.WaitHelper - waitForElement][INFO ] - Wait for: [[FirefoxDriver: firefox on WINDOWS (55e9e58f-b36b-4973-a7b8-2900ea50ee00)] -> xpath: //a[@crxanalyticsevent='Header - Sign Up or Log In Clicked']] for: 200 seconds
+08-23-2019 17:47:16 :: [core.helpers.wait.WaitHelper - waitForElement][INFO ] - Element is visible now
+08-23-2019 17:47:21 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+08-23-2019 17:47:21 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>

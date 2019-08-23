@@ -169,5 +169,19 @@ public class WaitHelper
         log.info("Element is visible now");
     }
     //====================================================================//
+    //====================================================================//
+    public void waitForElementIsPresentIgnoringExaption(WebElement element, int timeOutInSeconds)
+    {
+        log.info("Wait for: " + element.toString() + " for: " + timeOutInSeconds + " seconds");
+        WebElement wait = new WebDriverWait(driver, timeOutInSeconds).ignoring(StaleElementReferenceException.class).until(ExpectedConditions.visibilityOf(element));
+        log.info("Element is visible now");
+    }
+    //====================================================================//
+    public void waitForElementToBeClickableIgnoringExaption(WebElement element, int timeOutInSeconds)
+    {
+        log.info("Wait for: " + element.toString() + " for: " + timeOutInSeconds + " seconds");
+        WebElement wait = new WebDriverWait(driver, timeOutInSeconds).ignoring(StaleElementReferenceException.class).until(ExpectedConditions.elementToBeClickable(element));
+        log.info("Element is clickable now");
+    }
 
 }

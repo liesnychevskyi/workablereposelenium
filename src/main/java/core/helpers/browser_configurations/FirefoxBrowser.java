@@ -6,6 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.remote.DesiredCapabilities;
+//https://www.guru99.com/firefox-profile-selenium-webdriver.html
 
 public class FirefoxBrowser
 {
@@ -35,11 +36,13 @@ public class FirefoxBrowser
             System.setProperty("webdriver.chrome.driver", ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\drivers\\geckodriver"));
             return new FirefoxDriver(cap);
         }
+
         else if(System.getProperty("os.name").contains("Windows"))
         {
             System.setProperty("webdriver.chrome.driver", ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\drivers\\geckodriver.exe"));
             return new FirefoxDriver(cap);
         }
+
         else if(System.getProperty("os.name").contains("Linux"))
         {
             System.setProperty("webdriver.chrome.driver", "/usr/bin/geckodriver");
@@ -47,8 +50,4 @@ public class FirefoxBrowser
         }
         return null;
     }
-    //============================================================//
-    //============================================================//
-    //============================================================//
-    //============================================================//
 }

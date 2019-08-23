@@ -4,12 +4,15 @@ import core.helpers.browser_configurations.config.ObjectReader;
 import core.helpers.logger.MyLogger;
 import core.helpers.wait.WaitHelper;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
+import java.util.function.Predicate;
 
 public class SignUpPage
 {
@@ -114,7 +117,7 @@ public class SignUpPage
     {
         indRole.click();
     }
-
+//=================================================================================//
     public  void clickFromTheList(String role) throws Exception
     {
         for(WebElement element: IndustryRole)
@@ -131,17 +134,48 @@ public class SignUpPage
                 //System.out.println("The element out of the list");
             }
         }
+//=================================================================================//
+//                new WebDriverWait(driver, timeout)
+//                .ignoring(StaleElementReferenceException.class)
+//                .until(new Predicate<WebDriver>()
+//                {
+//                    @Override
+//                    public boolean apply(@Nullable WebDriver driver) {
+//                        driver.findElement(By.id("checkoutLink")).click();
+//                        return true;
+//                    }
+//                });
+//=================================================================================//
+//        public boolean retryingFindClick(By by)
+//        {
+//        boolean result = false;
+//        int attempts = 0;
+//        while(attempts < 2)
+//        {
+//            try {
+//                driver.findElement(by).click();
+//                result = true;
+//                break;
+//            } catch(StaleElementReferenceException e)
+//            {
+//            }
+//            attempts++;
+//        }
+//        return result;
+//    }
+//==================================================================================//
     }
 
 
     public void fillPhoneNumber(String phone) throws Exception
     {
-        Thread.sleep(3000);
-        PhoneNumber.sendKeys(phone);
+       waitHelper.waitForElementIsPresentIgnoringExaption(PhoneNumber, 10);
+       PhoneNumber.sendKeys(phone);
     }
 
     public void clickSignUpButton()
     {
+        waitHelper.waitForElementToBeClickableIgnoringExaption(SignUp,10);
         SignUp.click();
     }
 
