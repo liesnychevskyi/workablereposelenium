@@ -61,6 +61,7 @@
         <extentreport.version>3.0.0</extentreport.version>
         <maven_compiler_plugin.version>3.8.1</maven_compiler_plugin.version>
         <mysql-connector-java.version>8.0.17</mysql-connector-java.version>
+        <webdrivermanager.version>3.6.1</webdrivermanager.version>
     </properties>
 
     <dependencies>
@@ -109,14 +110,19 @@
             <artifactId>maven-resources-plugin</artifactId>
             <version>3.1.0</version>
         </dependency>
+
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql-connector-java.version}</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>${webdrivermanager.version}</version>
+        </dependency>
     </dependencies>
-    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
-
-
 
 </project>

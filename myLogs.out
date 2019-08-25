@@ -1589,3 +1589,24 @@ Driver info: driver.version: ChromeDriver
 08-25-2019 10:15:04 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Person Base..
 08-25-2019 10:15:04 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=2
 08-25-2019 10:15:04 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select * from family
+08-25-2019 10:18:14 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][ERROR] - Failed to create Person Base connection..java.sql.SQLException: The server time zone value 'Jerusalem Daylight Time' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+08-25-2019 10:18:14 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=2
+08-25-2019 10:18:53 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][ERROR] - Failed to create Person Base connection..java.sql.SQLSyntaxErrorException: Unknown database 'my_family/'
+08-25-2019 10:18:53 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=2
+08-25-2019 10:19:47 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][ERROR] - Failed to create Person Base connection..java.sql.SQLSyntaxErrorException: Unknown database 'my_family/'
+08-25-2019 10:19:47 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=2
+08-25-2019 10:20:06 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Person Base..
+08-25-2019 10:20:06 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=2
+08-25-2019 10:20:06 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select * from family
+08-25-2019 10:38:51 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-25-2019 10:38:52 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+08-25-2019 10:38:52 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+08-25-2019 10:39:00 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-25-2019 10:39:00 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+08-25-2019 10:39:01 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+08-25-2019 10:39:17 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-25-2019 10:39:17 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+08-25-2019 10:39:17 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+08-25-2019 10:39:31 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-25-2019 10:39:31 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+08-25-2019 10:39:31 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>

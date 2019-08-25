@@ -3,10 +3,7 @@ package core.test_base;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
-import core.helpers.browser_configurations.BrowserType;
-import core.helpers.browser_configurations.ChromeBrowser;
-import core.helpers.browser_configurations.FirefoxBrowser;
-import core.helpers.browser_configurations.IExplorerBrowser;
+import core.helpers.browser_configurations.*;
 import core.helpers.browser_configurations.config.ObjectReader;
 import core.helpers.browser_configurations.config.PropertyReader;
 import core.helpers.logger.MyLogger;
@@ -42,15 +39,23 @@ public class TestBase  // TestNg annotation reporting.html
     public WebDriver driver;
     public static File reportDirectory;
 
+//==================================================================================//
+//    @BeforeTest // Original
+//    public void beforeTest() throws Exception
+//    {
+//        ObjectReader.reader = new PropertyReader();
+//        reportDirectory = new File(ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\screenshots\\"));
+//        setUpDriver(ObjectReader.reader.getBrowserType());
+//    }
 
-    @BeforeTest
+
+    @BeforeTest // Boni Garsia driver online from Github
     public void beforeTest() throws Exception
     {
-        ObjectReader.reader = new PropertyReader();
-        reportDirectory = new File(ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\screenshots\\"));
-        setUpDriver(ObjectReader.reader.getBrowserType());
+        DriverManager driverManager = new DriverManager();
+        driver = driverManager.chromeDriver();
     }
-
+//======================================================================================//
     @BeforeSuite
     public void beforeSuite()
     {

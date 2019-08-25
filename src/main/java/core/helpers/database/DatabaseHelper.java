@@ -11,7 +11,8 @@ public class DatabaseHelper
 {
     private static Logger log = MyLogger.getLogger(DatabaseHelper.class);
     private static String url = "jdbc:mysql://localhost:3306/my_family?serverTimezone=" + TimeZone.getDefault().getID();
-   // private static String url = "jdbc:mysql://localhost/my_family"; // localhost
+
+   // private static String url = "jdbc:mysql://localhost:3306/my_family/"; // localhost
     private static String driverName = "com.mysql.cj.jdbc.Driver";
     private static String userName = "root";
     private static String password = "";
