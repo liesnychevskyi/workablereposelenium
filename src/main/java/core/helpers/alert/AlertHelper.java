@@ -23,7 +23,7 @@ public class AlertHelper
         return driver.switchTo().alert();
     }
     //=============================================================//
-    public void ecceptAlert()
+    public void acceptAlert()
     {
         getAlert().accept();
         log.info("Accept Alert is done..");
@@ -61,7 +61,7 @@ public class AlertHelper
     {
         if(isAlertPresent())
         {
-            ecceptAlert();
+            acceptAlert();
         }
         else
         {

@@ -40,7 +40,7 @@ public class ApplicationDBQuery //Help us to get the data from automation script
         }
         return dataPerson;
     }
-    //======================================================//
+    //==============================================================================//
     public static void main(String[] args) throws SQLException
     {
         ApplicationDBQuery applicationDBQuery = new ApplicationDBQuery();
@@ -53,5 +53,6 @@ public class ApplicationDBQuery //Help us to get the data from automation script
             System.out.println("Person ID is: " + data.getId() + " Last name is: " + data.getLastName()
             + " First name is: " + data.getFirstName() + " Age is: " + data.getAge() + " Phone number is: " + data.getMobileNumber());
         }
+    //-------------------------------------------------------------------------------//
     }
 }

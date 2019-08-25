@@ -1575,3 +1575,17 @@ Driver info: driver.version: ChromeDriver
 08-23-2019 17:47:16 :: [core.helpers.wait.WaitHelper - waitForElement][INFO ] - Element is visible now
 08-23-2019 17:47:21 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
 08-23-2019 17:47:21 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+08-25-2019 09:58:10 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Person Base..
+08-25-2019 09:58:10 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=2
+08-25-2019 09:58:11 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select * from family
+08-25-2019 10:10:22 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Person Base..
+08-25-2019 10:10:22 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=2
+08-25-2019 10:10:22 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select * from family
+08-25-2019 10:12:05 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Person Base..
+08-25-2019 10:12:05 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=2
+08-25-2019 10:12:06 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select * from family
+08-25-2019 10:14:01 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][ERROR] - Failed to create Person Base connection..java.sql.SQLException: No suitable driver found for cj.jdbc:mysql://localhost:3306/my_family?serverTimezone=Asia/Jerusalem
+08-25-2019 10:14:01 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=2
+08-25-2019 10:15:04 :: [core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to Person Base..
+08-25-2019 10:15:04 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=2
+08-25-2019 10:15:04 :: [core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select * from family

@@ -12,7 +12,7 @@ public class DatabaseHelper
     private static Logger log = MyLogger.getLogger(DatabaseHelper.class);
     private static String url = "jdbc:mysql://localhost:3306/my_family?serverTimezone=" + TimeZone.getDefault().getID();
    // private static String url = "jdbc:mysql://localhost/my_family"; // localhost
-    private static String driverName = "com.mysql.jdbc.Driver";
+    private static String driverName = "com.mysql.cj.jdbc.Driver";
     private static String userName = "root";
     private static String password = "";
     private static Connection connection;
@@ -25,12 +25,14 @@ public class DatabaseHelper
     //==============================================================//
         public  void LoadDriver()
         {
-            try {
+            try
+            {
                 // The newInstance() call is a work around for some
                 // broken Java implementations
 
                 Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
-            } catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 // handle the error
             }
