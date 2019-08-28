@@ -1610,3 +1610,15 @@ Driver info: driver.version: ChromeDriver
 08-25-2019 10:39:31 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
 08-25-2019 10:39:31 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
 08-25-2019 10:39:31 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+08-28-2019 08:53:22 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-28-2019 08:53:22 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+08-28-2019 08:53:22 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+08-28-2019 08:53:30 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-28-2019 08:53:30 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+08-28-2019 08:53:30 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+08-28-2019 08:53:43 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+08-28-2019 08:53:44 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+08-28-2019 08:53:44 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+08-28-2019 08:53:52 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+08-28-2019 08:53:53 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+08-28-2019 08:53:53 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
