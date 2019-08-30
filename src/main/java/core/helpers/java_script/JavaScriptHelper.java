@@ -99,5 +99,7 @@ public class JavaScriptHelper
     {
         executeScript("arguments[0].click();", element);
     }
+    //===========================================================//
+
 
 }

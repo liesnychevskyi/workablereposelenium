@@ -58,6 +58,14 @@ public class PropertyReader implements ConfigReader
         return OR.getProperty("applicationUrl");
     }
 
+//    @Override
+//    public String getApplicationUrl()
+//    {
+//        if(System.getProperty("applicationUrl") != null)
+//         System.out.println(OR.getProperty("applicationUrl"));
+//        return System.getProperty("applicationUrl");
+//    }
+
     @Override
     public String getUserName()
     {

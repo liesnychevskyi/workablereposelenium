@@ -3,9 +3,16 @@
 
 <suite name="Suite">
 
-    <test name="Test">
+    <test name="Test_0">
         <classes>
             <class name="core.test_scripts.Test_1"></class>
+            <class name="core.test_scripts.Test_2"></class>
+        </classes>
+    </test>
+
+    <test name="Test_1">
+        <classes>
+            <class name=""></class>
             <class name="core.test_scripts.Test_2"></class>
         </classes>
     </test>

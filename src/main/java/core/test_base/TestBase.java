@@ -5,18 +5,15 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import core.helpers.browser_configurations.*;
 import core.helpers.browser_configurations.config.ObjectReader;
-import core.helpers.browser_configurations.config.PropertyReader;
+import core.helpers.java_script.JavaScriptHelper;
 import core.helpers.logger.MyLogger;
-import core.helpers.resource.ResourceHelper;
 import core.helpers.wait.WaitHelper;
 import core.utlls.ExtentManager;
-import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerOptions;
 import org.testng.ITestResult;
@@ -86,7 +83,7 @@ public class TestBase  // TestNg annotation reporting.html
         if(result.getStatus() == ITestResult.FAILURE)
         {
             test.log(Status.FAIL, result.getThrowable());
-            String imagePath = captureScreenShot(result.getName());
+            String imagePath = captureScreenShot(result.getName(), driver);
             log.info("<<< ******************************************************* >>>");
             test.addScreenCaptureFromPath(imagePath);
 
@@ -94,7 +91,7 @@ public class TestBase  // TestNg annotation reporting.html
         else if(result.getStatus() == ITestResult.SUCCESS)
         {
             test.log(Status.PASS, result.getTestName() + " is pass");
-            String imagePath = captureScreenShot(result.getName());
+            String imagePath = captureScreenShot(result.getName(), driver);
             log.info("<<Adding ScreenShot...>>>");
             test.addScreenCaptureFromPath(imagePath);
         }
@@ -151,9 +148,9 @@ public class TestBase  // TestNg annotation reporting.html
         driver.manage().window().maximize();
     }
     //===============================================================================//
-    public  String captureScreenShot(String fileName)
+    public  String captureScreenShot(String fileName, WebDriver driver)
     {
-        if(driver == null)
+        if(this.driver == null)
         {
             log.info("Driver is null...");
             return null;
@@ -166,7 +163,7 @@ public class TestBase  // TestNg annotation reporting.html
         File destFile = null;
         Calendar calendar = Calendar.getInstance();
         SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
-        File screnshotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        File screnshotFile = ((TakesScreenshot) this.driver).getScreenshotAs(OutputType.FILE);
         try
         {
             destFile = new File(reportDirectory +"/"+fileName +"_"+formater.format(calendar.getTime())+".png");
@@ -187,20 +184,21 @@ public class TestBase  // TestNg annotation reporting.html
 
     }
     //===============================================================================//
-//    public void getNavigationScreen(WebDriver driver)
-//    {
-//        log.info("Capturing UI navigation screen..");
-//        String screen = captureScreenShot("", driver);
-//        try
-//        {
-//            test.addScreencastFromPath(screen);
-//        }
-//            catch(IOException e)
-//    {
-//        e.printStackTrace();
-//    }
-//    }
-
+    public void getNavigationScreen(WebDriver driver)
+    {
+        log.info("Capturing UI navigation screen..");
+        new JavaScriptHelper(driver).zoomInBy60Percentage();
+        String screen = captureScreenShot("", driver);
+        new JavaScriptHelper(driver).zoomInBy100Percentage();
+        try
+        {
+            test.addScreenCaptureFromPath(screen);
+        }
+        catch (IOException e)
+        {
+            e.printStackTrace();
+        }
+    }
     //==================================================================================//
     public static void logExtentReport(String log)
     {
