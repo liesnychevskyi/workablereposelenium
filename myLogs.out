@@ -1634,3 +1634,129 @@ Driver info: driver.version: ChromeDriver
 08-29-2019 11:49:57 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
 08-29-2019 11:49:58 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
 08-29-2019 11:49:58 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+09-02-2019 12:19:30 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+09-02-2019 12:19:30 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_1 Test Started 
+09-02-2019 12:19:30 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_4 Test Started 
+09-02-2019 12:19:30 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_2 Test Started 
+09-02-2019 12:19:30 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_3 Test Started 
+09-02-2019 12:19:53 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - test_2 Test Passed 
+09-02-2019 12:19:55 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - test_4 Test Passed 
+09-02-2019 12:19:57 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - test_1 Test Passed 
+09-02-2019 12:20:06 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - test_3 Test Passed 
+09-02-2019 12:20:06 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+09-02-2019 14:23:37 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+09-02-2019 14:23:37 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_1 Test Started 
+09-02-2019 14:23:37 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_4 Test Started 
+09-02-2019 14:23:37 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_3 Test Started 
+09-02-2019 14:23:49 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - test_3 Test Passed 
+09-02-2019 14:23:55 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - test_4 Test Passed 
+09-02-2019 14:24:01 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - test_1 Test Passed 
+09-02-2019 14:24:01 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+09-02-2019 14:43:07 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+09-02-2019 14:43:07 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_1 Test Started 
+09-02-2019 14:43:07 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_4 Test Started 
+09-02-2019 14:43:07 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_3 Test Started 
+09-02-2019 14:43:07 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - test_4 Test Failed org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:c7b:b41b:abc4:82e5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+09-02-2019 14:43:07 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - test_3 Test Failed org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:c7b:b41b:abc4:82e5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+09-02-2019 14:43:07 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - test_1 Test Failed org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:c7b:b41b:abc4:82e5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+09-02-2019 14:43:07 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+09-02-2019 14:48:40 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+09-02-2019 14:48:40 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_3 Test Started 
+09-02-2019 14:48:40 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_4 Test Started 
+09-02-2019 14:48:40 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_1 Test Started 
+09-02-2019 14:48:41 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - test_1 Test Failed org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:c7b:b41b:abc4:82e5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+09-02-2019 14:48:41 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - test_4 Test Failed org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:c7b:b41b:abc4:82e5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+09-02-2019 14:48:41 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - test_3 Test Failed org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:c7b:b41b:abc4:82e5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+09-02-2019 14:48:41 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+09-02-2019 16:36:34 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+09-02-2019 16:36:35 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_3 Test Started 
+09-02-2019 16:36:35 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_4 Test Started 
+09-02-2019 16:36:35 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_1 Test Started 
+09-02-2019 16:36:35 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - test_1 Test Failed org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:c7b:b41b:abc4:82e5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+09-02-2019 16:36:35 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - test_4 Test Failed org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:c7b:b41b:abc4:82e5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+09-02-2019 16:36:35 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - test_3 Test Failed org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:c7b:b41b:abc4:82e5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+09-02-2019 16:36:35 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+09-02-2019 16:40:22 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+09-02-2019 16:40:22 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_3 Test Started 
+09-02-2019 16:40:22 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_1 Test Started 
+09-02-2019 16:40:22 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_4 Test Started 
+09-02-2019 16:40:23 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - test_1 Test Failed org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:c7b:b41b:abc4:82e5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+09-02-2019 16:40:23 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - test_4 Test Failed org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:c7b:b41b:abc4:82e5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+09-02-2019 16:40:23 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - test_3 Test Failed org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:c7b:b41b:abc4:82e5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+09-02-2019 16:40:23 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+09-02-2019 16:48:59 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+09-02-2019 16:48:59 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_3 Test Started 
+09-02-2019 16:48:59 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_1 Test Started 
+09-02-2019 16:48:59 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_4 Test Started 
+09-02-2019 16:49:00 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - test_3 Test Failed org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:c7b:b41b:abc4:82e5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+09-02-2019 16:49:00 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - test_1 Test Failed org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:c7b:b41b:abc4:82e5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+09-02-2019 16:49:00 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - test_4 Test Failed org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:c7b:b41b:abc4:82e5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+09-02-2019 16:49:00 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+09-02-2019 17:09:59 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+09-02-2019 17:09:59 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_1 Test Started 
+09-02-2019 17:09:59 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_3 Test Started 
+09-02-2019 17:09:59 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_4 Test Started 
+09-02-2019 17:10:07 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - test_4 Test Passed 
+09-02-2019 17:11:05 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - test_3 Test Passed 
+09-02-2019 17:11:09 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - test_1 Test Passed 
+09-02-2019 17:11:09 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+09-02-2019 17:25:47 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+09-02-2019 17:25:47 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_1 Test Started 
+09-02-2019 17:25:47 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_4 Test Started 
+09-02-2019 17:25:47 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_3 Test Started 
+09-02-2019 17:25:52 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - test_1 Test Passed 
+09-02-2019 17:26:02 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - test_4 Test Passed 
+09-02-2019 17:26:09 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - test_3 Test Passed 
+09-02-2019 17:26:09 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+09-02-2019 17:43:08 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+09-02-2019 17:43:08 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_1 Test Started 
+09-02-2019 17:43:14 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - test_1 Test Failed org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:c7b:b41b:abc4:82e5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+09-02-2019 17:43:14 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.

@@ -1,0 +1,29 @@
+version: '3.7'
+
+services:
+  hub:
+   image: selenium/hub:latest
+   ports:
+     - "4444:4444"
+
+  chrome:
+    image: selenium/node-chrome:latest
+    volumes:
+      - /dev/shm:/dev/shm
+    environment:
+      HUB_HOST: hub
+      HUB_PORT: 4444
+    deploy:
+        replicas: 1
+    entrypoint: bash -c 'SE_OPTS="-host $$HOSTNAME" /opt/bin/entry_point.sh'
+
+  firefox:
+    image: selenium/node-firefox:latest
+    volumes:
+      - /dev/shm:/dev/shm
+    environment:
+      HUB_HOST: hub
+      HUB_PORT: 4444
+    deploy:
+        replicas: 1
+    entrypoint: bash -c 'SE_OPTS="-host $$HOSTNAME" /opt/bin/entry_point.sh'
