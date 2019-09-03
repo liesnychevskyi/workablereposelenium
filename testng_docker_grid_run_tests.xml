@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-
-<suite name="DockerSeleniumGridSuite" parallel="classes">
+<suite name="DockerSeleniumGridSuite" parallel="classes"> <!--Tag for parallel testing-->
     <listeners>
-        <!--                <listener class-name="core.helpers.listener.RetryListener"></listener>-->
+        <!--<listener class-name="core.helpers.listener.RetryListener"></listener>-->
         <listener class-name="core.helpers.listener.ExtentListener"></listener>
     </listeners>
-    <test thread-count="5" name="Test_3">
+    <test thread-count="5" name="Test">
         <classes>
+            <class name="core.helpers.docker.SetUp_DockerGrid_macos"></class>
             <class name="core.test_scripts.GridChromeTest_1"/>
 <!--            <class name="core.test_scripts.GridChromeTest_2"/>-->
 <!--            <class name="core.test_scripts.GridChromeTest_3"/>-->
