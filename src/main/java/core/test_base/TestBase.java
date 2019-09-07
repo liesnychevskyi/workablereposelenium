@@ -5,8 +5,10 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import core.helpers.browser_configurations.*;
 import core.helpers.browser_configurations.config.ObjectReader;
+import core.helpers.browser_configurations.config.PropertyReader;
 import core.helpers.java_script.JavaScriptHelper;
 import core.helpers.logger.MyLogger;
+import core.helpers.resource.ResourceHelper;
 import core.helpers.wait.WaitHelper;
 import core.utlls.ExtentManager;
 import org.apache.log4j.Logger;
@@ -37,29 +39,29 @@ public class TestBase  // TestNg annotation reporting.html
     public static File reportDirectory;
 
 //==================================================================================//
-//    @BeforeTest // Original
-//    public void beforeTest() throws Exception
-//    {
-//        ObjectReader.reader = new PropertyReader();
-//        reportDirectory = new File(ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\screenshots\\"));
-//        setUpDriver(ObjectReader.reader.getBrowserType());
-//    }
-
-
-    @BeforeTest // Boni Garsia driver online from Github
+   // @BeforeTest // Original
     public void beforeTest() throws Exception
     {
-        DriverManager driverManager = new DriverManager();
-        driver = driverManager.chromeDriver();
+        ObjectReader.reader = new PropertyReader();
+        reportDirectory = new File(ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\screenshots\\"));
+        setUpDriver(ObjectReader.reader.getBrowserType());
     }
+
+
+//    @BeforeTest // Boni Garsia driver online from Github
+//    public void beforeTest() throws Exception
+//    {
+//        DriverManager driverManager = new DriverManager();
+//        driver = driverManager.chromeDriver();
+//    }
 //======================================================================================//
-    @BeforeSuite
+   // @BeforeSuite
     public void beforeSuite()
     {
         extentReports = ExtentManager.getInstance();
     }
 
-    @BeforeClass
+    //@BeforeClass
     public void beforeClass()
     {
         test = extentReports.createTest(getClass().getSimpleName());
@@ -71,13 +73,13 @@ public class TestBase  // TestNg annotation reporting.html
         shutDown();
     }
 
-    @BeforeMethod
+    //@BeforeMethod
     public void beforeMethod(Method method)
     {
         test.log(Status.INFO, method.getName() + " test started");
     }
     //===============================================================================//
-    @AfterMethod
+    //@AfterMethod
     public void afterMethod(ITestResult result) throws IOException
     {
         if(result.getStatus() == ITestResult.FAILURE)

@@ -53,7 +53,7 @@
 <!--        <maven.test.skip>true</maven.test.skip> -->
 <!--        for skipping are tests just build the build: (mvn package -Dmaven.test.skip=true)     -->
 
-        <selenium.version>3.14.0</selenium.version>
+        <selenium.version>3.141.59</selenium.version>
         <testng.version>6.14.3</testng.version>
         <loger.version>1.2.17</loger.version>
         <apache_poi.version>3.17</apache_poi.version>
@@ -62,6 +62,7 @@
         <maven_compiler_plugin.version>3.8.1</maven_compiler_plugin.version>
         <mysql-connector-java.version>8.0.17</mysql-connector-java.version>
         <webdrivermanager.version>3.6.1</webdrivermanager.version>
+        <selenium-server.version>3.141.59</selenium-server.version>
     </properties>
 
     <dependencies>

@@ -1,0 +1,13 @@
+Start HUB:-
+------------------------------|
+1). In folder with jar selenium-server :
+macbooks-MacBook-Pro:SeleniumServer Stan$ java -jar selenium-server-standalone-3.141.59.jar -role hub
+--------------------------------------------------------------------------------------------------------------------|
+Start NODE:-
+------------------------------|
+2). java -Dwebdriver.chrome.driver=“/Users/Stan/Desktop/chromedriver”  -jar selenium-server-standalone-3.141.59.jar
+    |-----------------------------| |-------------------------------|
+           variable                               path chromedriver
+-role node -hub http://192.168.1.19:4444/grid/register/
+           |-------------------------------------------|
+                         address HUB

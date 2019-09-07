@@ -1760,3 +1760,19 @@ Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.
 System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:c7b:b41b:abc4:82e5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
 Driver info: driver.version: RemoteWebDriver
 09-02-2019 17:43:14 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+09-06-2019 13:14:27 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - chrometest Class Started...
+09-06-2019 13:14:34 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+09-06-2019 13:14:44 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - loginTest Test Failed java.lang.AssertionError: expected [nonCommerce demo store] but found [nopCommerce demo store. Login]
+09-06-2019 13:14:44 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - chrometest Test Finished.
+09-06-2019 13:14:44 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - firefoxtest Class Started...
+09-06-2019 13:14:54 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+09-06-2019 13:15:03 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - loginTest Test Failed java.lang.AssertionError: expected [nonCommerce demo store] but found [nopCommerce demo store. Login]
+09-06-2019 13:15:05 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - firefoxtest Test Finished.
+09-06-2019 13:18:19 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - chrometest Class Started...
+09-06-2019 13:18:26 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+09-06-2019 13:18:35 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - loginTest Test Failed java.lang.AssertionError: expected [nonCommerce demo store] but found [nopCommerce demo store. Login]
+09-06-2019 13:18:35 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - chrometest Test Finished.
+09-06-2019 13:18:35 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - firefoxtest Class Started...
+09-06-2019 13:18:46 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+09-06-2019 13:18:54 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - loginTest Test Failed java.lang.AssertionError: expected [nonCommerce demo store] but found [nopCommerce demo store. Login]
+09-06-2019 13:18:56 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - firefoxtest Test Finished.
