@@ -13,11 +13,15 @@ import core.helpers.wait.WaitHelper;
 import core.utlls.ExtentManager;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerOptions;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.*;
@@ -25,6 +29,7 @@ import org.testng.annotations.*;
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Method;
+import java.net.URL;
 import java.nio.file.Files;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -46,7 +51,23 @@ public class TestBase  // TestNg annotation reporting.html
         reportDirectory = new File(ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\screenshots\\"));
         setUpDriver(ObjectReader.reader.getBrowserType());
     }
+//==================================================//
+    @BeforeClass // Original
+    public void zaleniumDocker() throws Exception
+    {
+      DesiredCapabilities cap = new DesiredCapabilities();
+      cap.setCapability(CapabilityType.BROWSER_NAME, org.openqa.selenium.remote.BrowserType.CHROME);
+      cap.setCapability(CapabilityType.PLATFORM_NAME, Platform.LINUX);
+      URL url = new URL("http://localhost:4444/wd/hub");
+      driver = new RemoteWebDriver(url,cap);
+    }
 
+    @AfterClass
+    public void thearDown()
+    {
+        driver.quit();
+    }
+//=================================================//
 
 //    @BeforeTest // Boni Garsia driver online from Github
 //    public void beforeTest() throws Exception

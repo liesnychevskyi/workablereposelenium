@@ -17,6 +17,8 @@ import java.net.URL;
 
 public class ZaleniumHelper
 {
+    // Befor starting maven xml test, run the zalenium hub docker
+    // https://opensource.zalando.com/zalenium/ - instruction site
     //http://localhost:4444/grid/admin/live - live browser parallel
     //http://localhost:4444/dashboard/      - dashboard for result
     RemoteWebDriver driver;

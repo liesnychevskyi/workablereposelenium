@@ -8,7 +8,7 @@
 </listeners>
     <test name="Test_3">
         <classes>
-            <class name="test_suite.TestScreenShot"></class>
+            <class name="sanity_suite.TestScreenShot"></class>
         </classes>
     </test>
 </suite>

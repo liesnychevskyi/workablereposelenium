@@ -1,0 +1,3 @@
+cd /Users/Stan/IdeaProjects/workablereposelenium
+mvn clean install
+
