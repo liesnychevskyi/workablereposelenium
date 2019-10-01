@@ -3,15 +3,15 @@
 <suite name="DockerSeleniumGridSuite" parallel="classes"> <!--Tag for parallel testing-->
     <listeners>
         <!--<listener class-name="core.helpers.listener.RetryListener"></listener>-->
-        <listener class-name="core.helpers.listener.ExtentListener"></listener>
+        <!--<listener class-name="core.helpers.listener.ExtentListener"></listener>-->
     </listeners>
     <test thread-count="5" name="Test">
         <classes>
-            <class name="core.helpers.docker.SetUp_DockerGrid_macos"></class>
+<!--            <class name="core.helpers.docker.SetUp_DockerGrid_macos"></class>-->
             <class name="core.test_scripts.GridChromeTest_1"/>
-<!--            <class name="core.test_scripts.GridChromeTest_2"/>-->
-<!--            <class name="core.test_scripts.GridChromeTest_3"/>-->
-<!--            <class name="core.test_scripts.DockerFirefoxTest_4"/>-->
+            <class name="core.test_scripts.GridChromeTest_2"/>
+            <class name="core.test_scripts.GridChromeTest_3"/>
+            <class name="core.test_scripts.DockerFirefoxTest_4"/>
         </classes>
     </test>
 </suite>

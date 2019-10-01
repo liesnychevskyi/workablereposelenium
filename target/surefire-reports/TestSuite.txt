@@ -1,4 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 56.894 s - in TestSuite
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 1.209 s <<< FAILURE! - in TestSuite
+setUp(core.helpers.zalenium.ZaleniumHelper)  Time elapsed: 1.026 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:1c22:cbae:f51f:252d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+	at core.helpers.zalenium.ZaleniumHelper.setUp(ZaleniumHelper.java:50)
+Caused by: java.net.ConnectException: Failed to connect to localhost/fe80:0:0:0:0:0:0:1%1:4444
+	at core.helpers.zalenium.ZaleniumHelper.setUp(ZaleniumHelper.java:50)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at core.helpers.zalenium.ZaleniumHelper.setUp(ZaleniumHelper.java:50)
+
+setUp(core.helpers.zalenium.ZaleniumHelper)  Time elapsed: 1.087 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:1c22:cbae:f51f:252d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+	at core.helpers.zalenium.ZaleniumHelper.setUp(ZaleniumHelper.java:50)
+Caused by: java.net.ConnectException: Failed to connect to localhost/fe80:0:0:0:0:0:0:1%1:4444
+	at core.helpers.zalenium.ZaleniumHelper.setUp(ZaleniumHelper.java:50)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at core.helpers.zalenium.ZaleniumHelper.setUp(ZaleniumHelper.java:50)
+

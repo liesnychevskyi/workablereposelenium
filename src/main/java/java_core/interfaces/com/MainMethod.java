@@ -7,6 +7,10 @@ public class MainMethod
 	{
 		//Man man = new Man(); // we cannot to build instance of ABSRACT class
 		Man man_1 = new Man_XXX();
+		System.out.println(man_1.getAge());
+		{
+			return ;
+		}
 
 	}
 

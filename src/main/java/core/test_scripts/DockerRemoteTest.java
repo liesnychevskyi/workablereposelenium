@@ -22,7 +22,6 @@ public class DockerRemoteTest
         String title = driver.getTitle();
         System.out.printf("Title of the page is: " + title);
         driver.quit();
-
     }
 
     @Test

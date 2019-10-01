@@ -1776,3 +1776,15 @@ Driver info: driver.version: RemoteWebDriver
 09-06-2019 13:18:46 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
 09-06-2019 13:18:54 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - loginTest Test Failed java.lang.AssertionError: expected [nonCommerce demo store] but found [nopCommerce demo store. Login]
 09-06-2019 13:18:56 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - firefoxtest Test Finished.
+09-10-2019 13:58:05 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test Class Started...
+09-10-2019 13:58:20 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - test_1 Test Started 
+09-10-2019 18:59:26 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+09-10-2019 18:59:49 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+09-10-2019 19:41:37 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+09-10-2019 19:41:53 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+09-10-2019 19:43:04 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+09-10-2019 19:43:59 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+09-10-2019 20:15:33 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+09-10-2019 20:16:01 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+09-10-2019 20:19:36 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+09-10-2019 20:21:06 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..

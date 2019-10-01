@@ -12,8 +12,8 @@ import java.io.File;
 
 public class Test_1 extends TestBase
 {
-    private Logger log = MyLogger.getLogger(Test_1.class);
-    public static File reportDirectory = new File(ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\screenshots"));
+    //private Logger log = MyLogger.getLogger(Test_1.class);
+    //public static File reportDirectory = new File(ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\screenshots"));
 
     @Test
     public void goToGoogle() throws InterruptedException
@@ -51,7 +51,7 @@ public class Test_1 extends TestBase
         AssertionHelper.makeTrue();
     }
 
-    @AfterTest
+   // @AfterTest
     public void tearDown()
     {
         driver.quit();

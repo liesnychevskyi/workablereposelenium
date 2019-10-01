@@ -9,10 +9,11 @@ import java.net.URL;
 
 public class DockerFirefoxTest_4
 {
+    //https://github.com/SeleniumHQ/docker-selenium
     @Test
     public void test_4() throws MalformedURLException
     {
-        DesiredCapabilities cap = DesiredCapabilities.chrome();
+        DesiredCapabilities cap = DesiredCapabilities.firefox();
         URL url = new URL("http://localhost:4444/wd/hub");
         RemoteWebDriver driver = new RemoteWebDriver(url, cap);
         //----------------------------------------------------//

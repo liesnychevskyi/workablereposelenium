@@ -43,38 +43,38 @@ public class TestBase  // TestNg annotation reporting.html
     public WebDriver driver;
     public static File reportDirectory;
 
-//==================================================================================//
-   // @BeforeTest // Original
-    public void beforeTest() throws Exception
-    {
-        ObjectReader.reader = new PropertyReader();
-        reportDirectory = new File(ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\screenshots\\"));
-        setUpDriver(ObjectReader.reader.getBrowserType());
-    }
 //==================================================//
-    @BeforeClass // Original
-    public void zaleniumDocker() throws Exception
-    {
-      DesiredCapabilities cap = new DesiredCapabilities();
-      cap.setCapability(CapabilityType.BROWSER_NAME, org.openqa.selenium.remote.BrowserType.CHROME);
-      cap.setCapability(CapabilityType.PLATFORM_NAME, Platform.LINUX);
-      URL url = new URL("http://localhost:4444/wd/hub");
-      driver = new RemoteWebDriver(url,cap);
-    }
-
-    @AfterClass
-    public void thearDown()
+//   // @BeforeTest // Original
+//    public void beforeTest() throws Exception
+//    {
+//        ObjectReader.reader = new PropertyReader();
+//        reportDirectory = new File(ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\screenshots\\"));
+//        setUpDriver(ObjectReader.reader.getBrowserType());
+//    }
+//==================================================//
+//    @BeforeClass // Original
+//    public void zaleniumDocker() throws Exception
+//    {
+//      DesiredCapabilities cap = new DesiredCapabilities();
+//      cap.setCapability(CapabilityType.BROWSER_NAME, org.openqa.selenium.remote.BrowserType.CHROME);
+//      cap.setCapability(CapabilityType.PLATFORM_NAME, Platform.LINUX);
+//      URL url = new URL("http://localhost:4444/wd/hub");
+//      driver = new RemoteWebDriver(url,cap);
+//    }
+//
+    //@AfterClass
+    public void tearDown()
     {
         driver.quit();
     }
 //=================================================//
 
-//    @BeforeTest // Boni Garsia driver online from Github
-//    public void beforeTest() throws Exception
-//    {
-//        DriverManager driverManager = new DriverManager();
-//        driver = driverManager.chromeDriver();
-//    }
+    //@BeforeClass // Boni Garsia driver online from Github
+    public void boniGarsia() throws Exception
+    {
+        DriverManager driverManager = new DriverManager();
+        driver = driverManager.chromeDriver();
+    }
 //======================================================================================//
    // @BeforeSuite
     public void beforeSuite()

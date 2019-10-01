@@ -16,5 +16,12 @@
             <class name="core.helpers.zalenium.ZaleniumHelper"></class>
         </classes>
     </test>
+
+<!--    <test thread-count="5" name="safaritest">-->
+<!--        <parameter name="browser" value="safari"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="core.helpers.zalenium.ZaleniumHelper"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
 </suite>
    

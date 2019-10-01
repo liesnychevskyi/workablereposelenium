@@ -2,7 +2,9 @@ package java_core.static_keyworld;
 
 public class Hello 
 {
-	public static String DoSomething(String message)
+	static int age;
+
+	public static String DoSomethingStatic(String message)
 	{
 		return message;
 	}
