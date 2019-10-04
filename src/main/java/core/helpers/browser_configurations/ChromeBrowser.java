@@ -34,7 +34,7 @@ public class ChromeBrowser
     {
         if(System.getProperty("os.name").contains("Mac"))
         {
-            System.setProperty("webdriver.chrome.driver", ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\drivers\\chromedriver"));
+            System.setProperty("webdriver.chrome.driver", ResourceHelper.getRecoursePath("/src/main/java/core/drivers/chromedriver"));
             return new ChromeDriver(cap);
         }
 //=======================================================================================================//

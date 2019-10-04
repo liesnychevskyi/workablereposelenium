@@ -24,7 +24,7 @@ public class Test_2 extends TestBase
     {
         driver.get("http://facebook.com");
         Thread.sleep(5000);
-        AssertionHelper.makeFalse();
+        AssertionHelper.makeTrue("We are on the Facebook page");
     }
 
     @Test
@@ -32,7 +32,7 @@ public class Test_2 extends TestBase
     {
         driver.get("http://yahoo.com");
         Thread.sleep(5000);
-        AssertionHelper.makeFalse();
+        AssertionHelper.makeTrue();
     }
 
     @Test
@@ -43,9 +43,4 @@ public class Test_2 extends TestBase
         AssertionHelper.makeTrue();
     }
 
-    @AfterTest
-    public void tearDown()
-    {
-        driver.quit();
-    }
 }

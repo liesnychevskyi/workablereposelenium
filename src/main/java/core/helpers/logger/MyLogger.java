@@ -15,7 +15,8 @@ public class MyLogger
         {
             return Logger.getLogger(cls);
         }
-        PropertyConfigurator.configure(ResourceHelper.getRecoursePath("\\src\\main\\resources\\log4j.properties"));
+       //For Windows //PropertyConfigurator.configure(ResourceHelper.getRecoursePath("\\src\\main\\resources\\log4j.properties"));
+        PropertyConfigurator.configure(ResourceHelper.getRecoursePath("/src/main/resources/log4j.properties"));
         root = true;
         return Logger.getLogger(cls);
     }

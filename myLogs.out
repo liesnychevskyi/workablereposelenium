@@ -1788,3 +1788,238 @@ Driver info: driver.version: RemoteWebDriver
 09-10-2019 20:16:01 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
 09-10-2019 20:19:36 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
 09-10-2019 20:21:06 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-02-2019 09:37:29 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_3 Class Started...
+10-02-2019 09:37:36 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+10-02-2019 09:37:37 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-02-2019 09:37:37 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+10-02-2019 09:37:37 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_3 Test Finished.
+10-02-2019 09:46:06 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-02-2019 09:46:13 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-02-2019 09:46:29 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-02-2019 09:46:36 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-02-2019 09:46:46 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-02-2019 09:46:53 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-02-2019 09:47:04 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-02-2019 09:47:11 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-02-2019 09:47:21 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-02-2019 09:47:28 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-02-2019 09:47:40 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-02-2019 09:47:47 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-02-2019 09:47:57 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-02-2019 09:48:04 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-02-2019 09:48:14 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-02-2019 09:48:22 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-04-2019 08:08:44 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-04-2019 08:08:44 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+10-04-2019 08:20:37 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-04-2019 08:20:37 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+10-04-2019 08:25:50 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-04-2019 08:25:50 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+10-04-2019 08:34:35 :: [core.test_base.TestBase - getBrowserObject][INFO ] - The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+10-04-2019 08:36:16 :: [core.test_base.TestBase - getBrowserObject][INFO ] - The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+10-04-2019 08:40:48 :: [core.test_base.TestBase - getBrowserObject][INFO ] - The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+10-04-2019 08:42:38 :: [core.test_base.TestBase - getBrowserObject][INFO ] - The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+10-04-2019 08:43:51 :: [core.test_base.TestBase - getBrowserObject][INFO ] - The driver executable does not exist: /Users/Stan/IdeaProjects/workablereposelenium/src/main/java/core/drivers/geckodriver
+10-04-2019 08:44:35 :: [core.test_base.TestBase - getBrowserObject][INFO ] - The driver is not executable: /Users/Stan/IdeaProjects/workablereposelenium/src/main/java/core/drivers/geckodriver
+10-04-2019 08:50:16 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 925973605
+10-04-2019 08:50:16 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+10-04-2019 08:50:16 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+10-04-2019 08:50:16 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+10-04-2019 08:50:18 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-04-2019 08:50:18 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-04-2019 08:50:18 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+10-04-2019 08:52:41 :: [core.test_base.TestBase - getBrowserObject][INFO ] - The driver executable does not exist: /Users/Stan/IdeaProjects/workablereposelenium\src\main\java\core\drivers\chromedriver
+10-04-2019 08:54:06 :: [core.test_base.TestBase - getBrowserObject][INFO ] - session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:87f:44d2:25d9:427a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010f1f2309 chromedriver + 3748617
+1   chromedriver                        0x000000010f186943 chromedriver + 3307843
+2   chromedriver                        0x000000010ef1644f chromedriver + 750671
+3   chromedriver                        0x000000010ee77c5b chromedriver + 101467
+4   chromedriver                        0x000000010ee73d51 chromedriver + 85329
+5   chromedriver                        0x000000010eea2217 chromedriver + 274967
+6   chromedriver                        0x000000010ee9f3e3 chromedriver + 263139
+7   chromedriver                        0x000000010ee79d8d chromedriver + 109965
+8   chromedriver                        0x000000010ee7ad25 chromedriver + 113957
+9   chromedriver                        0x000000010f1b53ef chromedriver + 3498991
+10  chromedriver                        0x000000010f1c1fed chromedriver + 3551213
+11  chromedriver                        0x000000010f1c1d78 chromedriver + 3550584
+12  chromedriver                        0x000000010f194499 chromedriver + 3363993
+13  chromedriver                        0x000000010f1c2848 chromedriver + 3553352
+14  chromedriver                        0x000000010f1a8ea7 chromedriver + 3448487
+15  chromedriver                        0x000000010f1d8404 chromedriver + 3642372
+16  chromedriver                        0x000000010f1f80f7 chromedriver + 3772663
+17  libsystem_pthread.dylib             0x00007fff6a6612eb _pthread_body + 126
+18  libsystem_pthread.dylib             0x00007fff6a664249 _pthread_start + 66
+19  libsystem_pthread.dylib             0x00007fff6a66040d thread_start + 13
+
+10-04-2019 08:56:23 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 201719260
+10-04-2019 08:56:23 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+10-04-2019 08:56:23 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+10-04-2019 08:56:23 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+10-04-2019 08:56:24 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-04-2019 08:56:25 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-04-2019 08:56:25 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+10-04-2019 09:23:22 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_0 Class Started...
+10-04-2019 09:23:24 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 884860061
+10-04-2019 09:23:24 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+10-04-2019 09:23:24 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+10-04-2019 09:23:24 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+10-04-2019 09:23:24 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToFacebook Test Started 
+10-04-2019 09:23:34 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-04-2019 09:23:34 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToFacebook with status FAILURE for the 1 times.
+10-04-2019 09:23:34 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToFacebook Test Skipped java.lang.AssertionError: expected [true] but found [false]
+10-04-2019 09:23:34 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-04-2019 09:23:35 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToFacebook Test Started 
+10-04-2019 09:23:41 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-04-2019 09:23:41 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToFacebook with status FAILURE for the 2 times.
+10-04-2019 09:23:41 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToFacebook Test Skipped java.lang.AssertionError: expected [true] but found [false]
+10-04-2019 09:23:41 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-04-2019 09:23:41 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToFacebook Test Started 
+10-04-2019 09:23:47 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-04-2019 09:23:47 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToFacebook with status FAILURE for the 3 times.
+10-04-2019 09:23:47 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToFacebook Test Skipped java.lang.AssertionError: expected [true] but found [false]
+10-04-2019 09:23:47 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-04-2019 09:23:47 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToFacebook Test Started 
+10-04-2019 09:23:53 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-04-2019 09:23:54 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToFacebook Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-04-2019 09:23:54 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-04-2019 09:23:54 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+10-04-2019 09:23:54 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToGoogle Test Started 
+10-04-2019 09:24:01 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-04-2019 09:24:01 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToGoogle Test Passed 
+10-04-2019 09:24:02 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-04-2019 09:24:02 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+10-04-2019 09:24:02 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYahoo Test Started 
+10-04-2019 09:24:34 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-04-2019 09:24:34 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToYahoo with status FAILURE for the 1 times.
+10-04-2019 09:24:34 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToYahoo Test Skipped java.lang.AssertionError: expected [true] but found [false]
+10-04-2019 09:24:34 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-04-2019 09:24:34 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYahoo Test Started 
+10-04-2019 09:24:42 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-04-2019 09:24:42 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToYahoo with status FAILURE for the 2 times.
+10-04-2019 09:24:42 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToYahoo Test Skipped java.lang.AssertionError: expected [true] but found [false]
+10-04-2019 09:24:42 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-04-2019 09:24:42 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYahoo Test Started 
+10-04-2019 09:24:50 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-04-2019 09:24:50 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToYahoo with status FAILURE for the 3 times.
+10-04-2019 09:24:50 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToYahoo Test Skipped java.lang.AssertionError: expected [true] but found [false]
+10-04-2019 09:24:50 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-04-2019 09:24:50 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYahoo Test Started 
+10-04-2019 09:25:56 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-04-2019 09:25:56 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToYahoo Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-04-2019 09:25:58 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-04-2019 09:25:58 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+10-04-2019 09:25:58 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYouTube Test Started 
+10-04-2019 09:26:06 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-04-2019 09:26:06 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToYouTube Test Passed 
+10-04-2019 09:26:07 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-04-2019 09:26:07 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+10-04-2019 09:26:07 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToFacebook Test Started 
+10-04-2019 09:26:07 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToFacebook with status FAILURE for the 1 times.
+10-04-2019 09:26:07 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToFacebook Test Skipped java.lang.NullPointerException
+10-04-2019 09:26:07 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToFacebook Test Started 
+10-04-2019 09:26:08 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToFacebook with status FAILURE for the 2 times.
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToFacebook Test Skipped java.lang.NullPointerException
+10-04-2019 09:26:08 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToFacebook Test Started 
+10-04-2019 09:26:08 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToFacebook with status FAILURE for the 3 times.
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToFacebook Test Skipped java.lang.NullPointerException
+10-04-2019 09:26:08 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToFacebook Test Started 
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToFacebook Test Failed java.lang.NullPointerException
+10-04-2019 09:26:08 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-04-2019 09:26:08 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToGoogle Test Started 
+10-04-2019 09:26:08 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToGoogle with status FAILURE for the 1 times.
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToGoogle Test Skipped java.lang.NullPointerException
+10-04-2019 09:26:08 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToGoogle Test Started 
+10-04-2019 09:26:08 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToGoogle with status FAILURE for the 2 times.
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToGoogle Test Skipped java.lang.NullPointerException
+10-04-2019 09:26:08 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToGoogle Test Started 
+10-04-2019 09:26:08 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToGoogle with status FAILURE for the 3 times.
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToGoogle Test Skipped java.lang.NullPointerException
+10-04-2019 09:26:08 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToGoogle Test Started 
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToGoogle Test Failed java.lang.NullPointerException
+10-04-2019 09:26:08 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-04-2019 09:26:08 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYahoo Test Started 
+10-04-2019 09:26:08 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToYahoo with status FAILURE for the 1 times.
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToYahoo Test Skipped java.lang.NullPointerException
+10-04-2019 09:26:08 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYahoo Test Started 
+10-04-2019 09:26:08 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToYahoo with status FAILURE for the 2 times.
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToYahoo Test Skipped java.lang.NullPointerException
+10-04-2019 09:26:08 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYahoo Test Started 
+10-04-2019 09:26:08 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToYahoo with status FAILURE for the 3 times.
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToYahoo Test Skipped java.lang.NullPointerException
+10-04-2019 09:26:08 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYahoo Test Started 
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToYahoo Test Failed java.lang.NullPointerException
+10-04-2019 09:26:08 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-04-2019 09:26:08 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYouTube Test Started 
+10-04-2019 09:26:08 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToYouTube with status FAILURE for the 1 times.
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToYouTube Test Skipped java.lang.NullPointerException
+10-04-2019 09:26:08 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYouTube Test Started 
+10-04-2019 09:26:08 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToYouTube with status FAILURE for the 2 times.
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToYouTube Test Skipped java.lang.NullPointerException
+10-04-2019 09:26:08 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYouTube Test Started 
+10-04-2019 09:26:08 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToYouTube with status FAILURE for the 3 times.
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToYouTube Test Skipped java.lang.NullPointerException
+10-04-2019 09:26:08 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYouTube Test Started 
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToYouTube Test Failed java.lang.NullPointerException
+10-04-2019 09:26:08 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-04-2019 09:26:08 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_0 Test Finished.
+10-04-2019 09:26:08 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_1 Class Started...
+10-04-2019 09:26:10 :: [core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver: 567852222
+10-04-2019 09:26:10 :: [core.helpers.wait.WaitHelper - setImpicitWait][INFO ] - Implicit Wait has been set to: 120
+10-04-2019 09:26:10 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Waiting for page to load for : SECONDS seconds
+10-04-2019 09:26:10 :: [core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded
+10-04-2019 09:26:10 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToFacebook Test Started 
+10-04-2019 09:26:19 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-04-2019 09:26:19 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToFacebook Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-04-2019 09:26:19 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-04-2019 09:26:19 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+10-04-2019 09:26:19 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToGoogle Test Started 
+10-04-2019 09:26:25 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-04-2019 09:26:25 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToGoogle Test Passed 
+10-04-2019 09:26:26 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-04-2019 09:26:26 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+10-04-2019 09:26:26 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYahoo Test Started 
+10-04-2019 09:26:41 :: [core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-04-2019 09:26:41 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToYahoo Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-04-2019 09:26:42 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-04-2019 09:26:42 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+10-04-2019 09:26:42 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYouTube Test Started 
+10-04-2019 09:26:50 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-04-2019 09:26:50 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToYouTube Test Passed 
+10-04-2019 09:26:51 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-04-2019 09:26:51 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+10-04-2019 09:26:52 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToFacebook Test Started 
+10-04-2019 09:26:52 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToFacebook Test Failed java.lang.NullPointerException
+10-04-2019 09:26:52 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-04-2019 09:26:52 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+10-04-2019 09:26:52 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToGoogle Test Started 
+10-04-2019 09:26:52 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToGoogle Test Failed java.lang.NullPointerException
+10-04-2019 09:26:52 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-04-2019 09:26:52 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+10-04-2019 09:26:52 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYahoo Test Started 
+10-04-2019 09:26:52 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToYahoo Test Failed java.lang.NullPointerException
+10-04-2019 09:26:52 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-04-2019 09:26:52 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+10-04-2019 09:26:52 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYouTube Test Started 
+10-04-2019 09:26:52 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToYouTube Test Failed java.lang.NullPointerException
+10-04-2019 09:26:52 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-04-2019 09:26:52 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< ******************************************************* >>>
+10-04-2019 09:26:52 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_1 Test Finished.

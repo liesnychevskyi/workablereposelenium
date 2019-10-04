@@ -6,6 +6,12 @@ public class Man_XXX  implements Man
 	{
 		return 40;
 	}
+
+	@Override
+	public String name()
+	{
+		return null;
+	}
 }
 
 /// class - class extend

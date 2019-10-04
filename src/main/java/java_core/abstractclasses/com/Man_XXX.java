@@ -8,4 +8,14 @@ public class Man_XXX  extends Man
 	{
 		return 40;
 	}
+
+	@Override
+	int getName() {
+		return 0;
+	}
+
+	@Override
+	int getGender() {
+		return 0;
+	}
 }

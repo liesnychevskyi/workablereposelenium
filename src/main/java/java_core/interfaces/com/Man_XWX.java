@@ -7,4 +7,10 @@ public class Man_XWX implements Man
 	{
 		return 30;
 	}
+
+	@Override
+	public String name()
+	{
+		return null;
+	}
 }

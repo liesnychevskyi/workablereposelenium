@@ -5,4 +5,5 @@ package java_core.interfaces.com;
  // interface class can be implemented
 {
 	 int getAge();
+	 String name();
 }

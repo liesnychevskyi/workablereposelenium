@@ -15,8 +15,7 @@ public class PropertyReader implements ConfigReader
     {
 //============================================================================//
  //path for windows//String filePath = ResourceHelper.getRecoursePath("\\src\\main\\resources\\config.properties");
-        String filePath = ResourceHelper.getRecoursePath("/Users/Stan/IdeaProjects/workablereposelenium/src/main/resources/config.properties");
-
+        String filePath = ResourceHelper.getRecoursePath("/src/main/resources/config.properties");
         try
         {
             file = new FileInputStream(new File(filePath));

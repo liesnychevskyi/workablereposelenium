@@ -7,6 +7,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.opera.OperaDriver;
+import org.openqa.selenium.safari.SafariDriver;
 
 public class DriverManager
 {
@@ -53,6 +54,13 @@ public class DriverManager
         driver = new OperaDriver();
         return driver;
     }
+     //-------------------------------------------------------------------------||safari
+     public WebDriver safariDriver()
+     {
+          WebDriverManager.chromedriver().setup();
+          driver = new SafariDriver();
+          return driver;
+     }
     //-------------------------------------------------------------------------||tearDown
     public void shutDown()
     {

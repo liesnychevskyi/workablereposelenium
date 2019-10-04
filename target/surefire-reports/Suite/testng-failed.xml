@@ -1,28 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="classes">
-  <test thread-count="5" verbose="0" name="chrometest(failed)" parallel="classes">
-    <parameter name="browser" value="chrome"/>
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="core.helpers.listener.RetryListener"/>
+    <listener class-name="core.helpers.listener.ExtentListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Test_0(failed)">
     <classes>
-      <class name="core.helpers.zalenium.ZaleniumHelper">
+      <class name="core.test_scripts.Test_1">
         <methods>
-          <include name="loginTest"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="goToYahoo"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="goToFacebook"/>
         </methods>
-      </class> <!-- core.helpers.zalenium.ZaleniumHelper -->
+      </class> <!-- core.test_scripts.Test_1 -->
+      <class name="core.test_scripts.Test_2">
+        <methods>
+          <include name="afterClass"/>
+          <include name="goToYouTube"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="goToGoogle"/>
+          <include name="goToYahoo"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="goToFacebook"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- core.test_scripts.Test_2 -->
     </classes>
-  </test> <!-- chrometest(failed) -->
-  <test thread-count="5" verbose="0" name="firefoxtest(failed)" parallel="classes">
-    <parameter name="browser" value="firefox"/>
+  </test> <!-- Test_0(failed) -->
+  <test thread-count="5" verbose="0" name="Test_1(failed)">
     <classes>
-      <class name="core.helpers.zalenium.ZaleniumHelper">
+      <class name="core.test_scripts.Test_1">
         <methods>
-          <include name="loginTest"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="goToYahoo"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="goToFacebook"/>
         </methods>
-      </class> <!-- core.helpers.zalenium.ZaleniumHelper -->
+      </class> <!-- core.test_scripts.Test_1 -->
+      <class name="core.test_scripts.Test_2">
+        <methods>
+          <include name="afterClass"/>
+          <include name="goToYouTube"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="goToGoogle"/>
+          <include name="goToYahoo"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="goToFacebook"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- core.test_scripts.Test_2 -->
     </classes>
-  </test> <!-- firefoxtest(failed) -->
+  </test> <!-- Test_1(failed) -->
 </suite> <!-- Failed suite [Suite] -->

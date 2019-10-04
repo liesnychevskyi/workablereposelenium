@@ -25,8 +25,8 @@ public class ZaleniumHelper
     RemoteWebDriver driver;
     DesiredCapabilities cap;
 
-    @BeforeTest
-    @Parameters("browser")
+    //@BeforeTest
+    //@Parameters("browser")
     public void setUp(String br) throws MalformedURLException
     {
         cap = new DesiredCapabilities();
@@ -65,7 +65,7 @@ public class ZaleniumHelper
         Assert.assertEquals(driver.getTitle(), "Google");
     }
 
-    @AfterTest
+    //@AfterTest
     public void tearDown()
     {
         driver.quit();

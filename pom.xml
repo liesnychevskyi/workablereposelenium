@@ -25,7 +25,9 @@
                 <version>3.0.0-M3</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFiles>zaleniumtest.xml</suiteXmlFiles>
+<!--                        <suiteXmlFiles>.testngSingle.xml</suiteXmlFiles>-->
+                        <suiteXmlFiles>testngSuite.xml</suiteXmlFiles>
+<!--                        <suiteXmlFiles>zaleniumtest.xml</suiteXmlFiles>-->
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

@@ -44,13 +44,13 @@ public class TestBase  // TestNg annotation reporting.html
     public static File reportDirectory;
 
 //==================================================//
-//   // @BeforeTest // Original
-//    public void beforeTest() throws Exception
-//    {
-//        ObjectReader.reader = new PropertyReader();
-//        reportDirectory = new File(ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\screenshots\\"));
-//        setUpDriver(ObjectReader.reader.getBrowserType());
-//    }
+    @BeforeTest // Original
+    public void beforeTest() throws Exception
+    {
+        ObjectReader.reader = new PropertyReader();
+        reportDirectory = new File(ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\screenshots\\"));
+        setUpDriver(ObjectReader.reader.getBrowserType());
+    }
 //==================================================//
 //    @BeforeClass // Original
 //    public void zaleniumDocker() throws Exception
@@ -62,45 +62,46 @@ public class TestBase  // TestNg annotation reporting.html
 //      driver = new RemoteWebDriver(url,cap);
 //    }
 //
-    //@AfterClass
+    @AfterClass
     public void tearDown()
     {
         driver.quit();
     }
 //=================================================//
 
-    //@BeforeClass // Boni Garsia driver online from Github
-    public void boniGarsia() throws Exception
-    {
-        DriverManager driverManager = new DriverManager();
-        driver = driverManager.chromeDriver();
-    }
+//    @BeforeClass // Boni Garsia driver online from Github
+//    @Parameters("browser")
+//    public void boniGarsia() throws Exception
+//    {
+//        DriverManager driverManager = new DriverManager();
+//        driver = driverManager.chromeDriver();
+//    }
 //======================================================================================//
-   // @BeforeSuite
+    @BeforeSuite
     public void beforeSuite()
     {
         extentReports = ExtentManager.getInstance();
     }
 
-    //@BeforeClass
+    @BeforeClass
     public void beforeClass()
     {
         test = extentReports.createTest(getClass().getSimpleName());
     }
 
-   // @AfterClass
+    @AfterClass
     public void afterClass()
     {
         shutDown();
     }
 
-    //@BeforeMethod
+    @BeforeMethod
     public void beforeMethod(Method method)
     {
         test.log(Status.INFO, method.getName() + " test started");
     }
     //===============================================================================//
-    //@AfterMethod
+    @AfterMethod
     public void afterMethod(ITestResult result) throws IOException
     {
         if(result.getStatus() == ITestResult.FAILURE)
@@ -186,14 +187,14 @@ public class TestBase  // TestNg annotation reporting.html
         File destFile = null;
         Calendar calendar = Calendar.getInstance();
         SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
-        File screnshotFile = ((TakesScreenshot) this.driver).getScreenshotAs(OutputType.FILE);
+        File screenshotFile = ((TakesScreenshot) this.driver).getScreenshotAs(OutputType.FILE);
         try
         {
             destFile = new File(reportDirectory +"/"+fileName +"_"+formater.format(calendar.getTime())+".png");
             //destFile = new File("C:\\Users\\liesn\\IdeaProjects\\demoStructure\\src\\main\\java\\core\\screenshots\\"+driver.getTitle()+".png");
             log.info("Taking a pass <<<<<<<<<===============>>>>>>>>>>>");
             System.out.println(destFile);
-            Files.copy(screnshotFile.toPath(), destFile.toPath());
+            Files.copy(screenshotFile.toPath(), destFile.toPath());
            // FileUtils.copyFile(screnshotFile, destFile);
             Reporter.log("<a href='" + destFile.getAbsolutePath() + "'><img src='" + destFile.getAbsolutePath() + "' height='100' width='100'/></a>");
            // Reporter.log("<br><img src='"+destFile+"' height='400' width='400'/><br>");

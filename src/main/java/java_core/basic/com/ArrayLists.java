@@ -19,21 +19,21 @@ public class ArrayLists
 		for (Integer x : mylist)
 			System.out.println(x);
 		
-		System.out.println("size of Arrry List : " + mylist.size());
+		System.out.println("size of Array List : " + mylist.size());
 		
 		mylist.remove(4);
 		
 		for (Integer x : mylist)
 			System.out.println(x);
 		
-		System.out.println("size of Arrry List : " + mylist.size());
+		System.out.println("size of Array List : " + mylist.size());
 		
 		System.out.println("Hash code is : " + mylist.hashCode());
 		
 		for (Integer x : mylist)
 			System.out.println(x);
 		
-		System.out.println("size of Arrry List : " + mylist.size());
+		System.out.println("size of Array List : " + mylist.size());
 		
 
 	}

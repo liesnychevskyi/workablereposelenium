@@ -7,4 +7,16 @@ public class Man_XWX extends Man
 	{
 		return 30;
 	}
+
+	@Override
+	int getName()
+	{
+		return 0;
+	}
+
+	@Override
+	int getGender()
+	{
+		return 0;
+	}
 }

@@ -3,9 +3,9 @@
 
 <suite name="Regression Suite">
     <listeners>
-<!--                <listener class-name="core.helpers.listener.RetryListener"></listener>-->
+        <listener class-name="core.helpers.listener.RetryListener"></listener>
         <listener class-name="core.helpers.listener.ExtentListener"></listener>
-</listeners>
+    </listeners>
     <test name="Test_3">
         <classes>
             <class name="sanity_suite.TestScreenShot"></class>
