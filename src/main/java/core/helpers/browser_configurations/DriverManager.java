@@ -12,6 +12,7 @@ import org.openqa.selenium.safari.SafariDriver;
 public class DriverManager
 {
     private WebDriver driver;
+
     public WebDriver chromeDriver()
     {
         try

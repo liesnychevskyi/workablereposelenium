@@ -5,7 +5,4 @@ public enum BrowserType
     Firefox,
     IExplorer,
     Chrome,
-    Safari
-
-
 }

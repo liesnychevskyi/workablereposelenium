@@ -21,7 +21,7 @@ public class IExplorerBrowser
         return internetExplorerOptions;
     }
     //=================================================================================//
-    public WebDriver getIternetExplorerDriver(InternetExplorerOptions cap)
+    public WebDriver getInternetExplorerDriver(InternetExplorerOptions cap)
     {
          System.setProperty("webdriver.chrome.driver", ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\drivers\\IEDriverServer"));
          return new InternetExplorerDriver(cap);

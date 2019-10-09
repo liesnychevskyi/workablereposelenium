@@ -26,8 +26,8 @@
                 <configuration>
                     <suiteXmlFiles>
 <!--                        <suiteXmlFiles>.testngSingle.xml</suiteXmlFiles>-->
-                        <suiteXmlFiles>testngSuite.xml</suiteXmlFiles>
-<!--                        <suiteXmlFiles>zaleniumtest.xml</suiteXmlFiles>-->
+<!--                        <suiteXmlFiles>testngSuite.xml</suiteXmlFiles>-->
+                        <suiteXmlFiles>zaleniumtest.xml</suiteXmlFiles>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

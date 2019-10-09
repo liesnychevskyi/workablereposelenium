@@ -6,10 +6,12 @@ import com.aventstack.extentreports.Status;
 import core.helpers.browser_configurations.*;
 import core.helpers.browser_configurations.config.ObjectReader;
 import core.helpers.browser_configurations.config.PropertyReader;
+import core.helpers.browser_configurations.config.ZaleniumParallel;
 import core.helpers.java_script.JavaScriptHelper;
 import core.helpers.logger.MyLogger;
 import core.helpers.resource.ResourceHelper;
 import core.helpers.wait.WaitHelper;
+import core.helpers.zalenium.ZaleniumHelper;
 import core.utlls.ExtentManager;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
@@ -29,6 +31,7 @@ import org.testng.annotations.*;
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Method;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.file.Files;
 import java.text.SimpleDateFormat;
@@ -44,15 +47,15 @@ public class TestBase  // TestNg annotation reporting.html
     public static File reportDirectory;
 
 //==================================================//
-    @BeforeTest // Original
-    public void beforeTest() throws Exception
-    {
-        ObjectReader.reader = new PropertyReader();
-        reportDirectory = new File(ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\screenshots\\"));
-        setUpDriver(ObjectReader.reader.getBrowserType());
-    }
+//    @BeforeTest // Original
+//    public void beforeTest() throws Exception
+//    {
+//        ObjectReader.reader = new PropertyReader();
+//        //reportDirectory = new File(ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\screenshots\\"));
+//        reportDirectory = new File(ResourceHelper.getRecoursePath("/src/main/java/core/screenshots"));
+//        setUpDriver(ObjectReader.reader.getBrowserType());
+//    }
 //==================================================//
-//    @BeforeClass // Original
 //    public void zaleniumDocker() throws Exception
 //    {
 //      DesiredCapabilities cap = new DesiredCapabilities();
@@ -61,21 +64,21 @@ public class TestBase  // TestNg annotation reporting.html
 //      URL url = new URL("http://localhost:4444/wd/hub");
 //      driver = new RemoteWebDriver(url,cap);
 //    }
-//
-    @AfterClass
-    public void tearDown()
-    {
-        driver.quit();
-    }
+
+//    @AfterClass
+//    public void tearDown()
+//    {
+//        driver.quit();
+//    }
 //=================================================//
 
-//    @BeforeClass // Boni Garsia driver online from Github
-//    @Parameters("browser")
-//    public void boniGarsia() throws Exception
-//    {
-//        DriverManager driverManager = new DriverManager();
-//        driver = driverManager.chromeDriver();
-//    }
+    @BeforeClass // Boni Garsia driver online from Github
+    @Parameters("browser")
+    public void boniGarsia() throws Exception
+    {
+        DriverManager driverManager = new DriverManager();
+        driver = driverManager.chromeDriver();
+    }
 //======================================================================================//
     @BeforeSuite
     public void beforeSuite()
@@ -83,19 +86,19 @@ public class TestBase  // TestNg annotation reporting.html
         extentReports = ExtentManager.getInstance();
     }
 
-    @BeforeClass
+    //@BeforeClass
     public void beforeClass()
     {
         test = extentReports.createTest(getClass().getSimpleName());
     }
 
-    @AfterClass
+    //@AfterClass
     public void afterClass()
     {
         shutDown();
     }
 
-    @BeforeMethod
+    //@BeforeMethod
     public void beforeMethod(Method method)
     {
         test.log(Status.INFO, method.getName() + " test started");
@@ -141,15 +144,16 @@ public class TestBase  // TestNg annotation reporting.html
 
                 case Firefox:
                     //Get object of Firefox class
-
                     FirefoxBrowser firefox = FirefoxBrowser.class.newInstance();
                     FirefoxOptions options_1 = firefox.getFirefoxOptions();
                     return  firefox.getFirefoxDriver(options_1);
 
                 case IExplorer:
+                    //Get object of Edge class
                     IExplorerBrowser ie = IExplorerBrowser.class.newInstance();
                     InternetExplorerOptions cap = ie.getIExplorerCapabilities();
-                    return ie.getIternetExplorerDriver(cap);
+                    return ie.getInternetExplorerDriver(cap);
+
                 default:
                         throw new Exception("Driver not found: " + btype.name());
 
@@ -191,7 +195,7 @@ public class TestBase  // TestNg annotation reporting.html
         try
         {
             destFile = new File(reportDirectory +"/"+fileName +"_"+formater.format(calendar.getTime())+".png");
-            //destFile = new File("C:\\Users\\liesn\\IdeaProjects\\demoStructure\\src\\main\\java\\core\\screenshots\\"+driver.getTitle()+".png");
+            //destFile = new File("/Users/Stan/IdeaProjects/workablereposelenium/src/main/java/core/screenshots"+driver.getTitle()+".png");
             log.info("Taking a pass <<<<<<<<<===============>>>>>>>>>>>");
             System.out.println(destFile);
             Files.copy(screenshotFile.toPath(), destFile.toPath());
@@ -240,6 +244,7 @@ public class TestBase  // TestNg annotation reporting.html
         if(driver != null)
         {
             driver.quit();
+            //driver.close();
         }
     }
 
