@@ -1,4 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 37.493 s - in TestSuite
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 152.894 s <<< FAILURE! - in TestSuite
+setUp(core.helpers.zalenium.ZaleniumHelper)  Time elapsed: 77.147 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:10db:d3a9:65f3:10a2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+	at core.helpers.zalenium.ZaleniumHelper.setUp(ZaleniumHelper.java:54)
+Caused by: java.net.ConnectException: Failed to connect to /192.168.247.3:4444
+	at core.helpers.zalenium.ZaleniumHelper.setUp(ZaleniumHelper.java:54)
+Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
+	at core.helpers.zalenium.ZaleniumHelper.setUp(ZaleniumHelper.java:54)
+
+setUp(core.helpers.zalenium.ZaleniumHelper)  Time elapsed: 152.539 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:10db:d3a9:65f3:10a2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+	at core.helpers.zalenium.ZaleniumHelper.setUp(ZaleniumHelper.java:54)
+Caused by: java.net.ConnectException: Failed to connect to /192.168.247.3:4444
+	at core.helpers.zalenium.ZaleniumHelper.setUp(ZaleniumHelper.java:54)
+Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
+	at core.helpers.zalenium.ZaleniumHelper.setUp(ZaleniumHelper.java:54)
+

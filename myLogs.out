@@ -2259,3 +2259,5 @@ remote stacktrace: 0   chromedriver                        0x000000010f1f2309 ch
 10-10-2019 18:42:46 :: [core.helpers.zalenium.ZaleniumHelper - setUp][INFO ] - Firefox driver is started
 10-10-2019 18:51:41 :: [core.helpers.zalenium.ZaleniumHelper - setUp][INFO ] - Chrome driver is started
 10-10-2019 18:51:57 :: [core.helpers.zalenium.ZaleniumHelper - setUp][INFO ] - Firefox driver is started
+10-10-2019 19:08:25 :: [core.helpers.zalenium.ZaleniumHelper - setUp][INFO ] - Chrome driver is started
+10-10-2019 19:09:42 :: [core.helpers.zalenium.ZaleniumHelper - setUp][INFO ] - Firefox driver is started

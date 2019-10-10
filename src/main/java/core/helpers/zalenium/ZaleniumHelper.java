@@ -49,7 +49,8 @@ public class ZaleniumHelper
             //cap.setCapability(CapabilityType.PLATFORM_NAME, Platform.MAC);
             //cap.setCapability(CapabilityType.PLATFORM_NAME, Platform.WINDOWS);
         }
-            URL url = new URL("http://localhost:4444/wd/hub");
+            URL url = new URL("http://192.168.247.5:4444/wd/hub");
+         //   URL url = new URL("http://localhost:4444/wd/hub");
             driver = new RemoteWebDriver(url,cap);
     }
 
