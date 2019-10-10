@@ -17,7 +17,7 @@ public class PracticeLoginTest extends TestBase
     {
 
        getApplicationUrl (ObjectReader.reader.getApplicationUrl());
-       //PracticeLoginPage loginPage = new PracticeLoginPage(driver);
+       // PracticeLoginPage loginPage = new PracticeLoginPage(driver);
        // come methods from the page class
        // boolean status =  loginPage.verifySuccessLoginMassage();
        // AssertionHelper.updateTestStatus(status);

@@ -101,9 +101,11 @@ core/helpers/select/DropDownHelper.class
 java_core/polimorfism/com/Bank_DEF.class
 java_core/programming/oop/MyClass.class
 java_core/polimorfism/com/Bank.class
+java_core/practice/mainExplanation.class
 java_core/basic/com/SwitchStatement.class
 core/test_base/TestBase.class
 core/page_objects/SignUpPage.class
+core/helpers/browser_configurations/config/ZaleniumParallel.class
 java_core/basic/com/Strings.class
 java_core/basic/com/WhileLoop.class
 core/test_scripts/GridChromeTest_1.class
@@ -113,6 +115,7 @@ core/page_objects/LoginPage.class
 core/helpers/browser_configurations/config/PropertyReader.class
 core/helpers/browser_configurations/ChromeBrowser.class
 java_core/basic/com/HashSetTest.class
+java_core/practice/Constructor.class
 java_core/methods_overloading/overloading_meth.class
 java_core/basic/com/Variables.class
 java_core/basic/com/LogicalOperators.class
