@@ -64,7 +64,7 @@ public class TestBase  // TestNg annotation reporting.html
 //      URL url = new URL("http://localhost:4444/wd/hub");
 //      driver = new RemoteWebDriver(url,cap);
 //    }
-
+//
 //    @AfterClass
 //    public void tearDown()
 //    {
@@ -72,8 +72,8 @@ public class TestBase  // TestNg annotation reporting.html
 //    }
 //=================================================//
 
-    @BeforeClass // Boni Garsia driver online from Github
-    @Parameters("browser")
+    //@BeforeClass // Boni Garsia driver online from Github
+    //@Parameters("browser")
     public void boniGarsia() throws Exception
     {
         DriverManager driverManager = new DriverManager();
