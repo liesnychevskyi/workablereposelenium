@@ -2261,3 +2261,100 @@ remote stacktrace: 0   chromedriver                        0x000000010f1f2309 ch
 10-10-2019 18:51:57 :: [core.helpers.zalenium.ZaleniumHelper - setUp][INFO ] - Firefox driver is started
 10-10-2019 19:08:25 :: [core.helpers.zalenium.ZaleniumHelper - setUp][INFO ] - Chrome driver is started
 10-10-2019 19:09:42 :: [core.helpers.zalenium.ZaleniumHelper - setUp][INFO ] - Firefox driver is started
+10-13-2019 19:12:40 :: [core.helpers.zalenium.ZaleniumHelper - setUp][INFO ] - Chrome driver is started
+10-13-2019 19:17:15 :: [core.helpers.zalenium.ZaleniumHelper - setUp][INFO ] - Chrome driver is started
+10-13-2019 19:17:27 :: [core.helpers.zalenium.ZaleniumHelper - setUp][INFO ] - Firefox driver is started
+10-13-2019 19:22:22 :: [core.helpers.zalenium.ZaleniumHelper - setUp][INFO ] - Chrome driver is started
+10-13-2019 19:22:32 :: [core.helpers.zalenium.ZaleniumHelper - setUp][INFO ] - Firefox driver is started
+10-14-2019 16:15:00 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_0 Class Started...
+10-14-2019 16:15:04 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToFacebook Test Started 
+10-14-2019 16:15:09 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-14-2019 16:15:14 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-14-2019 16:15:14 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToFacebook Test Passed 
+10-14-2019 16:15:14 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-14-2019 16:15:14 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+10-14-2019 16:15:15 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToGoogle Test Started 
+10-14-2019 16:15:17 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-14-2019 16:15:22 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-14-2019 16:15:22 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToGoogle Test Passed 
+10-14-2019 16:15:22 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-14-2019 16:15:22 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+10-14-2019 16:15:22 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYahoo Test Started 
+10-14-2019 16:15:30 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-14-2019 16:15:35 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS with the massage : We are on the Yahoo page ... 
+10-14-2019 16:15:35 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToYahoo Test Passed 
+10-14-2019 16:15:36 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-14-2019 16:15:36 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+10-14-2019 16:15:36 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYouTube Test Started 
+10-14-2019 16:15:40 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-14-2019 16:15:45 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-14-2019 16:15:45 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToYouTube Test Passed 
+10-14-2019 16:15:46 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-14-2019 16:15:46 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+10-14-2019 16:15:47 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToFacebook Test Started 
+10-14-2019 16:15:56 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS with the massage : We are on the Facebook page
+10-14-2019 16:15:56 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToFacebook Test Passed 
+10-14-2019 16:15:56 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-14-2019 16:15:56 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+10-14-2019 16:15:56 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToGoogle Test Started 
+10-14-2019 16:16:04 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-14-2019 16:16:04 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToGoogle Test Passed 
+10-14-2019 16:16:04 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-14-2019 16:16:04 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+10-14-2019 16:16:04 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYahoo Test Started 
+10-14-2019 16:16:15 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-14-2019 16:16:15 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToYahoo Test Passed 
+10-14-2019 16:16:16 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-14-2019 16:16:16 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+10-14-2019 16:16:16 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYouTube Test Started 
+10-14-2019 16:16:24 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-14-2019 16:16:24 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToYouTube Test Passed 
+10-14-2019 16:16:25 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-14-2019 16:16:25 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+10-14-2019 16:16:25 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_0 Test Finished.
+10-14-2019 16:16:25 :: [core.helpers.listener.ExtentListener - onStart][INFO ] - Test_1 Class Started...
+10-14-2019 16:16:26 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToFacebook Test Started 
+10-14-2019 16:16:31 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-14-2019 16:16:36 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-14-2019 16:16:36 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToFacebook Test Passed 
+10-14-2019 16:16:36 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-14-2019 16:16:36 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+10-14-2019 16:16:36 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToGoogle Test Started 
+10-14-2019 16:16:38 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-14-2019 16:16:43 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-14-2019 16:16:43 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToGoogle Test Passed 
+10-14-2019 16:16:44 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-14-2019 16:16:44 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+10-14-2019 16:16:44 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYahoo Test Started 
+10-14-2019 16:16:51 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-14-2019 16:16:56 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS with the massage : We are on the Yahoo page ... 
+10-14-2019 16:16:56 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToYahoo Test Passed 
+10-14-2019 16:16:57 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-14-2019 16:16:57 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+10-14-2019 16:16:57 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYouTube Test Started 
+10-14-2019 16:17:01 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-14-2019 16:17:06 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-14-2019 16:17:06 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToYouTube Test Passed 
+10-14-2019 16:17:07 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-14-2019 16:17:07 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+10-14-2019 16:17:08 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToFacebook Test Started 
+10-14-2019 16:17:15 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS with the massage : We are on the Facebook page
+10-14-2019 16:17:15 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToFacebook Test Passed 
+10-14-2019 16:17:16 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-14-2019 16:17:16 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+10-14-2019 16:17:16 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToGoogle Test Started 
+10-14-2019 16:17:23 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-14-2019 16:17:23 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToGoogle Test Passed 
+10-14-2019 16:17:23 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-14-2019 16:17:23 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+10-14-2019 16:17:23 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYahoo Test Started 
+10-14-2019 16:17:34 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-14-2019 16:17:34 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToYahoo Test Passed 
+10-14-2019 16:17:36 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-14-2019 16:17:36 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+10-14-2019 16:17:36 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYouTube Test Started 
+10-14-2019 16:17:43 :: [core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-14-2019 16:17:43 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToYouTube Test Passed 
+10-14-2019 16:17:44 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-14-2019 16:17:44 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot...>>>
+10-14-2019 16:17:44 :: [core.helpers.listener.ExtentListener - onFinish][INFO ] - Test_1 Test Finished.

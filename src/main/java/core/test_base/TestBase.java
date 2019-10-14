@@ -72,8 +72,8 @@ public class TestBase  // TestNg annotation reporting.html
 //    }
 //=================================================//
 
-    //@BeforeClass // Boni Garsia driver online from Github
-    //@Parameters("browser")
+    @BeforeClass // Boni Garsia driver online from Github
+    @Parameters("browser")
     public void boniGarsia() throws Exception
     {
         DriverManager driverManager = new DriverManager();
@@ -86,13 +86,13 @@ public class TestBase  // TestNg annotation reporting.html
         extentReports = ExtentManager.getInstance();
     }
 
-    //@BeforeClass
+    @BeforeClass
     public void beforeClass()
     {
         test = extentReports.createTest(getClass().getSimpleName());
     }
 
-    //@AfterClass
+    @AfterClass
     public void afterClass()
     {
         shutDown();

@@ -27,8 +27,8 @@ public class ZaleniumHelper
     RemoteWebDriver driver;
     DesiredCapabilities cap;
 
-    @BeforeTest
-    @Parameters("browser")
+    //@BeforeTest
+    //@Parameters("browser")
     public void setUp(String br) throws MalformedURLException
     {
         cap = new DesiredCapabilities();
@@ -50,12 +50,12 @@ public class ZaleniumHelper
             //cap.setCapability(CapabilityType.PLATFORM_NAME, Platform.WINDOWS);
         }
             //URL url = new URL("http://192.168.247.5:4444/wd/hub");
-              URL url = new URL("http://3.16.69.154:4444//wd/hub");
-         //   URL url = new URL("http://localhost:4444/wd/hub");
+             // URL url = new URL("http://3.16.69.154:4444//wd/hub");
+           URL url = new URL("http://localhost:4444/wd/hub");
             driver = new RemoteWebDriver(url,cap);
     }
 
-    @Test
+    //@Test
     public void loginTest() throws InterruptedException
     {
         driver.get("https://google.com/");
@@ -68,7 +68,7 @@ public class ZaleniumHelper
         Assert.assertEquals(driver.getTitle(), "Google");
     }
 
-    @AfterTest
+   // @AfterTest
     public void shutDown()
     {
         driver.quit();

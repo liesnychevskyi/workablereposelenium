@@ -1,387 +1,658 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="2" failed="0" ignored="0" total="2" passed="0">
+<testng-results skipped="0" failed="0" ignored="2" total="18" passed="16">
   <reporter-output>
+    <line>
+      <![CDATA[Test_0 Class Started...]]>
+    </line>
+    <line>
+      <![CDATA[goToFacebook Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[CaptureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[goToFacebook Test Passed]]>
+    </line>
+    <line>
+      <![CDATA[CaptureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[goToGoogle Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[CaptureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[goToGoogle Test Passed]]>
+    </line>
+    <line>
+      <![CDATA[CaptureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[goToYahoo Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[CaptureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[goToYahoo Test Passed]]>
+    </line>
+    <line>
+      <![CDATA[CaptureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[goToYouTube Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[CaptureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[goToYouTube Test Passed]]>
+    </line>
+    <line>
+      <![CDATA[CaptureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[goToFacebook Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[goToFacebook Test Passed]]>
+    </line>
+    <line>
+      <![CDATA[CaptureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[goToGoogle Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[goToGoogle Test Passed]]>
+    </line>
+    <line>
+      <![CDATA[CaptureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[goToYahoo Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[goToYahoo Test Passed]]>
+    </line>
+    <line>
+      <![CDATA[CaptureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[goToYouTube Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[goToYouTube Test Passed]]>
+    </line>
+    <line>
+      <![CDATA[CaptureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[Test_0 Test Finished.]]>
+    </line>
+    <line>
+      <![CDATA[Test_1 Class Started...]]>
+    </line>
+    <line>
+      <![CDATA[goToFacebook Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[CaptureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[goToFacebook Test Passed]]>
+    </line>
+    <line>
+      <![CDATA[CaptureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[goToGoogle Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[CaptureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[goToGoogle Test Passed]]>
+    </line>
+    <line>
+      <![CDATA[CaptureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[goToYahoo Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[CaptureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[goToYahoo Test Passed]]>
+    </line>
+    <line>
+      <![CDATA[CaptureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[goToYouTube Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[CaptureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[goToYouTube Test Passed]]>
+    </line>
+    <line>
+      <![CDATA[CaptureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[goToFacebook Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[goToFacebook Test Passed]]>
+    </line>
+    <line>
+      <![CDATA[CaptureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[goToGoogle Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[goToGoogle Test Passed]]>
+    </line>
+    <line>
+      <![CDATA[CaptureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[goToYahoo Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[goToYahoo Test Passed]]>
+    </line>
+    <line>
+      <![CDATA[CaptureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[goToYouTube Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[goToYouTube Test Passed]]>
+    </line>
+    <line>
+      <![CDATA[CaptureScreen method called]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="152283" started-at="2019-10-10T16:08:25Z" finished-at="2019-10-10T16:10:57Z">
+  <suite name="Suite" duration-ms="164355" started-at="2019-10-14T13:15:00Z" finished-at="2019-10-14T13:17:44Z">
     <groups>
     </groups>
-    <test name="chrometest" duration-ms="76905" started-at="2019-10-10T16:08:25Z" finished-at="2019-10-10T16:09:42Z">
-      <class name="core.helpers.zalenium.ZaleniumHelper">
-        <test-method status="FAIL" signature="setUp(java.lang.String)[pri:0, instance:core.helpers.zalenium.ZaleniumHelper@4dfa3a9d]" name="setUp" is-config="true" duration-ms="76847" started-at="2019-10-10T16:08:25Z" finished-at="2019-10-10T16:09:42Z">
+    <test name="Test_0" duration-ms="85298" started-at="2019-10-14T13:15:00Z" finished-at="2019-10-14T13:16:25Z">
+      <class name="core.test_scripts.Test_1">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="beforeClass" is-config="true" duration-ms="3" started-at="2019-10-14T13:15:00Z" finished-at="2019-10-14T13:15:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="boniGarsia()[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="boniGarsia" is-config="true" duration-ms="4745" started-at="2019-10-14T13:15:00Z" finished-at="2019-10-14T13:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boniGarsia -->
+        <test-method status="PASS" signature="goToFacebook()[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="goToFacebook" duration-ms="9550" started-at="2019-10-14T13:15:04Z" finished-at="2019-10-14T13:15:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[goToFacebook Test Started ]]>
+            </line>
+            <line>
+              <![CDATA[CaptureScreen method called]]>
+            </line>
+            <line>
+              <![CDATA[goToFacebook Test Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToFacebook -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="afterMethod" is-config="true" duration-ms="741" started-at="2019-10-14T13:15:14Z" finished-at="2019-10-14T13:15:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[[TestResult name=goToFacebook status=SUCCESS method=Test_1.goToFacebook()[pri:0, instance:core.test_scripts.Test_1@464bee09] output=goToFacebook Test Started ]]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:10db:d3a9:65f3:10a2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:10db:d3a9:65f3:10a2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
-at core.helpers.zalenium.ZaleniumHelper.setUp(ZaleniumHelper.java:54)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-Caused by: java.net.ConnectException: Failed to connect to /192.168.247.3:4444
-at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
-at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
-at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
-at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
-at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
-at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
-at okhttp3.RealCall.execute(RealCall.java:77)
-at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-... 32 more
-Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
-at java.net.PlainSocketImpl.socketConnect(Native Method)
-at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-at java.net.Socket.connect(Socket.java:589)
-at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
-at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-... 54 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
+            <line>
+              <![CDATA[CaptureScreen method called]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="loginTest()[pri:0, instance:core.helpers.zalenium.ZaleniumHelper@4dfa3a9d]" name="loginTest" duration-ms="0" started-at="2019-10-10T16:09:42Z" finished-at="2019-10-10T16:09:42Z">
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:10db:d3a9:65f3:10a2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:10db:d3a9:65f3:10a2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
-at core.helpers.zalenium.ZaleniumHelper.setUp(ZaleniumHelper.java:54)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-Caused by: java.net.ConnectException: Failed to connect to /192.168.247.3:4444
-at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
-at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
-at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
-at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
-at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
-at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
-at okhttp3.RealCall.execute(RealCall.java:77)
-at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-... 32 more
-Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
-at java.net.PlainSocketImpl.socketConnect(Native Method)
-at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-at java.net.Socket.connect(Socket.java:589)
-at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
-at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-... 54 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="goToGoogle()[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="goToGoogle" duration-ms="7299" started-at="2019-10-14T13:15:15Z" finished-at="2019-10-14T13:15:22Z">
           <reporter-output>
+            <line>
+              <![CDATA[goToGoogle Test Started ]]>
+            </line>
+            <line>
+              <![CDATA[CaptureScreen method called]]>
+            </line>
+            <line>
+              <![CDATA[goToGoogle Test Passed]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="SKIP" signature="shutDown()[pri:0, instance:core.helpers.zalenium.ZaleniumHelper@4dfa3a9d]" name="shutDown" is-config="true" duration-ms="0" started-at="2019-10-10T16:09:42Z" finished-at="2019-10-10T16:09:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shutDown -->
-      </class> <!-- core.helpers.zalenium.ZaleniumHelper -->
-    </test> <!-- chrometest -->
-    <test name="firefoxtest" duration-ms="75345" started-at="2019-10-10T16:09:42Z" finished-at="2019-10-10T16:10:57Z">
-      <class name="core.helpers.zalenium.ZaleniumHelper">
-        <test-method status="FAIL" signature="setUp(java.lang.String)[pri:0, instance:core.helpers.zalenium.ZaleniumHelper@27c20538]" name="setUp" is-config="true" duration-ms="75337" started-at="2019-10-10T16:09:42Z" finished-at="2019-10-10T16:10:57Z">
+        </test-method> <!-- goToGoogle -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="afterMethod" is-config="true" duration-ms="450" started-at="2019-10-14T13:15:22Z" finished-at="2019-10-14T13:15:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[[TestResult name=goToGoogle status=SUCCESS method=Test_1.goToGoogle()[pri:0, instance:core.test_scripts.Test_1@464bee09] output=goToGoogle Test Started ]]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:10db:d3a9:65f3:10a2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:10db:d3a9:65f3:10a2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
-at core.helpers.zalenium.ZaleniumHelper.setUp(ZaleniumHelper.java:54)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-Caused by: java.net.ConnectException: Failed to connect to /192.168.247.3:4444
-at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
-at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
-at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
-at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
-at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
-at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
-at okhttp3.RealCall.execute(RealCall.java:77)
-at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-... 32 more
-Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
-at java.net.PlainSocketImpl.socketConnect(Native Method)
-at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-at java.net.Socket.connect(Socket.java:589)
-at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
-at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-... 54 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+            <line>
+              <![CDATA[CaptureScreen method called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="goToYahoo()[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="goToYahoo" duration-ms="12213" started-at="2019-10-14T13:15:22Z" finished-at="2019-10-14T13:15:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[goToYahoo Test Started ]]>
+            </line>
+            <line>
+              <![CDATA[CaptureScreen method called]]>
+            </line>
+            <line>
+              <![CDATA[goToYahoo Test Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToYahoo -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="afterMethod" is-config="true" duration-ms="1236" started-at="2019-10-14T13:15:35Z" finished-at="2019-10-14T13:15:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToYahoo status=SUCCESS method=Test_1.goToYahoo()[pri:0, instance:core.test_scripts.Test_1@464bee09] output=goToYahoo Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CaptureScreen method called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="goToYouTube()[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="goToYouTube" duration-ms="8858" started-at="2019-10-14T13:15:36Z" finished-at="2019-10-14T13:15:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[goToYouTube Test Started ]]>
+            </line>
+            <line>
+              <![CDATA[CaptureScreen method called]]>
+            </line>
+            <line>
+              <![CDATA[goToYouTube Test Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToYouTube -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="afterMethod" is-config="true" duration-ms="895" started-at="2019-10-14T13:15:45Z" finished-at="2019-10-14T13:15:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToYouTube status=SUCCESS method=Test_1.goToYouTube()[pri:0, instance:core.test_scripts.Test_1@464bee09] output=goToYouTube Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CaptureScreen method called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="afterClass" is-config="true" duration-ms="173" started-at="2019-10-14T13:15:46Z" finished-at="2019-10-14T13:15:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="loginTest()[pri:0, instance:core.helpers.zalenium.ZaleniumHelper@27c20538]" name="loginTest" duration-ms="0" started-at="2019-10-10T16:10:57Z" finished-at="2019-10-10T16:10:57Z">
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:10db:d3a9:65f3:10a2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'macbooks-MacBook-Pro.local', ip: 'fe80:0:0:0:10db:d3a9:65f3:10a2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
-at core.helpers.zalenium.ZaleniumHelper.setUp(ZaleniumHelper.java:54)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-Caused by: java.net.ConnectException: Failed to connect to /192.168.247.3:4444
-at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
-at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
-at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
-at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
-at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
-at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
-at okhttp3.RealCall.execute(RealCall.java:77)
-at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-... 32 more
-Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
-at java.net.PlainSocketImpl.socketConnect(Native Method)
-at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-at java.net.Socket.connect(Socket.java:589)
-at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
-at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-... 54 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+        </test-method> <!-- afterClass -->
+      </class> <!-- core.test_scripts.Test_1 -->
+      <class name="core.test_scripts.Test_2">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="beforeClass" is-config="true" duration-ms="1" started-at="2019-10-14T13:15:46Z" finished-at="2019-10-14T13:15:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="SKIP" signature="shutDown()[pri:0, instance:core.helpers.zalenium.ZaleniumHelper@27c20538]" name="shutDown" is-config="true" duration-ms="0" started-at="2019-10-10T16:10:57Z" finished-at="2019-10-10T16:10:57Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="boniGarsia()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="boniGarsia" is-config="true" duration-ms="1087" started-at="2019-10-14T13:15:46Z" finished-at="2019-10-14T13:15:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shutDown -->
-      </class> <!-- core.helpers.zalenium.ZaleniumHelper -->
-    </test> <!-- firefoxtest -->
+        </test-method> <!-- boniGarsia -->
+        <test-method status="PASS" signature="goToFacebook()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="goToFacebook" duration-ms="9019" started-at="2019-10-14T13:15:47Z" finished-at="2019-10-14T13:15:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[goToFacebook Test Started ]]>
+            </line>
+            <line>
+              <![CDATA[goToFacebook Test Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToFacebook -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="afterMethod" is-config="true" duration-ms="526" started-at="2019-10-14T13:15:56Z" finished-at="2019-10-14T13:15:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToFacebook status=SUCCESS method=Test_2.goToFacebook()[pri:0, instance:core.test_scripts.Test_2@f6c48ac] output=goToFacebook Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CaptureScreen method called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="goToGoogle()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="goToGoogle" duration-ms="7170" started-at="2019-10-14T13:15:56Z" finished-at="2019-10-14T13:16:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[goToGoogle Test Started ]]>
+            </line>
+            <line>
+              <![CDATA[goToGoogle Test Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToGoogle -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="afterMethod" is-config="true" duration-ms="432" started-at="2019-10-14T13:16:04Z" finished-at="2019-10-14T13:16:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToGoogle status=SUCCESS method=Test_2.goToGoogle()[pri:0, instance:core.test_scripts.Test_2@f6c48ac] output=goToGoogle Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CaptureScreen method called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="goToYahoo()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="goToYahoo" duration-ms="10997" started-at="2019-10-14T13:16:04Z" finished-at="2019-10-14T13:16:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[goToYahoo Test Started ]]>
+            </line>
+            <line>
+              <![CDATA[goToYahoo Test Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToYahoo -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="afterMethod" is-config="true" duration-ms="1237" started-at="2019-10-14T13:16:15Z" finished-at="2019-10-14T13:16:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToYahoo status=SUCCESS method=Test_2.goToYahoo()[pri:0, instance:core.test_scripts.Test_2@f6c48ac] output=goToYahoo Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CaptureScreen method called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="goToYouTube()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="goToYouTube" duration-ms="7590" started-at="2019-10-14T13:16:16Z" finished-at="2019-10-14T13:16:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[goToYouTube Test Started ]]>
+            </line>
+            <line>
+              <![CDATA[goToYouTube Test Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToYouTube -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="afterMethod" is-config="true" duration-ms="869" started-at="2019-10-14T13:16:24Z" finished-at="2019-10-14T13:16:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToYouTube status=SUCCESS method=Test_2.goToYouTube()[pri:0, instance:core.test_scripts.Test_2@f6c48ac] output=goToYouTube Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CaptureScreen method called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="afterClass" is-config="true" duration-ms="179" started-at="2019-10-14T13:16:25Z" finished-at="2019-10-14T13:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- core.test_scripts.Test_2 -->
+    </test> <!-- Test_0 -->
+    <test name="Test_1" duration-ms="79040" started-at="2019-10-14T13:16:25Z" finished-at="2019-10-14T13:17:44Z">
+      <class name="core.test_scripts.Test_1">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:core.test_scripts.Test_1@59494225]" name="beforeSuite" is-config="true" duration-ms="115" started-at="2019-10-14T13:14:59Z" finished-at="2019-10-14T13:15:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:core.test_scripts.Test_1@59494225]" name="beforeClass" is-config="true" duration-ms="1" started-at="2019-10-14T13:16:25Z" finished-at="2019-10-14T13:16:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="boniGarsia()[pri:0, instance:core.test_scripts.Test_1@59494225]" name="boniGarsia" is-config="true" duration-ms="1140" started-at="2019-10-14T13:16:25Z" finished-at="2019-10-14T13:16:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boniGarsia -->
+        <test-method status="PASS" signature="goToFacebook()[pri:0, instance:core.test_scripts.Test_1@59494225]" name="goToFacebook" duration-ms="9656" started-at="2019-10-14T13:16:26Z" finished-at="2019-10-14T13:16:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[goToFacebook Test Started ]]>
+            </line>
+            <line>
+              <![CDATA[CaptureScreen method called]]>
+            </line>
+            <line>
+              <![CDATA[goToFacebook Test Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToFacebook -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_1@59494225]" name="afterMethod" is-config="true" duration-ms="493" started-at="2019-10-14T13:16:36Z" finished-at="2019-10-14T13:16:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToFacebook status=SUCCESS method=Test_1.goToFacebook()[pri:0, instance:core.test_scripts.Test_1@59494225] output=goToFacebook Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CaptureScreen method called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="goToGoogle()[pri:0, instance:core.test_scripts.Test_1@59494225]" name="goToGoogle" duration-ms="7251" started-at="2019-10-14T13:16:36Z" finished-at="2019-10-14T13:16:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[goToGoogle Test Started ]]>
+            </line>
+            <line>
+              <![CDATA[CaptureScreen method called]]>
+            </line>
+            <line>
+              <![CDATA[goToGoogle Test Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToGoogle -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_1@59494225]" name="afterMethod" is-config="true" duration-ms="441" started-at="2019-10-14T13:16:43Z" finished-at="2019-10-14T13:16:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToGoogle status=SUCCESS method=Test_1.goToGoogle()[pri:0, instance:core.test_scripts.Test_1@59494225] output=goToGoogle Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CaptureScreen method called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="goToYahoo()[pri:0, instance:core.test_scripts.Test_1@59494225]" name="goToYahoo" duration-ms="12235" started-at="2019-10-14T13:16:44Z" finished-at="2019-10-14T13:16:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[goToYahoo Test Started ]]>
+            </line>
+            <line>
+              <![CDATA[CaptureScreen method called]]>
+            </line>
+            <line>
+              <![CDATA[goToYahoo Test Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToYahoo -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_1@59494225]" name="afterMethod" is-config="true" duration-ms="1213" started-at="2019-10-14T13:16:56Z" finished-at="2019-10-14T13:16:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToYahoo status=SUCCESS method=Test_1.goToYahoo()[pri:0, instance:core.test_scripts.Test_1@59494225] output=goToYahoo Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CaptureScreen method called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="goToYouTube()[pri:0, instance:core.test_scripts.Test_1@59494225]" name="goToYouTube" duration-ms="9031" started-at="2019-10-14T13:16:57Z" finished-at="2019-10-14T13:17:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[goToYouTube Test Started ]]>
+            </line>
+            <line>
+              <![CDATA[CaptureScreen method called]]>
+            </line>
+            <line>
+              <![CDATA[goToYouTube Test Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToYouTube -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_1@59494225]" name="afterMethod" is-config="true" duration-ms="901" started-at="2019-10-14T13:17:06Z" finished-at="2019-10-14T13:17:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToYouTube status=SUCCESS method=Test_1.goToYouTube()[pri:0, instance:core.test_scripts.Test_1@59494225] output=goToYouTube Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CaptureScreen method called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:core.test_scripts.Test_1@59494225]" name="afterClass" is-config="true" duration-ms="184" started-at="2019-10-14T13:17:07Z" finished-at="2019-10-14T13:17:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- core.test_scripts.Test_1 -->
+      <class name="core.test_scripts.Test_2">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-10-14T13:17:07Z" finished-at="2019-10-14T13:17:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="boniGarsia()[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="boniGarsia" is-config="true" duration-ms="1021" started-at="2019-10-14T13:17:07Z" finished-at="2019-10-14T13:17:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boniGarsia -->
+        <test-method status="PASS" signature="goToFacebook()[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="goToFacebook" duration-ms="6732" started-at="2019-10-14T13:17:08Z" finished-at="2019-10-14T13:17:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[goToFacebook Test Started ]]>
+            </line>
+            <line>
+              <![CDATA[goToFacebook Test Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToFacebook -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="afterMethod" is-config="true" duration-ms="495" started-at="2019-10-14T13:17:15Z" finished-at="2019-10-14T13:17:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToFacebook status=SUCCESS method=Test_2.goToFacebook()[pri:0, instance:core.test_scripts.Test_2@6e1567f1] output=goToFacebook Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CaptureScreen method called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="goToGoogle()[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="goToGoogle" duration-ms="7295" started-at="2019-10-14T13:17:16Z" finished-at="2019-10-14T13:17:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[goToGoogle Test Started ]]>
+            </line>
+            <line>
+              <![CDATA[goToGoogle Test Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToGoogle -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="afterMethod" is-config="true" duration-ms="431" started-at="2019-10-14T13:17:23Z" finished-at="2019-10-14T13:17:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToGoogle status=SUCCESS method=Test_2.goToGoogle()[pri:0, instance:core.test_scripts.Test_2@6e1567f1] output=goToGoogle Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CaptureScreen method called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="goToYahoo()[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="goToYahoo" duration-ms="11004" started-at="2019-10-14T13:17:23Z" finished-at="2019-10-14T13:17:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[goToYahoo Test Started ]]>
+            </line>
+            <line>
+              <![CDATA[goToYahoo Test Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToYahoo -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="afterMethod" is-config="true" duration-ms="1241" started-at="2019-10-14T13:17:34Z" finished-at="2019-10-14T13:17:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToYahoo status=SUCCESS method=Test_2.goToYahoo()[pri:0, instance:core.test_scripts.Test_2@6e1567f1] output=goToYahoo Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CaptureScreen method called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="goToYouTube()[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="goToYouTube" duration-ms="7227" started-at="2019-10-14T13:17:36Z" finished-at="2019-10-14T13:17:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[goToYouTube Test Started ]]>
+            </line>
+            <line>
+              <![CDATA[goToYouTube Test Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToYouTube -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="afterMethod" is-config="true" duration-ms="858" started-at="2019-10-14T13:17:43Z" finished-at="2019-10-14T13:17:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToYouTube status=SUCCESS method=Test_2.goToYouTube()[pri:0, instance:core.test_scripts.Test_2@6e1567f1] output=goToYouTube Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[CaptureScreen method called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="afterClass" is-config="true" duration-ms="179" started-at="2019-10-14T13:17:44Z" finished-at="2019-10-14T13:17:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- core.test_scripts.Test_2 -->
+    </test> <!-- Test_1 -->
   </suite> <!-- Suite -->
 </testng-results>
