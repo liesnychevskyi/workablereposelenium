@@ -7,14 +7,14 @@
         <listener class-name="core.helpers.listener.ExtentListener"></listener>
     </listeners>
 
-    <test name="Test_0">
+    <test name="Test first">
         <classes>
             <class name="core.test_scripts.Test_1"></class>
             <class name="core.test_scripts.Test_2"></class>
         </classes>
     </test>
 
-    <test name="Test_1">
+    <test name="Test second">
         <classes>
             <class name="core.test_scripts.Test_1"></class>
             <class name="core.test_scripts.Test_2"></class>

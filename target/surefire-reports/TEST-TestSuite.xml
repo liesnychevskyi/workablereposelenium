@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="165.083" tests="16" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="226.905" tests="28" errors="0" skipped="12" failures="8">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/Stan/IdeaProjects/workablereposelenium/target/surefire/surefirebooter1860508117561976501.jar /Users/Stan/IdeaProjects/workablereposelenium/target/surefire 2019-10-14T16-14-59_052-jvmRun1 surefire6643795483039158278tmp surefire_05843741184944963992tmp"/>
+    <property name="sun.java.command" value="/Users/Stan/IdeaProjects/workablereposelenium/target/surefire/surefirebooter2564855177030175601.jar /Users/Stan/IdeaProjects/workablereposelenium/target/surefire 2019-10-15T19-36-39_206-jvmRun1 surefire371391655056786723tmp surefire_07155271946933688038tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/Stan/IdeaProjects/workablereposelenium/target/test-classes:/Users/Stan/IdeaProjects/workablereposelenium/target/classes:/Users/Stan/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/Stan/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/Stan/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/Stan/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/Stan/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/Stan/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/Stan/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/Stan/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/Stan/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/Stan/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/Stan/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/Stan/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/Stan/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/Stan/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/Stan/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/Stan/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/Stan/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/Stan/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/Stan/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/Stan/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/Stan/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/Stan/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/Stan/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/Stan/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/Stan/.m2/repository/org/apache/poi/poi/3.17/poi-3.17.jar:/Users/Stan/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/Stan/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/Users/Stan/.m2/repository/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar:/Users/Stan/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17.jar:/Users/Stan/.m2/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/Users/Stan/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/Stan/.m2/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar:/Users/Stan/.m2/repository/com/aventstack/extentreports/3.0.0/extentreports-3.0.0.jar:/Users/Stan/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/Stan/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/Stan/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/Stan/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/Stan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/Stan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/Stan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/Stan/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/Stan/.m2/repository/org/apache/maven/plugins/maven-resources-plugin/3.1.0/maven-resources-plugin-3.1.0.jar:/Users/Stan/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar:/Users/Stan/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar:/Users/Stan/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar:/Users/Stan/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar:/Users/Stan/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar:/Users/Stan/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar:/Users/Stan/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar:/Users/Stan/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar:/Users/Stan/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar:/Users/Stan/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar:/Users/Stan/.m2/repository/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar:/Users/Stan/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar:/Users/Stan/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar:/Users/Stan/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar:/Users/Stan/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar:/Users/Stan/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar:/Users/Stan/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/Users/Stan/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/Users/Stan/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/Users/Stan/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar:/Users/Stan/.m2/repository/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.jar:/Users/Stan/.m2/repository/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.jar:/Users/Stan/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.jar:/Users/Stan/.m2/repository/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar:/Users/Stan/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/Stan/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.jar:/Users/Stan/.m2/repository/mysql/mysql-connector-java/8.0.17/mysql-connector-java-8.0.17.jar:/Users/Stan/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar:/Users/Stan/.m2/repository/io/github/bonigarcia/webdrivermanager/3.6.1/webdrivermanager-3.6.1.jar:/Users/Stan/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/Stan/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/Stan/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/Stan/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/Stan/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/Stan/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/Stan/IdeaProjects/workablereposelenium/target/surefire/surefirebooter1860508117561976501.jar"/>
+    <property name="surefire.real.class.path" value="/Users/Stan/IdeaProjects/workablereposelenium/target/surefire/surefirebooter2564855177030175601.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -61,20 +61,190 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="goToFacebook" classname="core.test_scripts.Test_1" time="9.551"/>
-  <testcase name="goToFacebook" classname="core.test_scripts.Test_1" time="9.656"/>
-  <testcase name="goToGoogle" classname="core.test_scripts.Test_1" time="7.3"/>
-  <testcase name="goToGoogle" classname="core.test_scripts.Test_1" time="7.252"/>
-  <testcase name="goToYahoo" classname="core.test_scripts.Test_1" time="12.214"/>
-  <testcase name="goToYahoo" classname="core.test_scripts.Test_1" time="12.236"/>
-  <testcase name="goToYouTube" classname="core.test_scripts.Test_1" time="8.857"/>
-  <testcase name="goToYouTube" classname="core.test_scripts.Test_1" time="9.032"/>
-  <testcase name="goToFacebook" classname="core.test_scripts.Test_2" time="9.019"/>
-  <testcase name="goToFacebook" classname="core.test_scripts.Test_2" time="6.732"/>
-  <testcase name="goToGoogle" classname="core.test_scripts.Test_2" time="7.169"/>
-  <testcase name="goToGoogle" classname="core.test_scripts.Test_2" time="7.296"/>
-  <testcase name="goToYahoo" classname="core.test_scripts.Test_2" time="10.997"/>
-  <testcase name="goToYahoo" classname="core.test_scripts.Test_2" time="11.004"/>
-  <testcase name="goToYouTube" classname="core.test_scripts.Test_2" time="7.591"/>
-  <testcase name="goToYouTube" classname="core.test_scripts.Test_2" time="7.226"/>
+  <testcase name="goToFacebook" classname="core.test_scripts.Test_1" time="75.351"/>
+  <testcase name="goToFacebook" classname="core.test_scripts.Test_1" time="8.66"/>
+  <testcase name="goToGoogle" classname="core.test_scripts.Test_1" time="5.269"/>
+  <testcase name="goToGoogle" classname="core.test_scripts.Test_1" time="5.194"/>
+  <testcase name="goToYahoo" classname="core.test_scripts.Test_1" time="76.237"/>
+  <testcase name="goToYahoo" classname="core.test_scripts.Test_1" time="30.227"/>
+  <testcase name="goToYouTube" classname="core.test_scripts.Test_1" time="6.07"/>
+  <testcase name="goToYouTube" classname="core.test_scripts.Test_1" time="5.975"/>
+  <testcase name="goToFacebook" classname="core.test_scripts.Test_2" time="0">
+    <skipped/>
+    <system-out><![CDATA[10-15-2019 19:39:29 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToYouTube Test Passed 
+10-15-2019 19:39:30 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+/Users/Stan/IdeaProjects/workablereposelenium/src/main/java/core/screenshots/goToYouTube_15_10_2019_07_39_29.jpg
+10-15-2019 19:39:30 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot to report file ...>>>
+10-15-2019 19:39:30 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToFacebook Test Started 
+10-15-2019 19:39:30 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToFacebook with status FAILURE for the 1 times.
+]]></system-out>
+  </testcase>
+  <testcase name="goToFacebook" classname="core.test_scripts.Test_2" time="0">
+    <skipped/>
+    <system-out><![CDATA[10-15-2019 19:39:30 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToFacebook Test Skipped java.lang.NullPointerException
+10-15-2019 19:39:30 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-15-2019 19:39:30 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToFacebook Test Started 
+10-15-2019 19:39:30 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToFacebook with status FAILURE for the 2 times.
+]]></system-out>
+  </testcase>
+  <testcase name="goToFacebook" classname="core.test_scripts.Test_2" time="0">
+    <skipped/>
+    <system-out><![CDATA[10-15-2019 19:39:30 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToFacebook Test Skipped java.lang.NullPointerException
+10-15-2019 19:39:30 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-15-2019 19:39:30 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToFacebook Test Started 
+10-15-2019 19:39:30 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToFacebook with status FAILURE for the 3 times.
+]]></system-out>
+  </testcase>
+  <testcase name="goToFacebook" classname="core.test_scripts.Test_2" time="0.01">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToFacebook(Test_2.java:25)
+</failure>
+    <system-out><![CDATA[10-15-2019 19:39:30 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToFacebook Test Skipped java.lang.NullPointerException
+10-15-2019 19:39:30 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-15-2019 19:39:30 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToFacebook Test Started 
+]]></system-out>
+  </testcase>
+  <testcase name="goToFacebook" classname="core.test_scripts.Test_2" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToFacebook(Test_2.java:25)
+</failure>
+    <system-out><![CDATA[10-15-2019 19:40:25 :: [core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - goToYouTube Test Passed 
+10-15-2019 19:40:26 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+/Users/Stan/IdeaProjects/workablereposelenium/src/main/java/core/screenshots/goToYouTube_15_10_2019_07_40_25.jpg
+10-15-2019 19:40:26 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Adding ScreenShot to report file ...>>>
+10-15-2019 19:40:26 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToFacebook Test Started 
+]]></system-out>
+  </testcase>
+  <testcase name="goToGoogle" classname="core.test_scripts.Test_2" time="0">
+    <skipped/>
+    <system-out><![CDATA[10-15-2019 19:39:30 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToFacebook Test Failed java.lang.NullPointerException
+10-15-2019 19:39:30 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-15-2019 19:39:30 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< Report: failed  ******************************************************* >>>
+10-15-2019 19:39:30 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToGoogle Test Started 
+10-15-2019 19:39:30 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToGoogle with status FAILURE for the 1 times.
+]]></system-out>
+  </testcase>
+  <testcase name="goToGoogle" classname="core.test_scripts.Test_2" time="0">
+    <skipped/>
+    <system-out><![CDATA[10-15-2019 19:39:30 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToGoogle Test Skipped java.lang.NullPointerException
+10-15-2019 19:39:30 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-15-2019 19:39:30 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToGoogle Test Started 
+10-15-2019 19:39:30 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToGoogle with status FAILURE for the 2 times.
+]]></system-out>
+  </testcase>
+  <testcase name="goToGoogle" classname="core.test_scripts.Test_2" time="0">
+    <skipped/>
+    <system-out><![CDATA[10-15-2019 19:39:30 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToGoogle Test Skipped java.lang.NullPointerException
+10-15-2019 19:39:30 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-15-2019 19:39:30 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToGoogle Test Started 
+10-15-2019 19:39:30 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToGoogle with status FAILURE for the 3 times.
+]]></system-out>
+  </testcase>
+  <testcase name="goToGoogle" classname="core.test_scripts.Test_2" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToGoogle(Test_2.java:17)
+</failure>
+    <system-out><![CDATA[10-15-2019 19:39:30 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToGoogle Test Skipped java.lang.NullPointerException
+10-15-2019 19:39:30 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-15-2019 19:39:30 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToGoogle Test Started 
+]]></system-out>
+  </testcase>
+  <testcase name="goToGoogle" classname="core.test_scripts.Test_2" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToGoogle(Test_2.java:17)
+</failure>
+    <system-out><![CDATA[10-15-2019 19:40:26 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToFacebook Test Failed java.lang.NullPointerException
+10-15-2019 19:40:26 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-15-2019 19:40:26 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< Report: failed  ******************************************************* >>>
+10-15-2019 19:40:26 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToGoogle Test Started 
+]]></system-out>
+  </testcase>
+  <testcase name="goToYahoo" classname="core.test_scripts.Test_2" time="0">
+    <skipped/>
+    <system-out><![CDATA[10-15-2019 19:39:30 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToGoogle Test Failed java.lang.NullPointerException
+10-15-2019 19:39:30 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-15-2019 19:39:30 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< Report: failed  ******************************************************* >>>
+10-15-2019 19:39:30 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYahoo Test Started 
+10-15-2019 19:39:30 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToYahoo with status FAILURE for the 1 times.
+]]></system-out>
+  </testcase>
+  <testcase name="goToYahoo" classname="core.test_scripts.Test_2" time="0">
+    <skipped/>
+    <system-out><![CDATA[10-15-2019 19:39:30 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToYahoo Test Skipped java.lang.NullPointerException
+10-15-2019 19:39:30 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-15-2019 19:39:30 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYahoo Test Started 
+10-15-2019 19:39:30 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToYahoo with status FAILURE for the 2 times.
+]]></system-out>
+  </testcase>
+  <testcase name="goToYahoo" classname="core.test_scripts.Test_2" time="0">
+    <skipped/>
+    <system-out><![CDATA[10-15-2019 19:39:30 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToYahoo Test Skipped java.lang.NullPointerException
+10-15-2019 19:39:30 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-15-2019 19:39:30 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYahoo Test Started 
+10-15-2019 19:39:30 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToYahoo with status FAILURE for the 3 times.
+]]></system-out>
+  </testcase>
+  <testcase name="goToYahoo" classname="core.test_scripts.Test_2" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToYahoo(Test_2.java:33)
+</failure>
+    <system-out><![CDATA[10-15-2019 19:39:30 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToYahoo Test Skipped java.lang.NullPointerException
+10-15-2019 19:39:30 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-15-2019 19:39:30 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYahoo Test Started 
+]]></system-out>
+  </testcase>
+  <testcase name="goToYahoo" classname="core.test_scripts.Test_2" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToYahoo(Test_2.java:33)
+</failure>
+    <system-out><![CDATA[10-15-2019 19:40:26 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToGoogle Test Failed java.lang.NullPointerException
+10-15-2019 19:40:26 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-15-2019 19:40:26 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< Report: failed  ******************************************************* >>>
+10-15-2019 19:40:26 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYahoo Test Started 
+]]></system-out>
+  </testcase>
+  <testcase name="goToYouTube" classname="core.test_scripts.Test_2" time="0">
+    <skipped/>
+    <system-out><![CDATA[10-15-2019 19:39:30 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToYahoo Test Failed java.lang.NullPointerException
+10-15-2019 19:39:30 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-15-2019 19:39:30 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< Report: failed  ******************************************************* >>>
+10-15-2019 19:39:30 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYouTube Test Started 
+10-15-2019 19:39:30 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToYouTube with status FAILURE for the 1 times.
+]]></system-out>
+  </testcase>
+  <testcase name="goToYouTube" classname="core.test_scripts.Test_2" time="0">
+    <skipped/>
+    <system-out><![CDATA[10-15-2019 19:39:30 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToYouTube Test Skipped java.lang.NullPointerException
+10-15-2019 19:39:30 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-15-2019 19:39:30 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYouTube Test Started 
+10-15-2019 19:39:30 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToYouTube with status FAILURE for the 2 times.
+]]></system-out>
+  </testcase>
+  <testcase name="goToYouTube" classname="core.test_scripts.Test_2" time="0">
+    <skipped/>
+    <system-out><![CDATA[10-15-2019 19:39:30 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToYouTube Test Skipped java.lang.NullPointerException
+10-15-2019 19:39:30 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-15-2019 19:39:31 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYouTube Test Started 
+10-15-2019 19:39:31 :: [core.helpers.listener.Retry - retry][INFO ] - Retrying test goToYouTube with status FAILURE for the 3 times.
+]]></system-out>
+  </testcase>
+  <testcase name="goToYouTube" classname="core.test_scripts.Test_2" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToYouTube(Test_2.java:41)
+</failure>
+    <system-out><![CDATA[10-15-2019 19:39:31 :: [core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - goToYouTube Test Skipped java.lang.NullPointerException
+10-15-2019 19:39:31 :: [core.test_base.TestBase - afterMethod][INFO ] - <<Skipping...>>>
+10-15-2019 19:39:31 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYouTube Test Started 
+]]></system-out>
+  </testcase>
+  <testcase name="goToYouTube" classname="core.test_scripts.Test_2" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToYouTube(Test_2.java:41)
+</failure>
+    <system-out><![CDATA[10-15-2019 19:40:26 :: [core.helpers.listener.ExtentListener - onTestFailure][ERROR] - goToYahoo Test Failed java.lang.NullPointerException
+10-15-2019 19:40:26 :: [core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-15-2019 19:40:26 :: [core.test_base.TestBase - afterMethod][INFO ] - <<< Report: failed  ******************************************************* >>>
+10-15-2019 19:40:26 :: [core.helpers.listener.ExtentListener - onTestStart][INFO ] - goToYouTube Test Started 
+]]></system-out>
+  </testcase>
 </testsuite>

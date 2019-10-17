@@ -1,4 +1,36 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 165.083 s - in TestSuite
+Tests run: 28, Failures: 8, Errors: 0, Skipped: 12, Time elapsed: 226.905 s <<< FAILURE! - in TestSuite
+goToFacebook(core.test_scripts.Test_2)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToFacebook(Test_2.java:25)
+
+goToGoogle(core.test_scripts.Test_2)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToGoogle(Test_2.java:17)
+
+goToYahoo(core.test_scripts.Test_2)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToYahoo(Test_2.java:33)
+
+goToYouTube(core.test_scripts.Test_2)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToYouTube(Test_2.java:41)
+
+goToFacebook(core.test_scripts.Test_2)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToFacebook(Test_2.java:25)
+
+goToGoogle(core.test_scripts.Test_2)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToGoogle(Test_2.java:17)
+
+goToYahoo(core.test_scripts.Test_2)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToYahoo(Test_2.java:33)
+
+goToYouTube(core.test_scripts.Test_2)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToYouTube(Test_2.java:41)
+

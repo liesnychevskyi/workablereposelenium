@@ -1,3 +1,4 @@
+core/test_scripts/ExtentReportTest.class
 java_core/practice/SwitchStatement.class
 java_core/interfaces/com/Man.class
 core/test_scripts/GridChromeTest_3.class
@@ -46,6 +47,7 @@ core/helpers/browser_configurations/config/C.class
 java_core/inharitance/com/Poligon.class
 core/helpers/browser_configurations/FirefoxBrowser.class
 java_core/basic/com/LIstleterator.class
+core/utlls/ExtentReport.class
 core/helpers/database/DatabaseHelper.class
 java_core/static_keyworld/Static_demo.class
 core/helpers/excel/ExcelHelper.class
@@ -69,7 +71,6 @@ core/helpers/resource/ResourceHelper.class
 java_core/constructor/MyMainClass.class
 core/helpers/logger/MyLogger.class
 java_core/programs/BubbleSort.class
-core/helpers/test.class
 java_core/basic/com/ReadFromTheFile.class
 core/helpers/switch_frame/FrameHelper.class
 java_core/basic/com/TryCatchTest.class

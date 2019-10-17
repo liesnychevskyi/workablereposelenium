@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,125 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">16 methods,   16 passed</span>
+                    <span class="method-stats">28 methods, 8 failed,  12 skipped,  8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_2" hash-for-method="goToFacebook">goToFacebook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_2" hash-for-method="goToFacebook">goToFacebook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_2" hash-for-method="goToGoogle">goToGoogle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_2" hash-for-method="goToGoogle">goToGoogle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_2" hash-for-method="goToYahoo">goToYahoo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_2" hash-for-method="goToYahoo">goToYahoo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_2" hash-for-method="goToYouTube">goToYouTube</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_2" hash-for-method="goToYouTube">goToYouTube</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_2" hash-for-method="goToFacebook">goToFacebook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_2" hash-for-method="goToFacebook">goToFacebook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_2" hash-for-method="goToFacebook">goToFacebook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_2" hash-for-method="goToGoogle">goToGoogle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_2" hash-for-method="goToGoogle">goToGoogle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_2" hash-for-method="goToGoogle">goToGoogle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_2" hash-for-method="goToYahoo">goToYahoo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_2" hash-for-method="goToYahoo">goToYahoo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_2" hash-for-method="goToYahoo">goToYahoo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_2" hash-for-method="goToYouTube">goToYouTube</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_2" hash-for-method="goToYouTube">goToYouTube</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_2" hash-for-method="goToYouTube">goToYouTube</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,11 +220,6 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_2" hash-for-method="goToFacebook">goToFacebook</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_1" hash-for-method="goToFacebook">goToFacebook</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -117,32 +230,12 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_2" hash-for-method="goToFacebook">goToFacebook</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_1" hash-for-method="goToGoogle">goToGoogle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_2" hash-for-method="goToGoogle">goToGoogle</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_1" hash-for-method="goToGoogle">goToGoogle</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_2" hash-for-method="goToGoogle">goToGoogle</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_2" hash-for-method="goToYahoo">goToYahoo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -153,26 +246,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_1" hash-for-method="goToYahoo">goToYahoo</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_2" hash-for-method="goToYahoo">goToYahoo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_1" hash-for-method="goToYouTube">goToYouTube</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_2" hash-for-method="goToYouTube">goToYouTube</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="core.test_scripts.Test_2" hash-for-method="goToYouTube">goToYouTube</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -192,10 +270,10 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">core.test_scripts.Test_1</span>
+              <img src="failed.png"/>
+              <span class="class-name">core.test_scripts.Test_2</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -203,6 +281,10 @@
                   <a name="goToFacebook">
                   </a> <!-- goToFacebook -->
                   <span class="method-name">goToFacebook</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToFacebook(Test_2.java:25)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -210,6 +292,10 @@
                   <a name="goToFacebook">
                   </a> <!-- goToFacebook -->
                   <span class="method-name">goToFacebook</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToFacebook(Test_2.java:25)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -217,6 +303,10 @@
                   <a name="goToGoogle">
                   </a> <!-- goToGoogle -->
                   <span class="method-name">goToGoogle</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToGoogle(Test_2.java:17)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -224,6 +314,10 @@
                   <a name="goToGoogle">
                   </a> <!-- goToGoogle -->
                   <span class="method-name">goToGoogle</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToGoogle(Test_2.java:17)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -231,6 +325,10 @@
                   <a name="goToYahoo">
                   </a> <!-- goToYahoo -->
                   <span class="method-name">goToYahoo</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToYahoo(Test_2.java:33)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -238,6 +336,10 @@
                   <a name="goToYahoo">
                   </a> <!-- goToYahoo -->
                   <span class="method-name">goToYahoo</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToYahoo(Test_2.java:33)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -245,6 +347,10 @@
                   <a name="goToYouTube">
                   </a> <!-- goToYouTube -->
                   <span class="method-name">goToYouTube</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToYouTube(Test_2.java:41)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -252,14 +358,158 @@
                   <a name="goToYouTube">
                   </a> <!-- goToYouTube -->
                   <span class="method-name">goToYouTube</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToYouTube(Test_2.java:41)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">core.test_scripts.Test_2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="goToFacebook">
+                  </a> <!-- goToFacebook -->
+                  <span class="method-name">goToFacebook</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToFacebook(Test_2.java:25)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="goToFacebook">
+                  </a> <!-- goToFacebook -->
+                  <span class="method-name">goToFacebook</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToFacebook(Test_2.java:25)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="goToFacebook">
+                  </a> <!-- goToFacebook -->
+                  <span class="method-name">goToFacebook</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToFacebook(Test_2.java:25)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="goToGoogle">
+                  </a> <!-- goToGoogle -->
+                  <span class="method-name">goToGoogle</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToGoogle(Test_2.java:17)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="goToGoogle">
+                  </a> <!-- goToGoogle -->
+                  <span class="method-name">goToGoogle</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToGoogle(Test_2.java:17)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="goToGoogle">
+                  </a> <!-- goToGoogle -->
+                  <span class="method-name">goToGoogle</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToGoogle(Test_2.java:17)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="goToYahoo">
+                  </a> <!-- goToYahoo -->
+                  <span class="method-name">goToYahoo</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToYahoo(Test_2.java:33)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="goToYahoo">
+                  </a> <!-- goToYahoo -->
+                  <span class="method-name">goToYahoo</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToYahoo(Test_2.java:33)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="goToYahoo">
+                  </a> <!-- goToYahoo -->
+                  <span class="method-name">goToYahoo</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToYahoo(Test_2.java:33)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="goToYouTube">
+                  </a> <!-- goToYouTube -->
+                  <span class="method-name">goToYouTube</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToYouTube(Test_2.java:41)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="goToYouTube">
+                  </a> <!-- goToYouTube -->
+                  <span class="method-name">goToYouTube</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToYouTube(Test_2.java:41)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="goToYouTube">
+                  </a> <!-- goToYouTube -->
+                  <span class="method-name">goToYouTube</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at core.test_scripts.Test_2.goToYouTube(Test_2.java:41)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">core.test_scripts.Test_2</span>
+              <span class="class-name">core.test_scripts.Test_1</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -334,18 +584,18 @@
     &lt;listener class-name=&quot;core.helpers.listener.RetryListener&quot;/&gt;
     &lt;listener class-name=&quot;core.helpers.listener.ExtentListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test_0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test first&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;core.test_scripts.Test_1&quot;/&gt;
       &lt;class name=&quot;core.test_scripts.Test_2&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test_0 --&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test_1&quot;&gt;
+  &lt;/test&gt; &lt;!-- Test first --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test second&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;core.test_scripts.Test_1&quot;/&gt;
       &lt;class name=&quot;core.test_scripts.Test_2&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test_1 --&gt;
+  &lt;/test&gt; &lt;!-- Test second --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -357,10 +607,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test_0 (2 classes)</span>
+                <span class="test-name">Test first (2 classes)</span>
               </li>
               <li>
-                <span class="test-name">Test_1 (2 classes)</span>
+                <span class="test-name">Test second (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -386,76 +636,124 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(16);
+data.addRows(28);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'goToYahoo')
 data.setCell(0, 2, 'core.test_scripts.Test_1')
-data.setCell(0, 3, 12235);
+data.setCell(0, 3, 76237);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'goToYahoo')
+data.setCell(1, 1, 'goToFacebook')
 data.setCell(1, 2, 'core.test_scripts.Test_1')
-data.setCell(1, 3, 12213);
+data.setCell(1, 3, 75349);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'goToYahoo')
-data.setCell(2, 2, 'core.test_scripts.Test_2')
-data.setCell(2, 3, 11004);
+data.setCell(2, 2, 'core.test_scripts.Test_1')
+data.setCell(2, 3, 30226);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'goToYahoo')
-data.setCell(3, 2, 'core.test_scripts.Test_2')
-data.setCell(3, 3, 10997);
+data.setCell(3, 1, 'goToFacebook')
+data.setCell(3, 2, 'core.test_scripts.Test_1')
+data.setCell(3, 3, 8660);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'goToFacebook')
+data.setCell(4, 1, 'goToYouTube')
 data.setCell(4, 2, 'core.test_scripts.Test_1')
-data.setCell(4, 3, 9656);
+data.setCell(4, 3, 6070);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'goToFacebook')
+data.setCell(5, 1, 'goToYouTube')
 data.setCell(5, 2, 'core.test_scripts.Test_1')
-data.setCell(5, 3, 9550);
+data.setCell(5, 3, 5975);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'goToYouTube')
+data.setCell(6, 1, 'goToGoogle')
 data.setCell(6, 2, 'core.test_scripts.Test_1')
-data.setCell(6, 3, 9031);
+data.setCell(6, 3, 5268);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'goToFacebook')
-data.setCell(7, 2, 'core.test_scripts.Test_2')
-data.setCell(7, 3, 9019);
+data.setCell(7, 1, 'goToGoogle')
+data.setCell(7, 2, 'core.test_scripts.Test_1')
+data.setCell(7, 3, 5194);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'goToYouTube')
-data.setCell(8, 2, 'core.test_scripts.Test_1')
-data.setCell(8, 3, 8858);
+data.setCell(8, 1, 'goToFacebook')
+data.setCell(8, 2, 'core.test_scripts.Test_2')
+data.setCell(8, 3, 2);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'goToYouTube')
+data.setCell(9, 1, 'goToGoogle')
 data.setCell(9, 2, 'core.test_scripts.Test_2')
-data.setCell(9, 3, 7590);
+data.setCell(9, 3, 2);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'goToGoogle')
-data.setCell(10, 2, 'core.test_scripts.Test_1')
-data.setCell(10, 3, 7299);
+data.setCell(10, 2, 'core.test_scripts.Test_2')
+data.setCell(10, 3, 1);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'goToGoogle')
+data.setCell(11, 1, 'goToYouTube')
 data.setCell(11, 2, 'core.test_scripts.Test_2')
-data.setCell(11, 3, 7295);
+data.setCell(11, 3, 1);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'goToGoogle')
-data.setCell(12, 2, 'core.test_scripts.Test_1')
-data.setCell(12, 3, 7251);
+data.setCell(12, 1, 'goToYahoo')
+data.setCell(12, 2, 'core.test_scripts.Test_2')
+data.setCell(12, 3, 1);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'goToYouTube')
+data.setCell(13, 1, 'goToGoogle')
 data.setCell(13, 2, 'core.test_scripts.Test_2')
-data.setCell(13, 3, 7227);
+data.setCell(13, 3, 1);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'goToGoogle')
+data.setCell(14, 1, 'goToYouTube')
 data.setCell(14, 2, 'core.test_scripts.Test_2')
-data.setCell(14, 3, 7170);
+data.setCell(14, 3, 1);
 data.setCell(15, 0, 15)
 data.setCell(15, 1, 'goToFacebook')
 data.setCell(15, 2, 'core.test_scripts.Test_2')
-data.setCell(15, 3, 6732);
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'goToYouTube')
+data.setCell(16, 2, 'core.test_scripts.Test_2')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'goToYouTube')
+data.setCell(17, 2, 'core.test_scripts.Test_2')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'goToGoogle')
+data.setCell(18, 2, 'core.test_scripts.Test_2')
+data.setCell(18, 3, 1);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'goToYahoo')
+data.setCell(19, 2, 'core.test_scripts.Test_2')
+data.setCell(19, 3, 1);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'goToFacebook')
+data.setCell(20, 2, 'core.test_scripts.Test_2')
+data.setCell(20, 3, 1);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'goToYahoo')
+data.setCell(21, 2, 'core.test_scripts.Test_2')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'goToFacebook')
+data.setCell(22, 2, 'core.test_scripts.Test_2')
+data.setCell(22, 3, 1);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'goToYouTube')
+data.setCell(23, 2, 'core.test_scripts.Test_2')
+data.setCell(23, 3, 1);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'goToFacebook')
+data.setCell(24, 2, 'core.test_scripts.Test_2')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'goToYahoo')
+data.setCell(25, 2, 'core.test_scripts.Test_2')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'goToYahoo')
+data.setCell(26, 2, 'core.test_scripts.Test_2')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'goToGoogle')
+data.setCell(27, 2, 'core.test_scripts.Test_2')
+data.setCell(27, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -467,36 +765,6 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">goToFacebook</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">goToFacebook Test Started </span>
-                <span class="reporter-method-output">goToFacebook Test Passed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">goToGoogle</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">goToGoogle Test Started </span>
-                <span class="reporter-method-output">CaptureScreen method called</span>
-                <span class="reporter-method-output">goToGoogle Test Passed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">goToYouTube</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">goToYouTube Test Started </span>
-                <span class="reporter-method-output">CaptureScreen method called</span>
-                <span class="reporter-method-output">goToYouTube Test Passed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">goToYahoo</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">goToYahoo Test Started </span>
-                <span class="reporter-method-output">goToYahoo Test Passed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
               <span class="reporter-method-name">goToGoogle</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">goToGoogle Test Started </span>
@@ -504,41 +772,9 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">goToYouTube</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">goToYouTube Test Started </span>
-                <span class="reporter-method-output">goToYouTube Test Passed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">goToYahoo</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">goToYahoo Test Started </span>
-                <span class="reporter-method-output">CaptureScreen method called</span>
-                <span class="reporter-method-output">goToYahoo Test Passed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
               <span class="reporter-method-name">goToFacebook</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">goToFacebook Test Started </span>
-                <span class="reporter-method-output">CaptureScreen method called</span>
-                <span class="reporter-method-output">goToFacebook Test Passed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">goToGoogle</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">goToGoogle Test Started </span>
-                <span class="reporter-method-output">CaptureScreen method called</span>
-                <span class="reporter-method-output">goToGoogle Test Passed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">goToFacebook</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">goToFacebook Test Started </span>
-                <span class="reporter-method-output">CaptureScreen method called</span>
                 <span class="reporter-method-output">goToFacebook Test Passed</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -553,15 +789,132 @@ return data;
               <span class="reporter-method-name">goToYahoo</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">goToYahoo Test Started </span>
-                <span class="reporter-method-output">CaptureScreen method called</span>
                 <span class="reporter-method-output">goToYahoo Test Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">goToGoogle</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">goToGoogle Test Started </span>
+                <span class="reporter-method-output">goToGoogle Test Failed...java.lang.NullPointerException</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">goToYouTube</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">goToYouTube Test Started </span>
-                <span class="reporter-method-output">CaptureScreen method called</span>
+                <span class="reporter-method-output">goToYouTube Test Failed...java.lang.NullPointerException</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">goToYahoo</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">goToYahoo Test Started </span>
+                <span class="reporter-method-output">goToYahoo Test Failed...java.lang.NullPointerException</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">goToFacebook</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">goToFacebook Test Started </span>
+                <span class="reporter-method-output">goToFacebook Test Failed...java.lang.NullPointerException</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">goToGoogle</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">goToGoogle Test Started </span>
+                <span class="reporter-method-output">goToGoogle Test Skipped...java.lang.NullPointerException</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">goToYouTube</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">goToYouTube Test Started </span>
+                <span class="reporter-method-output">goToYouTube Test Skipped...java.lang.NullPointerException</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">goToFacebook</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">goToFacebook Test Started </span>
+                <span class="reporter-method-output">goToFacebook Test Skipped...java.lang.NullPointerException</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">goToFacebook</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">goToFacebook Test Started </span>
+                <span class="reporter-method-output">goToFacebook Test Skipped...java.lang.NullPointerException</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">goToYouTube</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">goToYouTube Test Started </span>
+                <span class="reporter-method-output">goToYouTube Test Skipped...java.lang.NullPointerException</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">goToYahoo</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">goToYahoo Test Started </span>
+                <span class="reporter-method-output">goToYahoo Test Skipped...java.lang.NullPointerException</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">goToGoogle</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">goToGoogle Test Started </span>
+                <span class="reporter-method-output">goToGoogle Test Skipped...java.lang.NullPointerException</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">goToYahoo</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">goToYahoo Test Started </span>
+                <span class="reporter-method-output">goToYahoo Test Skipped...java.lang.NullPointerException</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">goToYouTube</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">goToYouTube Test Started </span>
+                <span class="reporter-method-output">goToYouTube Test Skipped...java.lang.NullPointerException</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">goToGoogle</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">goToGoogle Test Started </span>
+                <span class="reporter-method-output">goToGoogle Test Skipped...java.lang.NullPointerException</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">goToYahoo</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">goToYahoo Test Started </span>
+                <span class="reporter-method-output">goToYahoo Test Skipped...java.lang.NullPointerException</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">goToFacebook</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">goToFacebook Test Started </span>
+                <span class="reporter-method-output">goToFacebook Test Skipped...java.lang.NullPointerException</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">goToGoogle</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">goToGoogle Test Started </span>
+                <span class="reporter-method-output">goToGoogle Test Passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">goToYouTube</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">goToYouTube Test Started </span>
                 <span class="reporter-method-output">goToYouTube Test Passed</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -583,19 +936,44 @@ return data;
               <span class="reporter-method-name">goToGoogle</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">goToGoogle Test Started </span>
-                <span class="reporter-method-output">goToGoogle Test Passed</span>
+                <span class="reporter-method-output">goToGoogle Test Failed...java.lang.NullPointerException</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">goToYahoo</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">goToYahoo Test Started </span>
+                <span class="reporter-method-output">goToYahoo Test Failed...java.lang.NullPointerException</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">goToFacebook</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">goToFacebook Test Started </span>
+                <span class="reporter-method-output">goToFacebook Test Failed...java.lang.NullPointerException</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">goToYouTube</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">goToYouTube Test Started </span>
+                <span class="reporter-method-output">goToYouTube Test Failed...java.lang.NullPointerException</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">4 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">core.test_scripts.Test_2</span>
               <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
                 <span class="ignored-method-name">beforeSuite</span>
                 <br/>
                 <span class="ignored-method-name">beforeSuite</span>
@@ -615,190 +993,406 @@ return data;
                 <span class="method-name">beforeSuite</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">149 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">128 ms</span>
+                <span class="method-start">3004 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-class before">
-                <span class="method-name">boniGarsia</span>
-                <span class="method-start">131 ms</span>
-              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void core.test_scripts.Test_1.goToFacebook() throws java.lang.InterruptedException)</span>
+                <span class="method-start">3015 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">goToFacebook</span>
-                <span class="method-start">4883 ms</span>
+                <span class="method-start">3024 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=goToFacebook status=SUCCESS method=Test_1.goToFacebook()[pri:0, instance:core.test_...)</span>
-                <span class="method-start">14435 ms</span>
+                <span class="method-start">78375 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void core.test_scripts.Test_1.goToGoogle() throws java.lang.InterruptedException)</span>
+                <span class="method-start">79543 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">goToGoogle</span>
-                <span class="method-start">15176 ms</span>
+                <span class="method-start">79544 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=goToGoogle status=SUCCESS method=Test_1.goToGoogle()[pri:0, instance:core.test_scri...)</span>
-                <span class="method-start">22476 ms</span>
+                <span class="method-start">84813 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void core.test_scripts.Test_1.goToYahoo() throws java.lang.InterruptedException)</span>
+                <span class="method-start">85396 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">goToYahoo</span>
-                <span class="method-start">22926 ms</span>
+                <span class="method-start">85397 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=goToYahoo status=SUCCESS method=Test_1.goToYahoo()[pri:0, instance:core.test_script...)</span>
-                <span class="method-start">35140 ms</span>
+                <span class="method-start">161634 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void core.test_scripts.Test_1.goToYouTube() throws java.lang.InterruptedException)</span>
+                <span class="method-start">162880 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">goToYouTube</span>
-                <span class="method-start">36376 ms</span>
+                <span class="method-start">162880 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=goToYouTube status=SUCCESS method=Test_1.goToYouTube()[pri:0, instance:core.test_sc...)</span>
-                <span class="method-start">45234 ms</span>
+                <span class="method-start">168951 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">46130 ms</span>
+                <span class="method-start">170104 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">core.test_scripts.Test_2</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">46304 ms</span>
+                <span class="method-start">170347 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-class before">
-                <span class="method-name">boniGarsia</span>
-                <span class="method-start">46305 ms</span>
-              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void core.test_scripts.Test_2.goToFacebook() throws java.lang.InterruptedException)</span>
+                <span class="method-start">170348 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">goToFacebook</span>
-                <span class="method-start">47392 ms</span>
+                <span class="method-start">170348 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=goToFacebook status=SUCCESS method=Test_2.goToFacebook()[pri:0, instance:core.test_...)</span>
-                <span class="method-start">56411 ms</span>
+                <span class="method-name">afterMethod([TestResult name=goToFacebook status=SKIP method=Test_2.goToFacebook()[pri:0, instance:core.test_scr...)</span>
+                <span class="method-start">170351 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void core.test_scripts.Test_2.goToFacebook() throws java.lang.InterruptedException)</span>
+                <span class="method-start">170381 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">goToFacebook</span>
+                <span class="method-start">170382 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=goToFacebook status=SKIP method=Test_2.goToFacebook()[pri:0, instance:core.test_scr...)</span>
+                <span class="method-start">170384 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void core.test_scripts.Test_2.goToFacebook() throws java.lang.InterruptedException)</span>
+                <span class="method-start">170416 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">goToFacebook</span>
+                <span class="method-start">170417 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=goToFacebook status=SKIP method=Test_2.goToFacebook()[pri:0, instance:core.test_scr...)</span>
+                <span class="method-start">170419 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void core.test_scripts.Test_2.goToFacebook() throws java.lang.InterruptedException)</span>
+                <span class="method-start">170449 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">goToFacebook</span>
+                <span class="method-start">170449 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=goToFacebook status=FAILURE method=Test_2.goToFacebook()[pri:0, instance:core.test_...)</span>
+                <span class="method-start">170460 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void core.test_scripts.Test_2.goToGoogle() throws java.lang.InterruptedException)</span>
+                <span class="method-start">170499 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">goToGoogle</span>
-                <span class="method-start">56937 ms</span>
+                <span class="method-start">170500 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=goToGoogle status=SUCCESS method=Test_2.goToGoogle()[pri:0, instance:core.test_scri...)</span>
-                <span class="method-start">64107 ms</span>
+                <span class="method-name">afterMethod([TestResult name=goToGoogle status=SKIP method=Test_2.goToGoogle()[pri:0, instance:core.test_scripts...)</span>
+                <span class="method-start">170503 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void core.test_scripts.Test_2.goToGoogle() throws java.lang.InterruptedException)</span>
+                <span class="method-start">170529 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">goToGoogle</span>
+                <span class="method-start">170529 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=goToGoogle status=SKIP method=Test_2.goToGoogle()[pri:0, instance:core.test_scripts...)</span>
+                <span class="method-start">170530 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void core.test_scripts.Test_2.goToGoogle() throws java.lang.InterruptedException)</span>
+                <span class="method-start">170561 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">goToGoogle</span>
+                <span class="method-start">170561 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=goToGoogle status=SKIP method=Test_2.goToGoogle()[pri:0, instance:core.test_scripts...)</span>
+                <span class="method-start">170563 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void core.test_scripts.Test_2.goToGoogle() throws java.lang.InterruptedException)</span>
+                <span class="method-start">170588 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">goToGoogle</span>
+                <span class="method-start">170588 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=goToGoogle status=FAILURE method=Test_2.goToGoogle()[pri:0, instance:core.test_scri...)</span>
+                <span class="method-start">170590 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void core.test_scripts.Test_2.goToYahoo() throws java.lang.InterruptedException)</span>
+                <span class="method-start">170622 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">goToYahoo</span>
-                <span class="method-start">64540 ms</span>
+                <span class="method-start">170623 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=goToYahoo status=SUCCESS method=Test_2.goToYahoo()[pri:0, instance:core.test_script...)</span>
-                <span class="method-start">75537 ms</span>
+                <span class="method-name">afterMethod([TestResult name=goToYahoo status=SKIP method=Test_2.goToYahoo()[pri:0, instance:core.test_scripts.T...)</span>
+                <span class="method-start">170624 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void core.test_scripts.Test_2.goToYahoo() throws java.lang.InterruptedException)</span>
+                <span class="method-start">170666 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">goToYahoo</span>
+                <span class="method-start">170666 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=goToYahoo status=SKIP method=Test_2.goToYahoo()[pri:0, instance:core.test_scripts.T...)</span>
+                <span class="method-start">170668 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void core.test_scripts.Test_2.goToYahoo() throws java.lang.InterruptedException)</span>
+                <span class="method-start">170703 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">goToYahoo</span>
+                <span class="method-start">170704 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=goToYahoo status=SKIP method=Test_2.goToYahoo()[pri:0, instance:core.test_scripts.T...)</span>
+                <span class="method-start">170705 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void core.test_scripts.Test_2.goToYahoo() throws java.lang.InterruptedException)</span>
+                <span class="method-start">170731 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">goToYahoo</span>
+                <span class="method-start">170732 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=goToYahoo status=FAILURE method=Test_2.goToYahoo()[pri:0, instance:core.test_script...)</span>
+                <span class="method-start">170733 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void core.test_scripts.Test_2.goToYouTube() throws java.lang.InterruptedException)</span>
+                <span class="method-start">170768 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">goToYouTube</span>
-                <span class="method-start">76774 ms</span>
+                <span class="method-start">170768 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=goToYouTube status=SUCCESS method=Test_2.goToYouTube()[pri:0, instance:core.test_sc...)</span>
-                <span class="method-start">84365 ms</span>
+                <span class="method-name">afterMethod([TestResult name=goToYouTube status=SKIP method=Test_2.goToYouTube()[pri:0, instance:core.test_scrip...)</span>
+                <span class="method-start">170770 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void core.test_scripts.Test_2.goToYouTube() throws java.lang.InterruptedException)</span>
+                <span class="method-start">170795 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">goToYouTube</span>
+                <span class="method-start">170796 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=goToYouTube status=SKIP method=Test_2.goToYouTube()[pri:0, instance:core.test_scrip...)</span>
+                <span class="method-start">170800 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void core.test_scripts.Test_2.goToYouTube() throws java.lang.InterruptedException)</span>
+                <span class="method-start">170826 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">goToYouTube</span>
+                <span class="method-start">170826 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=goToYouTube status=SKIP method=Test_2.goToYouTube()[pri:0, instance:core.test_scrip...)</span>
+                <span class="method-start">170828 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void core.test_scripts.Test_2.goToYouTube() throws java.lang.InterruptedException)</span>
+                <span class="method-start">170859 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">goToYouTube</span>
+                <span class="method-start">170859 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=goToYouTube status=FAILURE method=Test_2.goToYouTube()[pri:0, instance:core.test_sc...)</span>
+                <span class="method-start">170860 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">85234 ms</span>
+                <span class="method-start">170888 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">core.test_scripts.Test_1</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">171127 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">85430 ms</span>
+                <span class="method-start">172350 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-class before">
-                <span class="method-name">boniGarsia</span>
-                <span class="method-start">85431 ms</span>
-              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void core.test_scripts.Test_1.goToFacebook() throws java.lang.InterruptedException)</span>
+                <span class="method-start">172350 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">goToFacebook</span>
-                <span class="method-start">86572 ms</span>
+                <span class="method-start">172351 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=goToFacebook status=SUCCESS method=Test_1.goToFacebook()[pri:0, instance:core.test_...)</span>
-                <span class="method-start">96229 ms</span>
+                <span class="method-start">181011 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void core.test_scripts.Test_1.goToGoogle() throws java.lang.InterruptedException)</span>
+                <span class="method-start">181671 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">goToGoogle</span>
-                <span class="method-start">96722 ms</span>
+                <span class="method-start">181672 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=goToGoogle status=SUCCESS method=Test_1.goToGoogle()[pri:0, instance:core.test_scri...)</span>
-                <span class="method-start">103974 ms</span>
+                <span class="method-start">186867 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void core.test_scripts.Test_1.goToYahoo() throws java.lang.InterruptedException)</span>
+                <span class="method-start">187395 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">goToYahoo</span>
-                <span class="method-start">104415 ms</span>
+                <span class="method-start">187395 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=goToYahoo status=SUCCESS method=Test_1.goToYahoo()[pri:0, instance:core.test_script...)</span>
-                <span class="method-start">116651 ms</span>
+                <span class="method-start">217622 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void core.test_scripts.Test_1.goToYouTube() throws java.lang.InterruptedException)</span>
+                <span class="method-start">219086 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">goToYouTube</span>
-                <span class="method-start">117865 ms</span>
+                <span class="method-start">219086 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=goToYouTube status=SUCCESS method=Test_1.goToYouTube()[pri:0, instance:core.test_sc...)</span>
-                <span class="method-start">126897 ms</span>
+                <span class="method-start">225061 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">127799 ms</span>
+                <span class="method-start">226184 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">core.test_scripts.Test_2</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">127983 ms</span>
+                <span class="method-start">226379 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-class before">
-                <span class="method-name">boniGarsia</span>
-                <span class="method-start">127983 ms</span>
-              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void core.test_scripts.Test_2.goToFacebook() throws java.lang.InterruptedException)</span>
+                <span class="method-start">226380 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">goToFacebook</span>
-                <span class="method-start">129004 ms</span>
+                <span class="method-start">226380 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=goToFacebook status=SUCCESS method=Test_2.goToFacebook()[pri:0, instance:core.test_...)</span>
-                <span class="method-start">135737 ms</span>
+                <span class="method-name">afterMethod([TestResult name=goToFacebook status=FAILURE method=Test_2.goToFacebook()[pri:0, instance:core.test_...)</span>
+                <span class="method-start">226381 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void core.test_scripts.Test_2.goToGoogle() throws java.lang.InterruptedException)</span>
+                <span class="method-start">226406 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">goToGoogle</span>
-                <span class="method-start">136233 ms</span>
+                <span class="method-start">226406 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=goToGoogle status=SUCCESS method=Test_2.goToGoogle()[pri:0, instance:core.test_scri...)</span>
-                <span class="method-start">143529 ms</span>
+                <span class="method-name">afterMethod([TestResult name=goToGoogle status=FAILURE method=Test_2.goToGoogle()[pri:0, instance:core.test_scri...)</span>
+                <span class="method-start">226407 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void core.test_scripts.Test_2.goToYahoo() throws java.lang.InterruptedException)</span>
+                <span class="method-start">226428 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">goToYahoo</span>
-                <span class="method-start">143961 ms</span>
+                <span class="method-start">226428 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=goToYahoo status=SUCCESS method=Test_2.goToYahoo()[pri:0, instance:core.test_script...)</span>
-                <span class="method-start">154965 ms</span>
+                <span class="method-name">afterMethod([TestResult name=goToYahoo status=FAILURE method=Test_2.goToYahoo()[pri:0, instance:core.test_script...)</span>
+                <span class="method-start">226429 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void core.test_scripts.Test_2.goToYouTube() throws java.lang.InterruptedException)</span>
+                <span class="method-start">226454 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">goToYouTube</span>
-                <span class="method-start">156206 ms</span>
+                <span class="method-start">226454 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=goToYouTube status=SUCCESS method=Test_2.goToYouTube()[pri:0, instance:core.test_sc...)</span>
-                <span class="method-start">163433 ms</span>
+                <span class="method-name">afterMethod([TestResult name=goToYouTube status=FAILURE method=Test_2.goToYouTube()[pri:0, instance:core.test_sc...)</span>
+                <span class="method-start">226456 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">164291 ms</span>
+                <span class="method-start">226478 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

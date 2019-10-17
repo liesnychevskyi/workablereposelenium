@@ -7,13 +7,16 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class ExtentManager
 {
-    public static ExtentReports extent;
+    private static ExtentReports extent;
+
+
+//-----------------------------------------------------------//
     //=====================================================//
     public static ExtentReports getInstance()
     {
         if(extent == null)
         {
-            return createInstance("test_output.html");
+            return createInstance("test-output/extent.html");
         }
         else
         {
@@ -28,9 +31,11 @@ public class ExtentManager
         htmlReporter.config().setChartVisibilityOnOpen(true);
         htmlReporter.config().setTheme(Theme.DARK);
         htmlReporter.config().setDocumentTitle(fileName);
-        htmlReporter.config().setReportName("Automation Report");
+        htmlReporter.config().setEncoding("utf-8");
+        htmlReporter.config().setReportName("AUTOMATION Report");
         extent = new ExtentReports();
         extent.attachReporter(htmlReporter);
         return extent;
+    //=====================================================//
     }
 }

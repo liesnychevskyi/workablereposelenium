@@ -1,56 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="18" passed="16">
+<testng-results skipped="12" failed="8" ignored="4" total="32" passed="8">
   <reporter-output>
     <line>
-      <![CDATA[Test_0 Class Started...]]>
+      <![CDATA[Test first Test Started...]]>
     </line>
     <line>
-      <![CDATA[goToFacebook Test Started ]]>
-    </line>
-    <line>
-      <![CDATA[CaptureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[goToFacebook Test Passed]]>
-    </line>
-    <line>
-      <![CDATA[CaptureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[goToGoogle Test Started ]]>
-    </line>
-    <line>
-      <![CDATA[CaptureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[goToGoogle Test Passed]]>
-    </line>
-    <line>
-      <![CDATA[CaptureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[goToYahoo Test Started ]]>
-    </line>
-    <line>
-      <![CDATA[CaptureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[goToYahoo Test Passed]]>
-    </line>
-    <line>
-      <![CDATA[CaptureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[goToYouTube Test Started ]]>
-    </line>
-    <line>
-      <![CDATA[CaptureScreen method called]]>
-    </line>
-    <line>
-      <![CDATA[goToYouTube Test Passed]]>
-    </line>
-    <line>
-      <![CDATA[CaptureScreen method called]]>
+      <![CDATA[Test first Class Started...]]>
     </line>
     <line>
       <![CDATA[goToFacebook Test Started ]]>
@@ -62,6 +17,9 @@
       <![CDATA[CaptureScreen method called]]>
     </line>
     <line>
+      <![CDATA[<br><img src='/Users/Stan/IdeaProjects/workablereposelenium/src/main/java/core/screenshots/goToFacebook_15_10_2019_07_37_58.jpg' height='400' width='400'/><br>]]>
+    </line>
+    <line>
       <![CDATA[goToGoogle Test Started ]]>
     </line>
     <line>
@@ -69,6 +27,9 @@
     </line>
     <line>
       <![CDATA[CaptureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='/Users/Stan/IdeaProjects/workablereposelenium/src/main/java/core/screenshots/goToGoogle_15_10_2019_07_38_04.jpg' height='400' width='400'/><br>]]>
     </line>
     <line>
       <![CDATA[goToYahoo Test Started ]]>
@@ -80,6 +41,9 @@
       <![CDATA[CaptureScreen method called]]>
     </line>
     <line>
+      <![CDATA[<br><img src='/Users/Stan/IdeaProjects/workablereposelenium/src/main/java/core/screenshots/goToYahoo_15_10_2019_07_39_21.jpg' height='400' width='400'/><br>]]>
+    </line>
+    <line>
       <![CDATA[goToYouTube Test Started ]]>
     </line>
     <line>
@@ -89,16 +53,115 @@
       <![CDATA[CaptureScreen method called]]>
     </line>
     <line>
-      <![CDATA[Test_0 Test Finished.]]>
-    </line>
-    <line>
-      <![CDATA[Test_1 Class Started...]]>
+      <![CDATA[<br><img src='/Users/Stan/IdeaProjects/workablereposelenium/src/main/java/core/screenshots/goToYouTube_15_10_2019_07_39_29.jpg' height='400' width='400'/><br>]]>
     </line>
     <line>
       <![CDATA[goToFacebook Test Started ]]>
     </line>
     <line>
-      <![CDATA[CaptureScreen method called]]>
+      <![CDATA[goToFacebook Test Skipped...java.lang.NullPointerException]]>
+    </line>
+    <line>
+      <![CDATA[goToFacebook Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[goToFacebook Test Skipped...java.lang.NullPointerException]]>
+    </line>
+    <line>
+      <![CDATA[goToFacebook Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[goToFacebook Test Skipped...java.lang.NullPointerException]]>
+    </line>
+    <line>
+      <![CDATA[goToFacebook Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[goToFacebook Test Failed...java.lang.NullPointerException]]>
+    </line>
+    <line>
+      <![CDATA[goToGoogle Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[goToGoogle Test Skipped...java.lang.NullPointerException]]>
+    </line>
+    <line>
+      <![CDATA[goToGoogle Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[goToGoogle Test Skipped...java.lang.NullPointerException]]>
+    </line>
+    <line>
+      <![CDATA[goToGoogle Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[goToGoogle Test Skipped...java.lang.NullPointerException]]>
+    </line>
+    <line>
+      <![CDATA[goToGoogle Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[goToGoogle Test Failed...java.lang.NullPointerException]]>
+    </line>
+    <line>
+      <![CDATA[goToYahoo Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[goToYahoo Test Skipped...java.lang.NullPointerException]]>
+    </line>
+    <line>
+      <![CDATA[goToYahoo Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[goToYahoo Test Skipped...java.lang.NullPointerException]]>
+    </line>
+    <line>
+      <![CDATA[goToYahoo Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[goToYahoo Test Skipped...java.lang.NullPointerException]]>
+    </line>
+    <line>
+      <![CDATA[goToYahoo Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[goToYahoo Test Failed...java.lang.NullPointerException]]>
+    </line>
+    <line>
+      <![CDATA[goToYouTube Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[goToYouTube Test Skipped...java.lang.NullPointerException]]>
+    </line>
+    <line>
+      <![CDATA[goToYouTube Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[goToYouTube Test Skipped...java.lang.NullPointerException]]>
+    </line>
+    <line>
+      <![CDATA[goToYouTube Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[goToYouTube Test Skipped...java.lang.NullPointerException]]>
+    </line>
+    <line>
+      <![CDATA[goToYouTube Test Started ]]>
+    </line>
+    <line>
+      <![CDATA[goToYouTube Test Failed...java.lang.NullPointerException]]>
+    </line>
+    <line>
+      <![CDATA[Test first Test Finished.]]>
+    </line>
+    <line>
+      <![CDATA[Test second Test Started...]]>
+    </line>
+    <line>
+      <![CDATA[Test second Class Started...]]>
+    </line>
+    <line>
+      <![CDATA[goToFacebook Test Started ]]>
     </line>
     <line>
       <![CDATA[goToFacebook Test Passed]]>
@@ -107,10 +170,10 @@
       <![CDATA[CaptureScreen method called]]>
     </line>
     <line>
-      <![CDATA[goToGoogle Test Started ]]>
+      <![CDATA[<br><img src='/Users/Stan/IdeaProjects/workablereposelenium/src/main/java/core/screenshots/goToFacebook_15_10_2019_07_39_41.jpg' height='400' width='400'/><br>]]>
     </line>
     <line>
-      <![CDATA[CaptureScreen method called]]>
+      <![CDATA[goToGoogle Test Started ]]>
     </line>
     <line>
       <![CDATA[goToGoogle Test Passed]]>
@@ -119,10 +182,10 @@
       <![CDATA[CaptureScreen method called]]>
     </line>
     <line>
-      <![CDATA[goToYahoo Test Started ]]>
+      <![CDATA[<br><img src='/Users/Stan/IdeaProjects/workablereposelenium/src/main/java/core/screenshots/goToGoogle_15_10_2019_07_39_47.jpg' height='400' width='400'/><br>]]>
     </line>
     <line>
-      <![CDATA[CaptureScreen method called]]>
+      <![CDATA[goToYahoo Test Started ]]>
     </line>
     <line>
       <![CDATA[goToYahoo Test Passed]]>
@@ -131,81 +194,80 @@
       <![CDATA[CaptureScreen method called]]>
     </line>
     <line>
-      <![CDATA[goToYouTube Test Started ]]>
+      <![CDATA[<br><img src='/Users/Stan/IdeaProjects/workablereposelenium/src/main/java/core/screenshots/goToYahoo_15_10_2019_07_40_17.jpg' height='400' width='400'/><br>]]>
     </line>
     <line>
-      <![CDATA[CaptureScreen method called]]>
+      <![CDATA[goToYouTube Test Started ]]>
     </line>
     <line>
       <![CDATA[goToYouTube Test Passed]]>
     </line>
     <line>
       <![CDATA[CaptureScreen method called]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='/Users/Stan/IdeaProjects/workablereposelenium/src/main/java/core/screenshots/goToYouTube_15_10_2019_07_40_25.jpg' height='400' width='400'/><br>]]>
     </line>
     <line>
       <![CDATA[goToFacebook Test Started ]]>
     </line>
     <line>
-      <![CDATA[goToFacebook Test Passed]]>
-    </line>
-    <line>
-      <![CDATA[CaptureScreen method called]]>
+      <![CDATA[goToFacebook Test Failed...java.lang.NullPointerException]]>
     </line>
     <line>
       <![CDATA[goToGoogle Test Started ]]>
     </line>
     <line>
-      <![CDATA[goToGoogle Test Passed]]>
-    </line>
-    <line>
-      <![CDATA[CaptureScreen method called]]>
+      <![CDATA[goToGoogle Test Failed...java.lang.NullPointerException]]>
     </line>
     <line>
       <![CDATA[goToYahoo Test Started ]]>
     </line>
     <line>
-      <![CDATA[goToYahoo Test Passed]]>
-    </line>
-    <line>
-      <![CDATA[CaptureScreen method called]]>
+      <![CDATA[goToYahoo Test Failed...java.lang.NullPointerException]]>
     </line>
     <line>
       <![CDATA[goToYouTube Test Started ]]>
     </line>
     <line>
-      <![CDATA[goToYouTube Test Passed]]>
-    </line>
-    <line>
-      <![CDATA[CaptureScreen method called]]>
+      <![CDATA[goToYouTube Test Failed...java.lang.NullPointerException]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="164355" started-at="2019-10-14T13:15:00Z" finished-at="2019-10-14T13:17:44Z">
+  <suite name="Suite" duration-ms="226336" started-at="2019-10-15T16:36:40Z" finished-at="2019-10-15T16:40:26Z">
     <groups>
     </groups>
-    <test name="Test_0" duration-ms="85298" started-at="2019-10-14T13:15:00Z" finished-at="2019-10-14T13:16:25Z">
+    <test name="Test first" duration-ms="170747" started-at="2019-10-15T16:36:40Z" finished-at="2019-10-15T16:39:31Z">
       <class name="core.test_scripts.Test_1">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="beforeClass" is-config="true" duration-ms="3" started-at="2019-10-14T13:15:00Z" finished-at="2019-10-14T13:15:00Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="beforeTest" is-config="true" duration-ms="2848" started-at="2019-10-15T16:36:40Z" finished-at="2019-10-15T16:36:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="beforeClass" is-config="true" duration-ms="1" started-at="2019-10-15T16:36:43Z" finished-at="2019-10-15T16:36:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="boniGarsia()[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="boniGarsia" is-config="true" duration-ms="4745" started-at="2019-10-14T13:15:00Z" finished-at="2019-10-14T13:15:04Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="beforeMethod" is-config="true" duration-ms="9" started-at="2019-10-15T16:36:43Z" finished-at="2019-10-15T16:36:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.test_scripts.Test_1.goToFacebook() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- boniGarsia -->
-        <test-method status="PASS" signature="goToFacebook()[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="goToFacebook" duration-ms="9550" started-at="2019-10-14T13:15:04Z" finished-at="2019-10-14T13:15:14Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="goToFacebook()[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="goToFacebook" duration-ms="75349" started-at="2019-10-15T16:36:43Z" finished-at="2019-10-15T16:37:58Z">
           <reporter-output>
             <line>
               <![CDATA[goToFacebook Test Started ]]>
-            </line>
-            <line>
-              <![CDATA[CaptureScreen method called]]>
             </line>
             <line>
               <![CDATA[goToFacebook Test Passed]]>
             </line>
           </reporter-output>
         </test-method> <!-- goToFacebook -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="afterMethod" is-config="true" duration-ms="741" started-at="2019-10-14T13:15:14Z" finished-at="2019-10-14T13:15:15Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="afterMethod" is-config="true" duration-ms="1168" started-at="2019-10-15T16:37:58Z" finished-at="2019-10-15T16:37:59Z">
           <params>
             <param index="0">
               <value>
@@ -217,22 +279,33 @@
             <line>
               <![CDATA[CaptureScreen method called]]>
             </line>
+            <line>
+              <![CDATA[<br><img src='/Users/Stan/IdeaProjects/workablereposelenium/src/main/java/core/screenshots/goToFacebook_15_10_2019_07_37_58.jpg' height='400' width='400'/><br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="goToGoogle()[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="goToGoogle" duration-ms="7299" started-at="2019-10-14T13:15:15Z" finished-at="2019-10-14T13:15:22Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-10-15T16:37:59Z" finished-at="2019-10-15T16:37:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.test_scripts.Test_1.goToGoogle() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="goToGoogle()[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="goToGoogle" duration-ms="5268" started-at="2019-10-15T16:37:59Z" finished-at="2019-10-15T16:38:04Z">
           <reporter-output>
             <line>
               <![CDATA[goToGoogle Test Started ]]>
-            </line>
-            <line>
-              <![CDATA[CaptureScreen method called]]>
             </line>
             <line>
               <![CDATA[goToGoogle Test Passed]]>
             </line>
           </reporter-output>
         </test-method> <!-- goToGoogle -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="afterMethod" is-config="true" duration-ms="450" started-at="2019-10-14T13:15:22Z" finished-at="2019-10-14T13:15:22Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="afterMethod" is-config="true" duration-ms="583" started-at="2019-10-15T16:38:04Z" finished-at="2019-10-15T16:38:05Z">
           <params>
             <param index="0">
               <value>
@@ -244,22 +317,33 @@
             <line>
               <![CDATA[CaptureScreen method called]]>
             </line>
+            <line>
+              <![CDATA[<br><img src='/Users/Stan/IdeaProjects/workablereposelenium/src/main/java/core/screenshots/goToGoogle_15_10_2019_07_38_04.jpg' height='400' width='400'/><br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="goToYahoo()[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="goToYahoo" duration-ms="12213" started-at="2019-10-14T13:15:22Z" finished-at="2019-10-14T13:15:35Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-10-15T16:38:05Z" finished-at="2019-10-15T16:38:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.test_scripts.Test_1.goToYahoo() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="goToYahoo()[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="goToYahoo" duration-ms="76237" started-at="2019-10-15T16:38:05Z" finished-at="2019-10-15T16:39:21Z">
           <reporter-output>
             <line>
               <![CDATA[goToYahoo Test Started ]]>
-            </line>
-            <line>
-              <![CDATA[CaptureScreen method called]]>
             </line>
             <line>
               <![CDATA[goToYahoo Test Passed]]>
             </line>
           </reporter-output>
         </test-method> <!-- goToYahoo -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="afterMethod" is-config="true" duration-ms="1236" started-at="2019-10-14T13:15:35Z" finished-at="2019-10-14T13:15:36Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="afterMethod" is-config="true" duration-ms="1245" started-at="2019-10-15T16:39:21Z" finished-at="2019-10-15T16:39:23Z">
           <params>
             <param index="0">
               <value>
@@ -271,22 +355,33 @@
             <line>
               <![CDATA[CaptureScreen method called]]>
             </line>
+            <line>
+              <![CDATA[<br><img src='/Users/Stan/IdeaProjects/workablereposelenium/src/main/java/core/screenshots/goToYahoo_15_10_2019_07_39_21.jpg' height='400' width='400'/><br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="goToYouTube()[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="goToYouTube" duration-ms="8858" started-at="2019-10-14T13:15:36Z" finished-at="2019-10-14T13:15:45Z">
+        <test-method status="PASS" signature="goToYouTube()[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="goToYouTube" duration-ms="6070" started-at="2019-10-15T16:39:23Z" finished-at="2019-10-15T16:39:29Z">
           <reporter-output>
             <line>
               <![CDATA[goToYouTube Test Started ]]>
-            </line>
-            <line>
-              <![CDATA[CaptureScreen method called]]>
             </line>
             <line>
               <![CDATA[goToYouTube Test Passed]]>
             </line>
           </reporter-output>
         </test-method> <!-- goToYouTube -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="afterMethod" is-config="true" duration-ms="895" started-at="2019-10-14T13:15:45Z" finished-at="2019-10-14T13:15:46Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-10-15T16:39:23Z" finished-at="2019-10-15T16:39:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.test_scripts.Test_1.goToYouTube() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="afterMethod" is-config="true" duration-ms="1153" started-at="2019-10-15T16:39:29Z" finished-at="2019-10-15T16:39:30Z">
           <params>
             <param index="0">
               <value>
@@ -298,152 +393,1151 @@
             <line>
               <![CDATA[CaptureScreen method called]]>
             </line>
+            <line>
+              <![CDATA[<br><img src='/Users/Stan/IdeaProjects/workablereposelenium/src/main/java/core/screenshots/goToYouTube_15_10_2019_07_39_29.jpg' height='400' width='400'/><br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="afterClass" is-config="true" duration-ms="173" started-at="2019-10-14T13:15:46Z" finished-at="2019-10-14T13:15:46Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:core.test_scripts.Test_1@464bee09]" name="afterClass" is-config="true" duration-ms="242" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- core.test_scripts.Test_1 -->
       <class name="core.test_scripts.Test_2">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="beforeClass" is-config="true" duration-ms="1" started-at="2019-10-14T13:15:46Z" finished-at="2019-10-14T13:15:46Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="beforeClass" is-config="true" duration-ms="1" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="boniGarsia()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="boniGarsia" is-config="true" duration-ms="1087" started-at="2019-10-14T13:15:46Z" finished-at="2019-10-14T13:15:47Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.test_scripts.Test_2.goToFacebook() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- boniGarsia -->
-        <test-method status="PASS" signature="goToFacebook()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="goToFacebook" duration-ms="9019" started-at="2019-10-14T13:15:47Z" finished-at="2019-10-14T13:15:56Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="goToFacebook()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="goToFacebook" duration-ms="1" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at core.test_scripts.Test_2.goToFacebook(Test_2.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
             <line>
               <![CDATA[goToFacebook Test Started ]]>
             </line>
             <line>
-              <![CDATA[goToFacebook Test Passed]]>
+              <![CDATA[goToFacebook Test Skipped...java.lang.NullPointerException]]>
             </line>
           </reporter-output>
         </test-method> <!-- goToFacebook -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="afterMethod" is-config="true" duration-ms="526" started-at="2019-10-14T13:15:56Z" finished-at="2019-10-14T13:15:56Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="afterMethod" is-config="true" duration-ms="30" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=goToFacebook status=SUCCESS method=Test_2.goToFacebook()[pri:0, instance:core.test_scripts.Test_2@f6c48ac] output=goToFacebook Test Started ]]]>
+                <![CDATA[[TestResult name=goToFacebook status=SKIP method=Test_2.goToFacebook()[pri:0, instance:core.test_scripts.Test_2@f6c48ac] output=goToFacebook Test Started ]]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[CaptureScreen method called]]>
-            </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="goToGoogle()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="goToGoogle" duration-ms="7170" started-at="2019-10-14T13:15:56Z" finished-at="2019-10-14T13:16:04Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.test_scripts.Test_2.goToFacebook() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="goToFacebook()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="goToFacebook" duration-ms="1" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at core.test_scripts.Test_2.goToFacebook(Test_2.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[goToFacebook Test Started ]]>
+            </line>
+            <line>
+              <![CDATA[goToFacebook Test Skipped...java.lang.NullPointerException]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToFacebook -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="afterMethod" is-config="true" duration-ms="32" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToFacebook status=SKIP method=Test_2.goToFacebook()[pri:0, instance:core.test_scripts.Test_2@f6c48ac] output=goToFacebook Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.test_scripts.Test_2.goToFacebook() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="goToFacebook()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="goToFacebook" duration-ms="0" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at core.test_scripts.Test_2.goToFacebook(Test_2.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[goToFacebook Test Started ]]>
+            </line>
+            <line>
+              <![CDATA[goToFacebook Test Skipped...java.lang.NullPointerException]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToFacebook -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="afterMethod" is-config="true" duration-ms="29" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToFacebook status=SKIP method=Test_2.goToFacebook()[pri:0, instance:core.test_scripts.Test_2@f6c48ac] output=goToFacebook Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.test_scripts.Test_2.goToFacebook() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="goToFacebook()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="goToFacebook" duration-ms="2" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at core.test_scripts.Test_2.goToFacebook(Test_2.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[goToFacebook Test Started ]]>
+            </line>
+            <line>
+              <![CDATA[goToFacebook Test Failed...java.lang.NullPointerException]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToFacebook -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="afterMethod" is-config="true" duration-ms="38" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToFacebook status=FAILURE method=Test_2.goToFacebook()[pri:0, instance:core.test_scripts.Test_2@f6c48ac] output=goToFacebook Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.test_scripts.Test_2.goToGoogle() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="goToGoogle()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="goToGoogle" duration-ms="2" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at core.test_scripts.Test_2.goToGoogle(Test_2.java:17)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
             <line>
               <![CDATA[goToGoogle Test Started ]]>
             </line>
             <line>
-              <![CDATA[goToGoogle Test Passed]]>
+              <![CDATA[goToGoogle Test Skipped...java.lang.NullPointerException]]>
             </line>
           </reporter-output>
         </test-method> <!-- goToGoogle -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="afterMethod" is-config="true" duration-ms="432" started-at="2019-10-14T13:16:04Z" finished-at="2019-10-14T13:16:04Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="afterMethod" is-config="true" duration-ms="26" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=goToGoogle status=SUCCESS method=Test_2.goToGoogle()[pri:0, instance:core.test_scripts.Test_2@f6c48ac] output=goToGoogle Test Started ]]]>
+                <![CDATA[[TestResult name=goToGoogle status=SKIP method=Test_2.goToGoogle()[pri:0, instance:core.test_scripts.Test_2@f6c48ac] output=goToGoogle Test Started ]]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[CaptureScreen method called]]>
-            </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="goToYahoo()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="goToYahoo" duration-ms="10997" started-at="2019-10-14T13:16:04Z" finished-at="2019-10-14T13:16:15Z">
+        <test-method status="SKIP" signature="goToGoogle()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="goToGoogle" duration-ms="1" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at core.test_scripts.Test_2.goToGoogle(Test_2.java:17)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[goToGoogle Test Started ]]>
+            </line>
+            <line>
+              <![CDATA[goToGoogle Test Skipped...java.lang.NullPointerException]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToGoogle -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.test_scripts.Test_2.goToGoogle() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="afterMethod" is-config="true" duration-ms="31" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToGoogle status=SKIP method=Test_2.goToGoogle()[pri:0, instance:core.test_scripts.Test_2@f6c48ac] output=goToGoogle Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="goToGoogle()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="goToGoogle" duration-ms="1" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at core.test_scripts.Test_2.goToGoogle(Test_2.java:17)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[goToGoogle Test Started ]]>
+            </line>
+            <line>
+              <![CDATA[goToGoogle Test Skipped...java.lang.NullPointerException]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToGoogle -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.test_scripts.Test_2.goToGoogle() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="afterMethod" is-config="true" duration-ms="25" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToGoogle status=SKIP method=Test_2.goToGoogle()[pri:0, instance:core.test_scripts.Test_2@f6c48ac] output=goToGoogle Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.test_scripts.Test_2.goToGoogle() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="goToGoogle()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="goToGoogle" duration-ms="1" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at core.test_scripts.Test_2.goToGoogle(Test_2.java:17)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[goToGoogle Test Started ]]>
+            </line>
+            <line>
+              <![CDATA[goToGoogle Test Failed...java.lang.NullPointerException]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToGoogle -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="afterMethod" is-config="true" duration-ms="32" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToGoogle status=FAILURE method=Test_2.goToGoogle()[pri:0, instance:core.test_scripts.Test_2@f6c48ac] output=goToGoogle Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.test_scripts.Test_2.goToYahoo() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="goToYahoo()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="goToYahoo" duration-ms="0" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at core.test_scripts.Test_2.goToYahoo(Test_2.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
             <line>
               <![CDATA[goToYahoo Test Started ]]>
             </line>
             <line>
-              <![CDATA[goToYahoo Test Passed]]>
+              <![CDATA[goToYahoo Test Skipped...java.lang.NullPointerException]]>
             </line>
           </reporter-output>
         </test-method> <!-- goToYahoo -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="afterMethod" is-config="true" duration-ms="1237" started-at="2019-10-14T13:16:15Z" finished-at="2019-10-14T13:16:16Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="afterMethod" is-config="true" duration-ms="41" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=goToYahoo status=SUCCESS method=Test_2.goToYahoo()[pri:0, instance:core.test_scripts.Test_2@f6c48ac] output=goToYahoo Test Started ]]]>
+                <![CDATA[[TestResult name=goToYahoo status=SKIP method=Test_2.goToYahoo()[pri:0, instance:core.test_scripts.Test_2@f6c48ac] output=goToYahoo Test Started ]]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[CaptureScreen method called]]>
-            </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="goToYouTube()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="goToYouTube" duration-ms="7590" started-at="2019-10-14T13:16:16Z" finished-at="2019-10-14T13:16:24Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.test_scripts.Test_2.goToYahoo() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="goToYahoo()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="goToYahoo" duration-ms="1" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at core.test_scripts.Test_2.goToYahoo(Test_2.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[goToYahoo Test Started ]]>
+            </line>
+            <line>
+              <![CDATA[goToYahoo Test Skipped...java.lang.NullPointerException]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToYahoo -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="afterMethod" is-config="true" duration-ms="35" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToYahoo status=SKIP method=Test_2.goToYahoo()[pri:0, instance:core.test_scripts.Test_2@f6c48ac] output=goToYahoo Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.test_scripts.Test_2.goToYahoo() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="goToYahoo()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="goToYahoo" duration-ms="0" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at core.test_scripts.Test_2.goToYahoo(Test_2.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[goToYahoo Test Started ]]>
+            </line>
+            <line>
+              <![CDATA[goToYahoo Test Skipped...java.lang.NullPointerException]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToYahoo -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="afterMethod" is-config="true" duration-ms="26" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToYahoo status=SKIP method=Test_2.goToYahoo()[pri:0, instance:core.test_scripts.Test_2@f6c48ac] output=goToYahoo Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.test_scripts.Test_2.goToYahoo() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="goToYahoo()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="goToYahoo" duration-ms="1" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at core.test_scripts.Test_2.goToYahoo(Test_2.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[goToYahoo Test Started ]]>
+            </line>
+            <line>
+              <![CDATA[goToYahoo Test Failed...java.lang.NullPointerException]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToYahoo -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="afterMethod" is-config="true" duration-ms="34" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToYahoo status=FAILURE method=Test_2.goToYahoo()[pri:0, instance:core.test_scripts.Test_2@f6c48ac] output=goToYahoo Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.test_scripts.Test_2.goToYouTube() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="goToYouTube()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="goToYouTube" duration-ms="1" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at core.test_scripts.Test_2.goToYouTube(Test_2.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
             <line>
               <![CDATA[goToYouTube Test Started ]]>
             </line>
             <line>
-              <![CDATA[goToYouTube Test Passed]]>
+              <![CDATA[goToYouTube Test Skipped...java.lang.NullPointerException]]>
             </line>
           </reporter-output>
         </test-method> <!-- goToYouTube -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="afterMethod" is-config="true" duration-ms="869" started-at="2019-10-14T13:16:24Z" finished-at="2019-10-14T13:16:25Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="afterMethod" is-config="true" duration-ms="25" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=goToYouTube status=SUCCESS method=Test_2.goToYouTube()[pri:0, instance:core.test_scripts.Test_2@f6c48ac] output=goToYouTube Test Started ]]]>
+                <![CDATA[[TestResult name=goToYouTube status=SKIP method=Test_2.goToYouTube()[pri:0, instance:core.test_scripts.Test_2@f6c48ac] output=goToYouTube Test Started ]]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[CaptureScreen method called]]>
-            </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="afterClass" is-config="true" duration-ms="179" started-at="2019-10-14T13:16:25Z" finished-at="2019-10-14T13:16:25Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.test_scripts.Test_2.goToYouTube() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="goToYouTube()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="goToYouTube" duration-ms="1" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:30Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at core.test_scripts.Test_2.goToYouTube(Test_2.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[goToYouTube Test Started ]]>
+            </line>
+            <line>
+              <![CDATA[goToYouTube Test Skipped...java.lang.NullPointerException]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToYouTube -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="afterMethod" is-config="true" duration-ms="26" started-at="2019-10-15T16:39:30Z" finished-at="2019-10-15T16:39:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToYouTube status=SKIP method=Test_2.goToYouTube()[pri:0, instance:core.test_scripts.Test_2@f6c48ac] output=goToYouTube Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-10-15T16:39:31Z" finished-at="2019-10-15T16:39:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.test_scripts.Test_2.goToYouTube() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="goToYouTube()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="goToYouTube" duration-ms="1" started-at="2019-10-15T16:39:31Z" finished-at="2019-10-15T16:39:31Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at core.test_scripts.Test_2.goToYouTube(Test_2.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[goToYouTube Test Started ]]>
+            </line>
+            <line>
+              <![CDATA[goToYouTube Test Skipped...java.lang.NullPointerException]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToYouTube -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="afterMethod" is-config="true" duration-ms="31" started-at="2019-10-15T16:39:31Z" finished-at="2019-10-15T16:39:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToYouTube status=SKIP method=Test_2.goToYouTube()[pri:0, instance:core.test_scripts.Test_2@f6c48ac] output=goToYouTube Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-10-15T16:39:31Z" finished-at="2019-10-15T16:39:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.test_scripts.Test_2.goToYouTube() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="goToYouTube()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="goToYouTube" duration-ms="1" started-at="2019-10-15T16:39:31Z" finished-at="2019-10-15T16:39:31Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at core.test_scripts.Test_2.goToYouTube(Test_2.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[goToYouTube Test Started ]]>
+            </line>
+            <line>
+              <![CDATA[goToYouTube Test Failed...java.lang.NullPointerException]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goToYouTube -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="afterMethod" is-config="true" duration-ms="28" started-at="2019-10-15T16:39:31Z" finished-at="2019-10-15T16:39:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToYouTube status=FAILURE method=Test_2.goToYouTube()[pri:0, instance:core.test_scripts.Test_2@f6c48ac] output=goToYouTube Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:core.test_scripts.Test_2@f6c48ac]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-10-15T16:39:31Z" finished-at="2019-10-15T16:39:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- core.test_scripts.Test_2 -->
-    </test> <!-- Test_0 -->
-    <test name="Test_1" duration-ms="79040" started-at="2019-10-14T13:16:25Z" finished-at="2019-10-14T13:17:44Z">
+    </test> <!-- Test first -->
+    <test name="Test second" duration-ms="55352" started-at="2019-10-15T16:39:31Z" finished-at="2019-10-15T16:40:26Z">
       <class name="core.test_scripts.Test_1">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:core.test_scripts.Test_1@59494225]" name="beforeSuite" is-config="true" duration-ms="115" started-at="2019-10-14T13:14:59Z" finished-at="2019-10-14T13:15:00Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:core.test_scripts.Test_1@59494225]" name="beforeSuite" is-config="true" duration-ms="142" started-at="2019-10-15T16:36:40Z" finished-at="2019-10-15T16:36:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:core.test_scripts.Test_1@59494225]" name="beforeClass" is-config="true" duration-ms="1" started-at="2019-10-14T13:16:25Z" finished-at="2019-10-14T13:16:25Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:core.test_scripts.Test_1@59494225]" name="beforeTest" is-config="true" duration-ms="1223" started-at="2019-10-15T16:39:31Z" finished-at="2019-10-15T16:39:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:core.test_scripts.Test_1@59494225]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-10-15T16:39:32Z" finished-at="2019-10-15T16:39:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.test_scripts.Test_1.goToFacebook() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:core.test_scripts.Test_1@59494225]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-10-15T16:39:32Z" finished-at="2019-10-15T16:39:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="boniGarsia()[pri:0, instance:core.test_scripts.Test_1@59494225]" name="boniGarsia" is-config="true" duration-ms="1140" started-at="2019-10-14T13:16:25Z" finished-at="2019-10-14T13:16:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- boniGarsia -->
-        <test-method status="PASS" signature="goToFacebook()[pri:0, instance:core.test_scripts.Test_1@59494225]" name="goToFacebook" duration-ms="9656" started-at="2019-10-14T13:16:26Z" finished-at="2019-10-14T13:16:36Z">
+        <test-method status="PASS" signature="goToFacebook()[pri:0, instance:core.test_scripts.Test_1@59494225]" name="goToFacebook" duration-ms="8660" started-at="2019-10-15T16:39:32Z" finished-at="2019-10-15T16:39:41Z">
           <reporter-output>
             <line>
               <![CDATA[goToFacebook Test Started ]]>
-            </line>
-            <line>
-              <![CDATA[CaptureScreen method called]]>
             </line>
             <line>
               <![CDATA[goToFacebook Test Passed]]>
             </line>
           </reporter-output>
         </test-method> <!-- goToFacebook -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_1@59494225]" name="afterMethod" is-config="true" duration-ms="493" started-at="2019-10-14T13:16:36Z" finished-at="2019-10-14T13:16:36Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_1@59494225]" name="afterMethod" is-config="true" duration-ms="660" started-at="2019-10-15T16:39:41Z" finished-at="2019-10-15T16:39:41Z">
           <params>
             <param index="0">
               <value>
@@ -455,22 +1549,33 @@
             <line>
               <![CDATA[CaptureScreen method called]]>
             </line>
+            <line>
+              <![CDATA[<br><img src='/Users/Stan/IdeaProjects/workablereposelenium/src/main/java/core/screenshots/goToFacebook_15_10_2019_07_39_41.jpg' height='400' width='400'/><br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="goToGoogle()[pri:0, instance:core.test_scripts.Test_1@59494225]" name="goToGoogle" duration-ms="7251" started-at="2019-10-14T13:16:36Z" finished-at="2019-10-14T13:16:43Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:core.test_scripts.Test_1@59494225]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-10-15T16:39:41Z" finished-at="2019-10-15T16:39:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.test_scripts.Test_1.goToGoogle() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="goToGoogle()[pri:0, instance:core.test_scripts.Test_1@59494225]" name="goToGoogle" duration-ms="5194" started-at="2019-10-15T16:39:41Z" finished-at="2019-10-15T16:39:47Z">
           <reporter-output>
             <line>
               <![CDATA[goToGoogle Test Started ]]>
-            </line>
-            <line>
-              <![CDATA[CaptureScreen method called]]>
             </line>
             <line>
               <![CDATA[goToGoogle Test Passed]]>
             </line>
           </reporter-output>
         </test-method> <!-- goToGoogle -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_1@59494225]" name="afterMethod" is-config="true" duration-ms="441" started-at="2019-10-14T13:16:43Z" finished-at="2019-10-14T13:16:44Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_1@59494225]" name="afterMethod" is-config="true" duration-ms="527" started-at="2019-10-15T16:39:47Z" finished-at="2019-10-15T16:39:47Z">
           <params>
             <param index="0">
               <value>
@@ -482,22 +1587,33 @@
             <line>
               <![CDATA[CaptureScreen method called]]>
             </line>
+            <line>
+              <![CDATA[<br><img src='/Users/Stan/IdeaProjects/workablereposelenium/src/main/java/core/screenshots/goToGoogle_15_10_2019_07_39_47.jpg' height='400' width='400'/><br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="goToYahoo()[pri:0, instance:core.test_scripts.Test_1@59494225]" name="goToYahoo" duration-ms="12235" started-at="2019-10-14T13:16:44Z" finished-at="2019-10-14T13:16:56Z">
+        <test-method status="PASS" signature="goToYahoo()[pri:0, instance:core.test_scripts.Test_1@59494225]" name="goToYahoo" duration-ms="30226" started-at="2019-10-15T16:39:47Z" finished-at="2019-10-15T16:40:17Z">
           <reporter-output>
             <line>
               <![CDATA[goToYahoo Test Started ]]>
-            </line>
-            <line>
-              <![CDATA[CaptureScreen method called]]>
             </line>
             <line>
               <![CDATA[goToYahoo Test Passed]]>
             </line>
           </reporter-output>
         </test-method> <!-- goToYahoo -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_1@59494225]" name="afterMethod" is-config="true" duration-ms="1213" started-at="2019-10-14T13:16:56Z" finished-at="2019-10-14T13:16:57Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:core.test_scripts.Test_1@59494225]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-10-15T16:39:47Z" finished-at="2019-10-15T16:39:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.test_scripts.Test_1.goToYahoo() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_1@59494225]" name="afterMethod" is-config="true" duration-ms="1464" started-at="2019-10-15T16:40:17Z" finished-at="2019-10-15T16:40:19Z">
           <params>
             <param index="0">
               <value>
@@ -509,22 +1625,33 @@
             <line>
               <![CDATA[CaptureScreen method called]]>
             </line>
+            <line>
+              <![CDATA[<br><img src='/Users/Stan/IdeaProjects/workablereposelenium/src/main/java/core/screenshots/goToYahoo_15_10_2019_07_40_17.jpg' height='400' width='400'/><br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="goToYouTube()[pri:0, instance:core.test_scripts.Test_1@59494225]" name="goToYouTube" duration-ms="9031" started-at="2019-10-14T13:16:57Z" finished-at="2019-10-14T13:17:06Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:core.test_scripts.Test_1@59494225]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-10-15T16:40:19Z" finished-at="2019-10-15T16:40:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.test_scripts.Test_1.goToYouTube() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="goToYouTube()[pri:0, instance:core.test_scripts.Test_1@59494225]" name="goToYouTube" duration-ms="5975" started-at="2019-10-15T16:40:19Z" finished-at="2019-10-15T16:40:25Z">
           <reporter-output>
             <line>
               <![CDATA[goToYouTube Test Started ]]>
-            </line>
-            <line>
-              <![CDATA[CaptureScreen method called]]>
             </line>
             <line>
               <![CDATA[goToYouTube Test Passed]]>
             </line>
           </reporter-output>
         </test-method> <!-- goToYouTube -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_1@59494225]" name="afterMethod" is-config="true" duration-ms="901" started-at="2019-10-14T13:17:06Z" finished-at="2019-10-14T13:17:07Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_1@59494225]" name="afterMethod" is-config="true" duration-ms="1123" started-at="2019-10-15T16:40:25Z" finished-at="2019-10-15T16:40:26Z">
           <params>
             <param index="0">
               <value>
@@ -536,123 +1663,298 @@
             <line>
               <![CDATA[CaptureScreen method called]]>
             </line>
+            <line>
+              <![CDATA[<br><img src='/Users/Stan/IdeaProjects/workablereposelenium/src/main/java/core/screenshots/goToYouTube_15_10_2019_07_40_25.jpg' height='400' width='400'/><br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:core.test_scripts.Test_1@59494225]" name="afterClass" is-config="true" duration-ms="184" started-at="2019-10-14T13:17:07Z" finished-at="2019-10-14T13:17:07Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:core.test_scripts.Test_1@59494225]" name="afterClass" is-config="true" duration-ms="195" started-at="2019-10-15T16:40:26Z" finished-at="2019-10-15T16:40:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- core.test_scripts.Test_1 -->
       <class name="core.test_scripts.Test_2">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-10-14T13:17:07Z" finished-at="2019-10-14T13:17:07Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="beforeClass" is-config="true" duration-ms="1" started-at="2019-10-15T16:40:26Z" finished-at="2019-10-15T16:40:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="boniGarsia()[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="boniGarsia" is-config="true" duration-ms="1021" started-at="2019-10-14T13:17:07Z" finished-at="2019-10-14T13:17:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- boniGarsia -->
-        <test-method status="PASS" signature="goToFacebook()[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="goToFacebook" duration-ms="6732" started-at="2019-10-14T13:17:08Z" finished-at="2019-10-14T13:17:15Z">
+        <test-method status="FAIL" signature="goToFacebook()[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="goToFacebook" duration-ms="1" started-at="2019-10-15T16:40:26Z" finished-at="2019-10-15T16:40:26Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at core.test_scripts.Test_2.goToFacebook(Test_2.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
             <line>
               <![CDATA[goToFacebook Test Started ]]>
             </line>
             <line>
-              <![CDATA[goToFacebook Test Passed]]>
+              <![CDATA[goToFacebook Test Failed...java.lang.NullPointerException]]>
             </line>
           </reporter-output>
         </test-method> <!-- goToFacebook -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="afterMethod" is-config="true" duration-ms="495" started-at="2019-10-14T13:17:15Z" finished-at="2019-10-14T13:17:16Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-10-15T16:40:26Z" finished-at="2019-10-15T16:40:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=goToFacebook status=SUCCESS method=Test_2.goToFacebook()[pri:0, instance:core.test_scripts.Test_2@6e1567f1] output=goToFacebook Test Started ]]]>
+                <![CDATA[public void core.test_scripts.Test_2.goToFacebook() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[CaptureScreen method called]]>
-            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="afterMethod" is-config="true" duration-ms="24" started-at="2019-10-15T16:40:26Z" finished-at="2019-10-15T16:40:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToFacebook status=FAILURE method=Test_2.goToFacebook()[pri:0, instance:core.test_scripts.Test_2@6e1567f1] output=goToFacebook Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="goToGoogle()[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="goToGoogle" duration-ms="7295" started-at="2019-10-14T13:17:16Z" finished-at="2019-10-14T13:17:23Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-10-15T16:40:26Z" finished-at="2019-10-15T16:40:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void core.test_scripts.Test_2.goToGoogle() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="goToGoogle()[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="goToGoogle" duration-ms="0" started-at="2019-10-15T16:40:26Z" finished-at="2019-10-15T16:40:26Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at core.test_scripts.Test_2.goToGoogle(Test_2.java:17)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
             <line>
               <![CDATA[goToGoogle Test Started ]]>
             </line>
             <line>
-              <![CDATA[goToGoogle Test Passed]]>
+              <![CDATA[goToGoogle Test Failed...java.lang.NullPointerException]]>
             </line>
           </reporter-output>
         </test-method> <!-- goToGoogle -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="afterMethod" is-config="true" duration-ms="431" started-at="2019-10-14T13:17:23Z" finished-at="2019-10-14T13:17:23Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="afterMethod" is-config="true" duration-ms="21" started-at="2019-10-15T16:40:26Z" finished-at="2019-10-15T16:40:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=goToGoogle status=SUCCESS method=Test_2.goToGoogle()[pri:0, instance:core.test_scripts.Test_2@6e1567f1] output=goToGoogle Test Started ]]]>
+                <![CDATA[[TestResult name=goToGoogle status=FAILURE method=Test_2.goToGoogle()[pri:0, instance:core.test_scripts.Test_2@6e1567f1] output=goToGoogle Test Started ]]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[CaptureScreen method called]]>
-            </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="goToYahoo()[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="goToYahoo" duration-ms="11004" started-at="2019-10-14T13:17:23Z" finished-at="2019-10-14T13:17:34Z">
+        <test-method status="FAIL" signature="goToYahoo()[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="goToYahoo" duration-ms="1" started-at="2019-10-15T16:40:26Z" finished-at="2019-10-15T16:40:26Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at core.test_scripts.Test_2.goToYahoo(Test_2.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
             <line>
               <![CDATA[goToYahoo Test Started ]]>
             </line>
             <line>
-              <![CDATA[goToYahoo Test Passed]]>
+              <![CDATA[goToYahoo Test Failed...java.lang.NullPointerException]]>
             </line>
           </reporter-output>
         </test-method> <!-- goToYahoo -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="afterMethod" is-config="true" duration-ms="1241" started-at="2019-10-14T13:17:34Z" finished-at="2019-10-14T13:17:36Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-10-15T16:40:26Z" finished-at="2019-10-15T16:40:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=goToYahoo status=SUCCESS method=Test_2.goToYahoo()[pri:0, instance:core.test_scripts.Test_2@6e1567f1] output=goToYahoo Test Started ]]]>
+                <![CDATA[public void core.test_scripts.Test_2.goToYahoo() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[CaptureScreen method called]]>
-            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="afterMethod" is-config="true" duration-ms="24" started-at="2019-10-15T16:40:26Z" finished-at="2019-10-15T16:40:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToYahoo status=FAILURE method=Test_2.goToYahoo()[pri:0, instance:core.test_scripts.Test_2@6e1567f1] output=goToYahoo Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="goToYouTube()[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="goToYouTube" duration-ms="7227" started-at="2019-10-14T13:17:36Z" finished-at="2019-10-14T13:17:43Z">
+        <test-method status="FAIL" signature="goToYouTube()[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="goToYouTube" duration-ms="1" started-at="2019-10-15T16:40:26Z" finished-at="2019-10-15T16:40:26Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at core.test_scripts.Test_2.goToYouTube(Test_2.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
             <line>
               <![CDATA[goToYouTube Test Started ]]>
             </line>
             <line>
-              <![CDATA[goToYouTube Test Passed]]>
+              <![CDATA[goToYouTube Test Failed...java.lang.NullPointerException]]>
             </line>
           </reporter-output>
         </test-method> <!-- goToYouTube -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="afterMethod" is-config="true" duration-ms="858" started-at="2019-10-14T13:17:43Z" finished-at="2019-10-14T13:17:44Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-10-15T16:40:26Z" finished-at="2019-10-15T16:40:26Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=goToYouTube status=SUCCESS method=Test_2.goToYouTube()[pri:0, instance:core.test_scripts.Test_2@6e1567f1] output=goToYouTube Test Started ]]]>
+                <![CDATA[public void core.test_scripts.Test_2.goToYouTube() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[CaptureScreen method called]]>
-            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="afterMethod" is-config="true" duration-ms="22" started-at="2019-10-15T16:40:26Z" finished-at="2019-10-15T16:40:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToYouTube status=FAILURE method=Test_2.goToYouTube()[pri:0, instance:core.test_scripts.Test_2@6e1567f1] output=goToYouTube Test Started ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="afterClass" is-config="true" duration-ms="179" started-at="2019-10-14T13:17:44Z" finished-at="2019-10-14T13:17:44Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:core.test_scripts.Test_2@6e1567f1]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-10-15T16:40:26Z" finished-at="2019-10-15T16:40:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- core.test_scripts.Test_2 -->
-    </test> <!-- Test_1 -->
+    </test> <!-- Test second -->
   </suite> <!-- Suite -->
 </testng-results>

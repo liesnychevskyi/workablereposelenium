@@ -20,7 +20,7 @@ public class ExtentListener implements ITestListener
     @Override
     public void onTestStart(ITestResult result)
     {
-      //  test.log(Status.INFO, result.getName() + " started...");
+        test.log(Status.INFO, result.getName() + " started...");
         Reporter.log(result.getMethod().getMethodName() + " Test Started ");
         log.info(result.getMethod().getMethodName() + " Test Started ");
     }
@@ -28,7 +28,7 @@ public class ExtentListener implements ITestListener
     @Override
     public void onTestSuccess(ITestResult result)
     {
-       // test.log(Status.INFO, result.getName() + " passed...");
+        test.log(Status.INFO, result.getName() + " passed...");
         Reporter.log(result.getMethod().getMethodName() + " Test Passed");
         log.info(result.getMethod().getMethodName() + " Test Passed ");
     }
@@ -36,7 +36,7 @@ public class ExtentListener implements ITestListener
     @Override
     public void onTestFailure(ITestResult result)
     {
-       // test.log(Status.FAIL, result.getThrowable());
+        test.log(Status.FAIL, result.getThrowable());
         Reporter.log(result.getMethod().getMethodName() + " Test Failed..." + result.getThrowable());
         log.error(result.getMethod().getMethodName() + " Test Failed " + result.getThrowable());
 
@@ -45,7 +45,7 @@ public class ExtentListener implements ITestListener
     @Override
     public void onTestSkipped(ITestResult result)
     {
-       // test.log(Status.SKIP, result.getThrowable());
+        test.log(Status.SKIP, result.getThrowable());
         Reporter.log(result.getMethod().getMethodName() + " Test Skipped..." + result.getThrowable());
         log.warn(result.getMethod().getMethodName() + " Test Skipped " + result.getThrowable());
     }
@@ -59,10 +59,10 @@ public class ExtentListener implements ITestListener
     @Override
     public void onStart(ITestContext context)
     {
-        //extentReports = ExtentManager.getInstance();
-        //test = extentReports.createTest(context.getName());
-       // test = extentReports.createTest(context.getCurrentXmlTest().getName());
-       // Reporter.log(context.getName() + " Test Started...");
+        extentReports = ExtentManager.getInstance();
+        test = extentReports.createTest(context.getName());
+        test = extentReports.createTest(context.getCurrentXmlTest().getName());
+        Reporter.log(context.getName() + " Test Started...");
         Reporter.log(context.getCurrentXmlTest().getName() + " Class Started...");
         log.info(context.getCurrentXmlTest().getName() + " Class Started...");
     }
@@ -70,7 +70,7 @@ public class ExtentListener implements ITestListener
     @Override
     public void onFinish(ITestContext context)
     {
-       // extentReports.flush();
+        extentReports.flush();
         Reporter.log(context.getName() + " Test Finished.");
         log.info(context.getName() + " Test Finished.");
     }

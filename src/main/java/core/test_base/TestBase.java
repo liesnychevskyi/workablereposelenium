@@ -13,6 +13,8 @@ import core.helpers.resource.ResourceHelper;
 import core.helpers.wait.WaitHelper;
 import core.helpers.zalenium.ZaleniumHelper;
 import core.utlls.ExtentManager;
+import org.apache.commons.codec.binary.Base64;
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Platform;
@@ -29,6 +31,7 @@ import org.testng.Reporter;
 import org.testng.annotations.*;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.net.MalformedURLException;
@@ -47,14 +50,14 @@ public class TestBase  // TestNg annotation reporting.html
     public static File reportDirectory;
 
 //==================================================//
-//    @BeforeTest // Original
-//    public void beforeTest() throws Exception
-//    {
-//        ObjectReader.reader = new PropertyReader();
-//        //reportDirectory = new File(ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\screenshots\\"));
-//        reportDirectory = new File(ResourceHelper.getRecoursePath("/src/main/java/core/screenshots"));
-//        setUpDriver(ObjectReader.reader.getBrowserType());
-//    }
+   // @BeforeTest // Original
+    public void beforeTest() throws Exception
+    {
+        ObjectReader.reader = new PropertyReader();
+        //reportDirectory = new File(ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\screenshots\\"));
+        reportDirectory = new File(ResourceHelper.getRecoursePath("/src/main/java/core/screenshots"));
+        setUpDriver(ObjectReader.reader.getBrowserType());
+    }
 //==================================================//
 //    public void zaleniumDocker() throws Exception
 //    {
@@ -70,48 +73,52 @@ public class TestBase  // TestNg annotation reporting.html
 //    {
 //        driver.quit();
 //    }
-//=================================================//
+//=================================================//Boni Garsia driver online from Github
 
-    @BeforeClass // Boni Garsia driver online from Github
-    @Parameters("browser")
-    public void boniGarsia() throws Exception
-    {
-        DriverManager driverManager = new DriverManager();
-        driver = driverManager.chromeDriver();
-    }
+//    @BeforeClass
+//    //@Parameters("browser")
+//    public void boniGarsia() throws Exception
+//    {
+//        DriverManager driverManager = new DriverManager();
+//        //driver = driverManager.chromeDriver();
+//        //driver = driverManager.edgeDriver();
+//        driver = driverManager.operaDriver();
+//        //driver = driverManager.firefoxDriver();
+//        //driver = driverManager.safariDriver();
+//    }
 //======================================================================================//
-    @BeforeSuite
+    //@BeforeSuite
     public void beforeSuite()
     {
         extentReports = ExtentManager.getInstance();
     }
-
-    @BeforeClass
+//=======================================================================================//
+    //@BeforeClass
     public void beforeClass()
     {
-        test = extentReports.createTest(getClass().getSimpleName());
+        test = extentReports.createTest(getClass().getName());
     }
-
-    @AfterClass
+//=======================================================================================//
+    //@AfterClass
     public void afterClass()
     {
         shutDown();
     }
-
+//=======================================================================================//
     //@BeforeMethod
     public void beforeMethod(Method method)
     {
         test.log(Status.INFO, method.getName() + " test started");
     }
-    //===============================================================================//
-    @AfterMethod
+//=======================================================================================//
+    //@AfterMethod
     public void afterMethod(ITestResult result) throws IOException
     {
         if(result.getStatus() == ITestResult.FAILURE)
         {
             test.log(Status.FAIL, result.getThrowable());
             String imagePath = captureScreenShot(result.getName(), driver);
-            log.info("<<< ******************************************************* >>>");
+            log.info("<<< Report: failed  ******************************************************* >>>");
             test.addScreenCaptureFromPath(imagePath);
 
         }
@@ -119,7 +126,7 @@ public class TestBase  // TestNg annotation reporting.html
         {
             test.log(Status.PASS, result.getTestName() + " is pass");
             String imagePath = captureScreenShot(result.getName(), driver);
-            log.info("<<Adding ScreenShot...>>>");
+            log.info("<<Adding ScreenShot to report file ...>>>");
             test.addScreenCaptureFromPath(imagePath);
         }
         else if(result.getStatus() == ITestResult.SKIP)
@@ -169,7 +176,7 @@ public class TestBase  // TestNg annotation reporting.html
     public void setUpDriver(BrowserType btype) throws Exception
     {
         driver = getBrowserObject(btype);
-        log.info("Initialize Web driver: " + driver.hashCode());
+        log.info("Initialize Web driver hash-code: " + driver.hashCode());
         WaitHelper wait = new WaitHelper(driver);
         wait.setImpicitWait(ObjectReader.reader.getImpliciteWait(), TimeUnit.SECONDS);
         wait.pageLoadTime(ObjectReader.reader.getPageLoadTime(), TimeUnit.SECONDS);
@@ -190,18 +197,17 @@ public class TestBase  // TestNg annotation reporting.html
         Reporter.log("CaptureScreen method called");
         File destFile = null;
         Calendar calendar = Calendar.getInstance();
-        SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
+        SimpleDateFormat formatter = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
         File screenshotFile = ((TakesScreenshot) this.driver).getScreenshotAs(OutputType.FILE);
         try
         {
-            destFile = new File(reportDirectory +"/"+fileName +"_"+formater.format(calendar.getTime())+".png");
+            destFile = new File(reportDirectory +"/"+fileName +"_"+formatter.format(calendar.getTime())+".png");
             //destFile = new File("/Users/Stan/IdeaProjects/workablereposelenium/src/main/java/core/screenshots"+driver.getTitle()+".png");
             log.info("Taking a pass <<<<<<<<<===============>>>>>>>>>>>");
-            System.out.println(destFile);
-            Files.copy(screenshotFile.toPath(), destFile.toPath());
-           // FileUtils.copyFile(screnshotFile, destFile);
-            Reporter.log("<a href='" + destFile.getAbsolutePath() + "'><img src='" + destFile.getAbsolutePath() + "' height='100' width='100'/></a>");
-           // Reporter.log("<br><img src='"+destFile+"' height='400' width='400'/><br>");
+            //Files.copy(screenshotFile.toPath(), destFile.toPath());
+            FileUtils.copyFile(screenshotFile, destFile);
+            //Reporter.log("<a href='" + destFile.getAbsolutePath() + "'><img src='" + destFile.getAbsolutePath() + "' height='100' width='100'/></a>");
+            //Reporter.log("<br><img src='"+destFile+"' height='400' width='400'/><br>");
         }
 
         catch (Exception e)
@@ -255,6 +261,10 @@ public class TestBase  // TestNg annotation reporting.html
             driver.close();
         }
     }
+
+    //-----------------------------------------------------------//
+
+    //====================================================================//
 
 }
 

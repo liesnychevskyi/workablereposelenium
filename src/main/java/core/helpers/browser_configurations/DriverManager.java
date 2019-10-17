@@ -27,17 +27,17 @@ public class DriverManager
         return driver;
     }
     //-------------------------------------------------------------------------||firefox
-    public WebDriver firefoxDriver(String address)
+    public WebDriver firefoxDriver()
     {
-        WebDriverManager.chromedriver().setup();
+        WebDriverManager.firefoxdriver().setup();
         driver = new FirefoxDriver();
-        driver.get(address);
+        //driver.get(address);
         return driver;
     }
     //--------------------------------------------------------------------------||edge
     public WebDriver edgeDriver()
     {
-        WebDriverManager.chromedriver().setup();
+        WebDriverManager.edgedriver().setup();
         driver = new EdgeDriver();
         return driver;
     }

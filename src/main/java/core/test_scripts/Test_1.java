@@ -37,8 +37,8 @@ public class Test_1 extends TestBase
     public void goToGoogle() throws InterruptedException
     {
         driver.get("http://google.com");
-        captureScreenShot("Google page", driver);
-        Thread.sleep(5000);
+        //captureScreenShot("Google page", driver);
+        Thread.sleep(3000);
         AssertionHelper.makeTrue();
     }
 
@@ -46,8 +46,8 @@ public class Test_1 extends TestBase
     public void goToFacebook() throws InterruptedException
     {
         driver.get("http://facebook.com");
-        captureScreenShot("Facebook page", driver);
-        Thread.sleep(5000);
+        //captureScreenShot("Facebook page", driver);
+        Thread.sleep(3000);
         AssertionHelper.makeTrue();
     }
 
@@ -55,8 +55,8 @@ public class Test_1 extends TestBase
     public void goToYahoo() throws InterruptedException
     {
         driver.get("http://yahoo.com");
-        captureScreenShot("Yahoo page", driver);
-        Thread.sleep(5000);
+        //captureScreenShot("Yahoo page", driver);
+        Thread.sleep(3000);
         AssertionHelper.makeTrue("We are on the Yahoo page ... ");
     }
 
@@ -64,8 +64,8 @@ public class Test_1 extends TestBase
     public void goToYouTube() throws InterruptedException
     {
         driver.get("http://youtube.com");
-        captureScreenShot("Youtube page", driver);
-        Thread.sleep(5000);
+        //captureScreenShot("Youtube page", driver);
+        Thread.sleep(3000);
         AssertionHelper.makeTrue();
     }
     //====================================================================//
