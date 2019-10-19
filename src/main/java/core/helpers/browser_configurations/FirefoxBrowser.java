@@ -51,4 +51,24 @@ public class FirefoxBrowser
         }
         return null;
     }
+
+    public WebDriver getFirefoxDriverEmpty()
+    {
+        if(System.getProperty("os.name").contains("Mac"))
+        {
+            System.setProperty("webdriver.gecko.driver", ResourceHelper.getRecoursePath("/src/main/java/core/drivers/geckodriver"));
+        }
+
+        else if(System.getProperty("os.name").contains("Windows"))
+        {
+            System.setProperty("webdriver.chrome.driver", ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\drivers\\geckodriver.exe"));
+        }
+
+
+        else if(System.getProperty("os.name").contains("Linux"))
+        {
+            System.setProperty("webdriver.chrome.driver", "/usr/bin/geckodriver");
+        }
+        return null;
+    }
 }

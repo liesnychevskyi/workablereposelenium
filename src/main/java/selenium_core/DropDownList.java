@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class DropDown
+public class DropDownList
 {
 
     //getFirstSelectedOption() - it takes value from the element

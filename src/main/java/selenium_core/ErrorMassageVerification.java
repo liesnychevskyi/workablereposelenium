@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 
 public class ErrorMassageVerification
 {
+    // innerHTML means : get some value from tag
 
     @Test
     public void assertionTestGetPageSource_3() throws InterruptedException
@@ -22,9 +23,11 @@ public class ErrorMassageVerification
         Thread.sleep(3000);
         driver.findElement(By.xpath("//input[@id='wp-submit']")).click();
         Thread.sleep(3000);
-        String actual_res = driver.findElement(By.xpath("//div[@id='login_error']")).getText();
+        //String actual_res = driver.findElement(By.xpath("//div[@id='login_error']")).getText();
+        String actual_res = driver.findElement(By.xpath("//div[@id='login_error']")).getAttribute("innerHTML");
+        System.out.println("Actual result is: =>  " + actual_res);
         String expected_error = "ERROR: The password you entered for the username stas is incorrect. Lost your password?";
-        Assert.assertEquals(actual_res, expected_error);
+        Assert.assertEquals(actual_res, expected_error,"Error Test failed:==>>");
 
     }
 }
