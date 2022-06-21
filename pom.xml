@@ -62,7 +62,7 @@
         <apache_poi_oxml.version>3.17</apache_poi_oxml.version>
         <extentreport.version>3.1.2</extentreport.version>
         <maven_compiler_plugin.version>3.8.1</maven_compiler_plugin.version>
-        <mysql-connector-java.version>8.0.17</mysql-connector-java.version>
+        <mysql-connector-java.version>8.0.28</mysql-connector-java.version>
         <webdrivermanager.version>3.6.1</webdrivermanager.version>
         <selenium-server.version>3.141.59</selenium-server.version>
     </properties>
