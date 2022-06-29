@@ -58,7 +58,7 @@
         <selenium.version>3.141.59</selenium.version>
         <testng.version>6.14.3</testng.version>
         <loger.version>1.2.17</loger.version>
-        <apache_poi.version>3.17</apache_poi.version>
+        <apache_poi.version>4.1.1</apache_poi.version>
         <apache_poi_oxml.version>3.17</apache_poi_oxml.version>
         <extentreport.version>3.1.2</extentreport.version>
         <maven_compiler_plugin.version>3.8.1</maven_compiler_plugin.version>
